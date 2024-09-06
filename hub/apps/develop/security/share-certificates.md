@@ -4,6 +4,7 @@ description: Windows apps that require secure authentication beyond a user Id an
 ms.date: 09/05/2024
 ms.topic: how-to
 keywords: windows, winui, winrt, dotnet, security
+#customer intent: To learn how to share certificates between Windows apps.
 ---
 
 # Share certificates between Windows apps
