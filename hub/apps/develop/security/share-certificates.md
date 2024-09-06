@@ -38,6 +38,9 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
 
 1. Start debugging the project to launch the web service. The web service will be available at `https://localhost:7072/bank`. You can test the web service by opening a web browser and entering the web address. You will see the generated weather forecast data formatted as JSON. Keep the web service running while you create the client app.
 
+> [!TIP]
+> For more information on working with ASP.NET Core controller-based web APIs, see [Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api).
+
 ## Create a WinUI app that uses certificate authentication
 
 Now that you have one or more secured web services, your apps can use certificates to authenticate to those web services. When you make a request to an authenticated web service using the [HttpClient](/uwp/api/Windows.Web.Http.HttpClient) object, the initial request will not contain a client certificate. The authenticated web service will respond with a request for client authentication. When this occurs, the Windows client will automatically query the certificate store for available client certificates. Your user can select from these certificates to authenticate to the web service. Some certificates are password protected, so you will need to provide the user with a way to input the password for a certificate.
