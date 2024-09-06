@@ -19,6 +19,9 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
 1. Select the **ASP.NET Core Web API** template and select **Next**.
 1. Name the application "FirstContosoBank" and select **Next**.
 1. Choose **.NET 8.0** as the **Framework**, set the **Authentication type** to **None**, ensure **Configure for HTTPS** is checked, uncheck **Enable OpenAPI support**, check **Do not use top-level statements** and **Use controllers**, and select **Create**.
+
+   :::image type="content" source="images/share-certificates-create-web-project-details.png" alt-text="A screenshot of the Visual Studio create new project details for the ASP.NET Core web API project":::
+
 1. Right-click the **WeatherForecastController.cs** file in the **Controllers** folder and select **Rename**. Change the name to **BankController.cs** and let Visual Studio rename the class and all references to the class.
 1. In the **launchSettings.json** file, change the value of "launchUrl" from "weatherforecast" to "bank" for all three configuration what use the value.
 1. In the **BankController.cs** file, add following "Login" method.
@@ -36,7 +39,13 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
    }
    ```
 
-1. Start debugging the project to launch the web service. The web service will be available at `https://localhost:7072/bank`. You can test the web service by opening a web browser and entering the web address. You will see the generated weather forecast data formatted as JSON. Keep the web service running while you create the client app.
+1. Start debugging the project to launch the web service. You may receive messages about trusting and installing an SSL certificate. Click **Yes** for each of these messages to trust the certificate and continue debugging the project.
+
+   :::image type="content" source="images/share-certificates-trust-cert.png" alt-text="A screenshot of a dialog askng the user if they want to trust a certificate":::
+
+   :::image type="content" source="images/share-certificates-install-cert.png" alt-text="A screenshot of a Windows dialog asking the user if they want to install a certificate":::
+
+1. The web service will be available at `https://localhost:7072/bank`. You can test the web service by opening a web browser and entering the web address. You will see the generated weather forecast data formatted as JSON. Keep the web service running while you create the client app.
 
 > [!TIP]
 > For more information on working with ASP.NET Core controller-based web APIs, see [Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api).
