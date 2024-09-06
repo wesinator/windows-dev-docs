@@ -197,6 +197,8 @@ If there are no client certificates available, then the user will need to add a 
 
 1. Run your app and log in to your secured web service as well as import a PFX file into the local certificate store.
 
+    :::image type="content" source="images/share-certificates-winui-client-window.png" alt-text="A screenshot of the WinUI app with buttons to browse for a PFX file, import a certificate, and log in to a secured web service":::
+
 You can use these steps to create multiple apps that use the same user certificate to access the same or different secured web services.
 
 ## Related topics
