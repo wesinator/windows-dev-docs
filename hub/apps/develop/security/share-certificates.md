@@ -57,7 +57,7 @@ Now that you have one or more secured web services, your apps can use certificat
 If there are no client certificates available, then the user will need to add a certificate to the certificate store. You can include code in your app that enables a user to select a PFX file that contains a client certificate and then import that certificate into the client certificate store.
 
 > [!NOTE]
-> There are no Windows App SDK APIs for managing certificates. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file.
+> There are no Windows App SDK APIs for managing certificates. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file. Many WinRT APIs can be used by any Windows app with package identity, including WinUI apps.
 
 > [!TIP]
 > You can use the PowerShell cmdlets **New-SelfSignedCertificate** and **Export-PfxCertificate** to create a self-signed certificate and export it to a PFX file to use with this quickstart. For information, see [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate) and [Export-PfxCertificate](/powershell/module/pki/export-pfxcertificate).
