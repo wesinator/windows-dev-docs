@@ -16,6 +16,12 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
 > [!TIP]
 > [Microsoft Copilot](https://copilot.microsoft.com/) is a great resource if you have questions about getting started writing Windows apps or ASP.NET Core web APIs. Copilot can help you write code, find examples, and learn more about best practices for creating secure apps.
 
+## Prerequisites
+
+- [Visual Studio](https://visualstudio.microsoft.com/) with the **ASP.NET and web development** and **Windows application development** workloads installed.
+- The latest [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/) to use the Windows Runtime (WinRT) APIs in your WinUI app.
+- [PowerShell](/powershell/scripting/install/installing-powershell-on-windows) for working with self-signed certificates.
+
 ## Create and publish a secured web service
 
 1. Open Microsoft Visual Studio and select **Create a new project** from the start screen.
@@ -55,7 +61,7 @@ For more information on working with ASP.NET Core controller-based web APIs, see
 
 ## Create a WinUI app that uses certificate authentication
 
-Now that you have one or more secured web services, your apps can use certificates to authenticate to those web services. When you make a request to an authenticated web service using the [HttpClient](/uwp/api/Windows.Web.Http.HttpClient) object from the Windows Runtime (WinRT) APIs, the initial request will not contain a client certificate. The authenticated web service will respond with a request for client authentication. When this occurs, the Windows client will automatically query the certificate store for available client certificates. Your user can select from these certificates to authenticate to the web service. Some certificates are password protected, so you will need to provide the user with a way to input the password for a certificate.
+Now that you have one or more secured web services, your apps can use certificates to authenticate to those web services. When you make a request to an authenticated web service using the [HttpClient](/uwp/api/Windows.Web.Http.HttpClient) object from the WinRT APIs, the initial request will not contain a client certificate. The authenticated web service will respond with a request for client authentication. When this occurs, the Windows client will automatically query the certificate store for available client certificates. Your user can select from these certificates to authenticate to the web service. Some certificates are password protected, so you will need to provide the user with a way to input the password for a certificate.
 
 > [!NOTE]
 > There are no Windows App SDK APIs for managing certificates. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file. Many WinRT APIs can be used by any Windows app with package identity, including WinUI apps.
@@ -207,8 +213,10 @@ If there are no client certificates available, then the user will need to add a 
 
 You can use these steps to create multiple apps that use the same user certificate to access the same or different secured web services.
 
-## Related topics
+## Related content
 
 [Windows Hello](windows-hello.md)
 
 [Security and identity](index.md)
+
+[Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api)
