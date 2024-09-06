@@ -45,7 +45,7 @@ Now that you have one or more secured web services, your apps can use certificat
 If there are no client certificates available, then the user will need to add a certificate to the certificate store. You can include code in your app that enables a user to select a PFX file that contains a client certificate and then import that certificate into the client certificate store.
 
 > [!TIP]
-> You can use makecert.exe to create a PFX file to use with this quickstart. For information on using makecert.exe, see [MakeCert](/windows/win32/SecCrypto/makecert).
+> You can use the PowerShell cmdlets **New-SelfSignedCertificate** and **Export-PfxCertificate** to create a self-signed certificate and export it to a PFX file to use with this quickstart. For information, see [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate) and [Export-PfxCertificate](/powershell/module/pki/export-pfxcertificate).
 
 1. Open Visual Studio and create a new WinUI project from the start page. Name the new project "FirstContosoBankApp". Click **Create** to create the new project.
 1. In the MainWindow.xaml file, add the following XAML to a **Grid** element, replacing the existing **StackPanel** element and its contents. This XAML includes a button to browse for a PFX file to import, a text box to enter a password for a password-protected PFX file, a button to import a selected PFX file, a button to log in to the secured web service, and a text block to display the status of the current action.
