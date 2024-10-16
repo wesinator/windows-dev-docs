@@ -22,7 +22,7 @@ sections:
         answer: |
           If you have already invested heavily in WPF, you can continue to use WPF for your existing apps. WPF is a mature and stable framework that is widely used by developers to build Windows desktop apps.
 
-          Consider leveraging the .NET Upgrade Assistant to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
+          Consider leveraging the [].NET Upgrade Assistant](/dotnet/core/porting/upgrade-assistant-overview) to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
 
       - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to WinUI or another framework?
         answer: |
