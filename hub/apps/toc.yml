@@ -12,6 +12,8 @@ items:
       items: 
         - name: Overview of framework options
           href: get-started/index.md
+        - name: Choose a client app development framework
+          href: get-started/client-framework-choices.md
         - name: Start developing Windows apps
           href: get-started/start-here.md
         - name: Build your first app

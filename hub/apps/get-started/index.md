@@ -1,10 +1,11 @@
 ---
 description: An overview of Windows app development frameworks
 title: Overview of framework options
-ms.topic: article
+ms.topic: overview
 ms.date: 09/10/2024
 keywords: windows, desktop development
 ms.localizationpriority: medium
+#customer intent: To understand the client app development framework choices available for Windows developers and how to choose the right one for their project.
 ---
 
 # Overview of framework options
