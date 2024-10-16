@@ -1,0 +1,74 @@
+### YamlMime:FAQ
+metadata:
+  title: Client app development framework FAQ
+  description: An tour of client app development framework choices for Microsoft developers.
+  ms.topic: faq
+  ms.date: 10/16/2024
+
+title: "Client app development framework FAQ"
+summary: |
+  An tour of client app development framework choices for Microsoft developers.
+  
+  We'll add more overview information here.
+
+sections:
+  - name: Native Windows app development
+    questions:
+      - question: Which framework should I use to leverage Microsoft's latest investments in Windows app development?
+        answer: |
+          If you're building a new app, we recommend using the Windows App SDK. The Windows App SDK is a modern, open-source, and cross-platform app framework that enables you to build Windows apps with a single codebase. The Windows App SDK provides a unified set of APIs, tools, and platform capabilities that you can use to build apps that run on all Windows 10 and Windows 11 devices. The Windows App SDK is the best choice for building new Windows apps that leverage Microsoft's latest investments in Windows app development.
+          
+      - question: If I have already invested heavily in WPF, should I continue to use WPF or should I consider migrating to the Windows App SDK?
+        answer: |
+          If you have already invested heavily in WPF, you can continue to use WPF for your existing apps. WPF is a mature and stable framework that is widely used by developers to build Windows desktop apps. However, if you're building a new app, we recommend using the Windows App SDK. The Windows App SDK is a modern, open-source, and cross-platform app framework that enables you to build Windows apps with a single codebase. The Windows App SDK provides a unified set of APIs, tools, and platform capabilities that you can use to build apps that run on all Windows 10 and Windows 11 devices.
+
+          Consider leveraging the .NET Upgrade Assistant to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to .NET 5 or later. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code to use the latest version of .NET.
+
+      - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to the Windows App SDK or another framework?
+        answer: |
+          If your team is comfortable building Windows Forms apps and Windows Forms meets your needs, you can continue to use Windows Forms for your existing apps. Windows Forms is a mature and stable framework that is widely used by developers to build Windows desktop apps. However, if you're building a new app, we recommend using the Windows App SDK. The Windows App SDK is a modern, open-source, and cross-platform app framework that enables you to build Windows apps with a single codebase. The Windows App SDK provides a unified set of APIs, tools, and platform capabilities that you can use to build apps that run on all Windows 10 and Windows 11 devices.
+
+          The Windows Forms team is investing across features and has an active community of contributors. Some current areas of investment include:
+
+          - Async support with common controls
+          - Dark mode
+          - Layout flexibility
+          - Desktop security features like clipboard access
+
+  - name: Cross-platform native development
+    questions:
+      - question: .NET MAUI questions
+        answer: Answers with information about .NET MAUI.
+
+      - question: React Native questions
+        answer: Answers with information about React Native.
+
+  - name: Hybrid and web development
+    questions:
+      - question: .NET MAUI Blazor hybrid questions
+        answer: Answers with information about .NET MAUI Blazor hybrid.
+
+      - question: .NET MAUI web hybrid questions
+        answer: Answers with information about .NET MAUI web hybrid.
+
+      - question: ASP.NET Core questions
+        answer: Answers with information about ASP.NET Core.
+
+      - question: Blazor web questions
+        answer: Answers with information about Blazor web.
+
+  - name: Choose an approach and understand Microsoft's investments
+    questions:
+      - question: Who is building apps with WinUI today?
+        answer: Talk about Apple, Adobe, and Microsoft's investments in WinUI.
+
+      - question: Who is building .NET MAUI apps today?
+        answer: Give .NET MAUI app examples.
+
+      - question: Who is building WPF apps today?
+        answer: Talk about Visual Studio's UI and other examples.
+
+additionalContent: |
+    ## Related content
+
+    To learn more about Windows development options, see [Overview of framework options](index.md).
