@@ -16,15 +16,15 @@ sections:
     questions:
       - question: Which framework should I use to leverage Microsoft's latest investments in Windows app development?
         answer: |
-          If you're building a new app, we recommend using the Windows App SDK. The Windows App SDK is a modern, open-source, and cross-platform app framework that enables you to build Windows apps with a single codebase. The Windows App SDK provides a unified set of APIs, tools, and platform capabilities that you can use to build apps that run on all Windows 10 and Windows 11 devices.
+          If you're building a new app, we recommend using WinUI. WinUI is the latest native UI framework for Windows app development and is designed to work across a wide range of Windows devices. WinUI provides a modern and flexible UI framework that enables you to create visually appealing and interactive Windows apps. WinUI is part of the Windows App SDK and is designed to work best with the latest versions of Windows.
           
-      - question: If I have already invested heavily in WPF, should I continue to use WPF or should I consider migrating to the Windows App SDK?
+      - question: If I have already invested heavily in WPF, should I continue to use WPF or should I consider migrating to WinUI?
         answer: |
           If you have already invested heavily in WPF, you can continue to use WPF for your existing apps. WPF is a mature and stable framework that is widely used by developers to build Windows desktop apps.
 
           Consider leveraging the .NET Upgrade Assistant to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
 
-      - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to the Windows App SDK or another framework?
+      - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to WinUI or another framework?
         answer: |
           If your team is comfortable building Windows Forms apps and Windows Forms meets your needs, you can continue to use Windows Forms for your existing apps. Windows Forms is a mature and stable framework that is widely used by developers to build Windows desktop apps.
 
