@@ -35,6 +35,12 @@ sections:
           - Layout flexibility
           - Desktop security features like clipboard access
 
+      - question: Can I leverage APIs from the Windows App SDK in my existing WPF or Windows Forms apps?
+        answer: |
+          Yes, you can leverage many of the APIs from the Windows App SDK in your existing WPF or Windows Forms apps. The Windows App SDK is designed to work with existing Windows desktop frameworks like WPF and Windows Forms. You can use the Windows App SDK to access new features and capabilities in your existing apps.
+
+          See [Use the Windows App SDK in an existing project](/windows/apps/windows-app-sdk/use-windows-app-sdk-in-existing-project) for more information.
+
   - name: Cross-platform native development
     questions:
       - question: .NET MAUI questions
