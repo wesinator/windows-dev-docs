@@ -1,5 +1,5 @@
 ---
-description: An overview of client app development framework choices for Windows developers.
+description: An overview of client app development framework choices for Microsoft developers on Windows, web, and mobile devices.
 title: Choose a client app development framework
 ms.topic: concept-article
 ms.date: 10/16/2024
