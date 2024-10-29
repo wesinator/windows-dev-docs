@@ -12,12 +12,8 @@ ms.localizationpriority: medium
 
 Starting with [TBD - build number], apps can register to be included in the picker UI that allows users to select the app that is launched when the Microsoft Copilot hardware key is pressed.
 
-## Requirements
-
-For an app to be included in the Microsoft Copilot hardware key picker UI, it must meed the following requirements.
-
-* The app must have packaged identity. See the below for details about packaging requirements.
-* The app must be implemented as a single-window app.
+> [!NOTE]
+> It is recommended that apps that register to be a Microsoft Copilot hardware key provider be implemented as single-window apps.
 
 ## Microsoft Copilot hardware key app extension
 
