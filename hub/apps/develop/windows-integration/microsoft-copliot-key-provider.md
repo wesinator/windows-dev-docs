@@ -52,4 +52,4 @@ The following table *uap3:AppExtension* describes the attributes of the **uap3:A
 | Id | The app-defined identifier for the app. | Yes |
 | DisplayName | The app name displayed in the Windows Copilot hardware button picker UI.  | Yes |
 | Description | The app description displayed in the Windows Copilot hardware button picker UI. | Yes |
-| PublicFolder| [TBD - Need description] | Yes | 
+| PublicFolder|  The folder that the instance declares as the location where a host can have read access to files through a broker. | Yes | 
