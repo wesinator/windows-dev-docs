@@ -12,7 +12,9 @@ items:
       items: 
         - name: Overview of framework options
           href: get-started/index.md
-        - name: Client app development framework FAQ
+        - name: Choose a client app development framework (OPTION 1)
+          href: get-started/client-framework-choices.md
+        - name: Client app development framework FAQ (OPTION 2)
           href: get-started/client-frameworks-faq.yml
         - name: Start developing Windows apps
           href: get-started/start-here.md
