@@ -106,7 +106,7 @@ Markdown output:
 
 ### Paste as .txt file
 
-**Paste as .txt file** enables you to paste text stored in your clipboard as a .txt file. You can optionally set a quick key shortcut in settings.
+**Paste as .txt file** enables you to paste text stored in your clipboard as a .txt file with an auto-generated file name. You can optionally set a quick key shortcut in settings.
 
 Sample input: 
 
@@ -117,7 +117,7 @@ If pasting files is accepted within the application that you are using (e.g. Fil
 
 ### Paste as .html file
 
-**Paste as .html file** enables you to paste text stored in your clipboard as a .html file. You can optionally set a quick key shortcut in settings.
+**Paste as .html file** enables you to paste text stored in your clipboard as a .html file with an auto-generated file name. You can optionally set a quick key shortcut in settings.
 
 Sample input: 
 
