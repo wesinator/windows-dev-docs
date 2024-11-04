@@ -1,7 +1,7 @@
 ---
 title: PowerToys Advanced Paste for Windows
 description: A tool that enables you to paste the text from your clipboard into any format needed. It can be enhanced with an AI-powered option that is 100% opt-in and requires an OpenAI key.
-ms.date: 04/24/2024
+ms.date: 11/04/2024
 ms.topic: article
 no-loc: [PowerToys, Windows, Paste as Plain Text, Advanced Paste, Win]
 ---
@@ -36,7 +36,7 @@ From the Settings menu, the following options can be configured:
 | Paste as Markdown directly shortcut | The customizable keyboard command to paste as Markdown without opening the **Advanced Paste** window. |
 | Paste as JSON directly shortcut | The customizable keyboard command to paste as JSON without opening the **Advanced Paste** window. |
 | Additional actions: Image to Text | Turn on/off the Image to text paste action and configure the customizable keyboard command. |
-| Additional actions: Paste as file | Turn on/off the set of Paste as File actions which include Paste as .txt file, Paste as .png file, Paste as .html file. Optionally configure the customizable keyboard command for each of these actions.
+| Additional actions: Paste as file | Turn on/off the set of Paste as File actions which include Paste as .txt file, Paste as .png file, Paste as .html file. Optionally configure the customizable keyboard command for each of these actions. |
 
 > [!IMPORTANT]
 > It's possible to set <kbd>Ctrl</kbd>+<kbd>V</kbd> as an activation shortcut. This is not recommended, as overriding this shortcut may have unintended consequences.
@@ -108,18 +108,19 @@ Markdown output:
 
 **Paste as .txt file** enables you to paste text stored in your clipboard as a .txt file with an auto-generated file name. You can optionally set a quick key shortcut in settings.
 
-Sample input: 
+Sample input:
 
 ```text
 Hello World!
 ```
+
 If pasting files is accepted within the application that you are using (e.g. File Explorer), then the paste as .txt file action will take the input text and paste a .txt file.
 
 ### Paste as .html file
 
 **Paste as .html file** enables you to paste text stored in your clipboard as a .html file with an auto-generated file name. You can optionally set a quick key shortcut in settings.
 
-Sample input: 
+Sample input:
 
 ```html
 <!DOCTYPE html>
@@ -133,6 +134,7 @@ Sample input:
 </body>
 </html>
 ```
+
 If pasting files is accepted within the application that you are using (e.g. File Explorer), then the paste as .html file action will take the input text and paste a .html file.
 
 ### Paste text with AI
@@ -163,10 +165,11 @@ AI output when prompting to "Format the text as if it were written by Mark Twain
 > [!NOTE]
 > As with any AI tool, the quality of the output is dependent on the quality of the input. The more context you provide, the better the AI will be able to understand and respond to your request. Be sure to carefully review the output before using it. Please see OpenAI's [privacy](https://openai.com/policies/privacy-policy) and [terms](https://openai.com/policies/terms-of-use) pages for more info on AI usage in this feature.
 
-
-## Advanced image paste 
+## Advanced image paste
 
 Advanced Paste includes several image-based paste options. These options are available in the **Advanced Paste** window, which can be opened using the activation shortcut. You can optionally set a quick key shortcut in settings.
+
+:::image type="content" source="../images/pt-advanced-paste-img.png" alt-text="Advanced Paste image screenshot":::
 
 ### Paste Image to text
 
