@@ -1,7 +1,7 @@
 ---
 description: Viewing actionable analytics insights in Partner Center.
 title: Viewing actionable insights in Partner Center
-ms.date: 05/16/2024
+ms.date: 10/23/2024
 ms.topic: article
 keywords: windows 10, windows 11, windows, windows store, store, msix, pwa, insights, analytics, review summary
 ms.localizationpriority: medium
@@ -43,7 +43,7 @@ AI-review summary in Partner Center underwent substantial testing including red 
 
 In AI review summary, we don’t clarify which positive and negative feedback is reported commonly by most users. Developers need to read through recent reviews to understand which feedback is commonly reported.
 
-## Trend Insights
+## Trend insights
 
 View your past actions including app updates and app performance metrics in one consolidated view on the same trendline. Evaluating how specific updates correlate with changes in your app’s metrics can help you to understand the effectiveness of your investments. These trend insights have been added in the Installs chart in the [Acquisitions report](https://partner.microsoft.com/dashboard/insights/analytics/reports/acquisitions). You can also see these insights for Failure hits and Rating in the [Insights report](https://aka.ms/Insights_Report) in Partner Center.
 

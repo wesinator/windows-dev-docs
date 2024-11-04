@@ -1,7 +1,7 @@
 ---
 title: Company account verification requirements
 description: Company account verification requirements related to the European Union Digital Services Act
-ms.date: 09/19/2024
+ms.date: 10/28/2024
 ms.topic: article
 keywords: store policies agreement archive DSA
 ms.localizationpriority: high
@@ -30,17 +30,12 @@ D-U-N-S is an established business identification system, widely used by app sto
 For the fastest and easiest verification, we recommend obtaining and providing a D-U-N-S Number. If, however, it is not possible to obtain one, Microsoft will accept several forms of business verification documentation:
 
 - Formation documents, such as articles of incorporation, partnership deed
-- Franchise or agency appointment letters
-- Government issued letter, license, registration, or certificate.
-- Lease or tenancy documents
 - Letter or statement from a financial institution or a utility company
 - Record on a Government registry website (site/link must be displayed)
+- Lease or tenancy documents
+- Government issued letter, license, registration, or certificate
 - Stock exchange filings or tax filing records
-- Certificate of incorporation or registration
-- Extract from commercial register
-- Business license
-- Tax certificate
-- DUNS certification
+- Franchise or agency appointment letters
 
 ## Customer contact information
 
