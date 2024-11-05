@@ -31,16 +31,6 @@ sections:
           - **Scalability with Cloud Integration:** A well-integrated client app can sync effortlessly with backend cloud services, enabling real-time data access and seamless scalability as your user base grows.
           - **Enhanced Productivity and User Loyalty:** A thoughtfully designed app can enhance productivity and keep users engaged with your product or service over time.
 
-      - question: There are so many framework options for building apps that target Windows! How do I decide?
-        answer: |
-          Windows is an open platform that supports many technologies. Here are some criteria that can help you decide which platform to use:
-
-          -	Are you building Windows-first or cross platform?
-          -	Do you have experience with .NET? JavaScript? Other languages?
-          -	Do you need to access Windows-specific APIs?
-          - Which framework's capabilities best match your app's requirements?
-          -	See [this table](/windows/apps/get-started/#app-development-framework-feature-comparison) for other decision factors.
-
   - name: Native Windows-only app development
     questions:
       - question: I'm building a new team to develop a Windows-only app. Why should I choose to develop with a native Windows framework like WinUI, WPF, or Windows Forms?
@@ -142,22 +132,65 @@ sections:
         answer: |
           You can mix and match native and hybrid components in your app. For example, you can build the core of your app using .NET MAUI components and then add hybrid components to provide additional functionality. This allows you to leverage the best of both worlds: the performance and capabilities of native components and the flexibility and cost savings of hybrid components.
 
-      - question: ASP.NET Core questions
-        answer: Answers with information about ASP.NET Core.
+      - question: What are my choices for building .NET-based web apps that look great on modern browsers on Windows?
+        answer: |
+          Web apps have the broadest reach of any client app platform. If you want to create beautiful .NET web apps on Windows, you have several options:
 
-      - question: Blazor web questions
-        answer: Answers with information about Blazor web.
+          - ASP.NET Core apps with Razor Pages
+          - ASP.NET Core MVC apps
+          - ASP.NET Core Blazor apps, with hosting model options including:
+            - Blazor WebAssembly apps
+            - Blazor Server apps
+
+          Note that the hosting model for Blazor can be configured at the component level now. So, you can have a Blazor WebAssembly component hosted in a Blazor Server app.
+
+          Read more about ASP.NET Core development options in the [ASP.NET Core documentation](/aspnet/core/introduction-to-aspnet-core).
 
   - name: Choose an approach and understand Microsoft's investments
     questions:
+      - question: There are so many framework options for building apps that target Windows! How do I decide?
+        answer: |
+          Windows is an open platform that supports many technologies. Here are some criteria that can help you decide which platform to use:
+
+          -	Are you building Windows-first or cross platform?
+          -	Do you have experience with .NET? JavaScript? Other languages?
+          -	Do you need to access Windows-specific APIs?
+          - Which framework's capabilities best match your app's requirements?
+          -	See [this table](/windows/apps/get-started/#app-development-framework-feature-comparison) for other decision factors.
+
+          When it comes to business apps, most teams want to choose based on existing skills and what the team is comfortable using.
+          
+      - question: How do I choose the best development approach for my web app?
+        answer: |
+          Some things to consider when choosing a development approach for your web app include:
+
+          - Blazor is recommended for building front-end web apps with .NET. By using Blazor, you can now build your entire front-end and back-end with .NET, saving time and money. It is particularly well-suited for enterprise line-of-business apps on today's devices.
+          - JavaScript web apps still make sense if you want to leverage your team's existing skills or investments in JavaScript, or if you need to integrate with existing JavaScript libraries or frameworks.
+          - Existing apps that use older frameworks, like Web Forms, MVC, or Razor Pages, are still supported and can continue to be developed and maintained using those frameworks.
+
       - question: Who is building apps with WinUI today?
-        answer: Talk about Apple, Adobe, and Microsoft's investments in WinUI.
+        answer: |
+          Many customers are building with WinUI today, including Adobe and Apple:
+
+          - [Adobe Fresco](https://apps.microsoft.com/detail/xp8c8r0zkzr27v), a free drawing and painting app for Windows.
+          - Apple created the [Apple Music](https://apps.microsoft.com/detail/9pfhdd62mxs1), [Apple TV](https://apps.microsoft.com/detail/9nm4t8b9jqz1), and [Apple Devices](https://apps.microsoft.com/detail/9np83lwlpz9k) apps with WinUI and the Windows App SDK.
+
+          Microsoft has also created several apps with WinUI, including the Windows 11 File Explorer and Photos apps.
 
       - question: Who is building .NET MAUI apps today?
-        answer: Give .NET MAUI app examples.
+        answer: |
+          Many customers are using .NET MAUI to build their cross-platform apps today, including Microsoft. For example, the [Microsoft Azure mobile app]((https://azure.microsoft.com/get-started/azure-portal/mobile-app/)) was built using .NET MAUI.
+
+          Find out who else is building apps with .NET MAUI on the [.NET customers showcase](https://dotnet.microsoft.com/platform/customers/maui) site.
 
       - question: Who is building WPF apps today?
-        answer: Talk about Visual Studio's UI and other examples.
+        answer: Most of Microsoft Visual Studio's user interface is built with WPF. The [Visual Studio](https://visualstudio.microsoft.com/vs/) IDE is a great example of a complex, high-performance WPF app.
+
+      - question: Who is building Blazor apps today?
+        answer: |
+          GE Digital's [FlightPulse](https://customers.microsoft.com/story/816181-ge-aviation-manufacturing-azure) airline system puts sensor data and analytics into the hands of pilots to improve safety and efficiency. The backend configuration of everything the pilots see is all done with Blazor.
+
+          You can read more [Blazor customer stories](https://dotnet.microsoft.com/platform/customers/blazor) on the .NET site.
 
 additionalContent: |
     ## Related content
