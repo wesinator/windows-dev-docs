@@ -92,10 +92,12 @@ sections:
           - **Integration:** Building cross-platform apps allows you to integrate with different platforms and services, enabling you to provide a more comprehensive user experience.
 
       - question: Can I be confident that .NET MAUI apps will run well on Windows?
-        answer: When you build a .NET MAUI app for Windows, your output is a WinUI app. While developing, .NET MAUI provides a single .NET experience across all platforms, including Windows, but under the hood, it generates platform-specific code. This ensures that your .NET MAUI app runs well on each platform and provides a native user experience.
+        answer: |
+          When you build a [.NET MAUI app for Windows](/windows/apps/windows-dotnet-maui/), your output is a WinUI app. While developing, .NET MAUI provides a single .NET experience across all platforms, including Windows, but under the hood, it generates platform-specific code. This ensures that your .NET MAUI app runs well on each platform and provides a native user experience.
 
       - question: How can .NET MAUI provide native device APIs across every platform?
-        answer: .NET MAUI provides a single .NET experience across all platforms, including Windows, iOS, Android, and macOS. .NET MAUI abstracts over 60 platform-specific APIs into a single, cross-platform API that you can use in your .NET MAUI app. These APIs cover access to storage, networking, device-specific sensors, and more. If needed, you can also access additional platform-specific APIs using dependency injection to abstract the code for each platform.
+        answer: |
+          .NET MAUI provides a single .NET experience across all platforms, including Windows, iOS, Android, and macOS. .NET MAUI abstracts over 60 platform-specific APIs into a single, cross-platform API that you can use in your .NET MAUI app. These APIs cover access to storage, networking, device-specific sensors, and more. If needed, you can also access additional platform-specific APIs using dependency injection to abstract the code for each platform.
 
       - question: Our team has strong web front-end development skills. Should we consider using React Native for Windows app development?
         answer: |
@@ -103,17 +105,42 @@ sections:
 
           Your team can leverage their JavaScript, TypeScript, and React skills to build the UI layer, which is rendered directly to native primitives. This provides native app performance and access to the capabilities of the native platform.
 
+          Read more about getting started with React Native development for Windows in the [React Native for Desktop documentation](https://microsoft.github.io/react-native-windows/docs/getting-started).
+
       - question: Are any other Windows devices supported by React Native for Desktop?
         answer: |
           React Native apps can be deployed to all devices supported by Windows 10 and higher including PCs, tablets, 2-in-1s, Xbox, and Mixed reality devices.
 
   - name: Hybrid and web development
     questions:
-      - question: .NET MAUI Blazor hybrid questions
-        answer: Answers with information about .NET MAUI Blazor hybrid.
+      - question: What are hybrid apps, and why should I consider building one?
+        answer: |
+          Hybrid apps blend the best of web and native app development. The core of the app is built using web technologies like HTML, CSS, and JavaScript, and then wrapped in a native container that allows the app to leverage certain native platform features and hardware. They can also be distributed through app stores.
 
-      - question: .NET MAUI web hybrid questions
-        answer: Answers with information about .NET MAUI web hybrid.
+          The main advantage of hybrid apps is that they allow you to build a single app that can run on multiple native platforms and on the web, reducing development time and costs. Some examples of hybrid app development platforms answer:
+
+          - Electron for desktop apps
+          - Ionic for mobile apps
+          - .NET MAUI Blazor hybrid for cross-platform apps
+
+      - question: What is a .NET MAUI Blazor hybrid app?
+        answer: |
+          With .NET MAUI, Blazor apps can also run natively on Windows, iOS, Android, and macOS. This means you can create hybrid client apps that combine Blazor and .NET MAUI components together into a single, native client app. This provides full access to the same native platform capabilities available to any other .NET MAUI apps.
+
+          To read more about how Blazor can hosted within a .NET MAUI app, see [ASP.NET Core Blazor Hybrid](/aspnet/core/blazor/hybrid/).
+
+      - question: Do the web components of a .NET MAUI hybrid app need to be created with Blazor?
+        answer: |
+          No, the web components of a .NET MAUI hybrid app do not need to be created with Blazor. Starting with .NET 9, .NET MAUI provides a HybridWebView control that allows you to host other JavaScript UIs in your native app.
+          
+          This means you can take your Angular, React, Vue or other HTML & JavaScript web app and host it within your .NET MAUI app. The hybrid control provides interop between the C# and JavaScript layers so you can call JavaScript functions from C# and vice versa.
+
+      - question: Can any other native app types host Blazor hybrid components?
+        answer: Yes, WPF and Windows Forms apps can also host Blazor hybrid components. This allows you to add modern web UI components to your existing WPF and Windows Forms apps. Note, that this is not possible with WPF or Windows Forms apps built on .NET Framework.
+
+      - question: Does my entire app need to be a hybrid app, or can I mix and match native and hybrid components?
+        answer: |
+          You can mix and match native and hybrid components in your app. For example, you can build the core of your app using .NET MAUI components and then add hybrid components to provide additional functionality. This allows you to leverage the best of both worlds: the performance and capabilities of native components and the flexibility and cost savings of hybrid components.
 
       - question: ASP.NET Core questions
         answer: Answers with information about ASP.NET Core.
