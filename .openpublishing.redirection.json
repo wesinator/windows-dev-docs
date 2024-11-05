@@ -8531,6 +8531,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "hub/apps/design/style/index.md",
+      "redirect_url": "/windows/apps/design",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/design/signature-experiences/design-principles.md",
+      "redirect_url": "/windows/apps/design",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/design/signature-experiences/signature-experiences.md",
+      "redirect_url": "/windows/apps/design",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/design/style/color.md",
+      "redirect_url": "/windows/apps/design/signature-experiences/color",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/design/style/typography.md",
+      "redirect_url": "/windows/apps/design/signature-experiences/typography",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/design/motion/index.md",
+      "redirect_url": "/windows/apps/design/signature-experiences/motion",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "hub/dev-home/project-ironsides.md",
       "redirect_url": "/windows/dev-home/dev-diagnostics",
       "redirect_document_id": false
