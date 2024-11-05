@@ -8,7 +8,7 @@ metadata:
 title: "Client app development framework FAQ"
 summary: |
   An tour of client app development framework choices for Microsoft developers.
-  
+
   Today's Windows app development landscape offers a variety of frameworks and technologies to choose from. This FAQ provides guidance on how to decide which framework to use for your Windows app development projects. It covers the following topics:
 
   - The Windows app development landscape.
@@ -20,6 +20,17 @@ summary: |
 sections:
   - name: The Windows app development landscape
     questions:
+      - question: Why is client app development still crucial for modern digital transformation in the era of cloud services?
+        answer: |
+          Whether you are a web developer or a native app developer, you likely want to reach as many users and devices as possible while providing a great user experience. You also want to develop and deliver your apps in the most efficient way possible.
+
+          Developing great client apps helps you connect with users in an engaging way, scale your services, and keep users coming back. An engaging client app can provide:
+
+          - **Device penetration:** There are more than 1.5 billion Windows devices and more than 5 billion Android and iOS devices on the planet. That's a huge potential market for your apps.
+          - **A first impression to intelligent apps:** Client apps are your users' gateway to your services. They can provide a rich, interactive experience that can help you differentiate your services.
+          - **Scale with backend cloud integration:** Integration with backend and cloud services can provide real-time data and effortless scaling as your user base grows.
+          - **Drive user productivity and loyalty:** A well-designed client app can help users be more productive and loyal to your company and its services.
+
       - question: There are so many framework options for building apps that target Windows! How do I decide?
         answer: |
           Windows is an open platform that supports many technologies. Here are some criteria that can help you decide which platform to use:
@@ -30,18 +41,27 @@ sections:
           - Which framework's capabilities best match your app's requirements?
           -	See [this table](/windows/apps/get-started/#app-development-framework-feature-comparison) for other decision factors.
 
-
   - name: Native Windows-only app development
     questions:
+      - question: I'm building a new team to develop a Windows-only app. Why should I choose to develop with a native Windows framework like WinUI, WPF, or Windows Forms?
+        answer: |
+          Here are some reasons to choose a native Windows framework for your Windows-only app:
+
+          - **Performance:** Native Windows frameworks are optimized to leverage the full power of today's Windows hardware and provide fast and responsive user experiences.
+          - **Integration:** Windows ships with wide varieties of APIs to build sophisticated experiences only available on Windows. The native frameworks provide deep integration with these features and APIs.
+          - **Native user experience:** Native Windows frameworks provide a consistent user experience across Windows devices, ensuring that your app looks and works great on all Windows devices.
+          - **Offline support:** Native Windows frameworks provide support for offline scenarios, enabling your app to work even when the user is not connected to the internet.
+          - **Monetization:** Native Windows frameworks are actively maintained and supported by Microsoft, ensuring that you have access to the latest updates and features.
+
       - question: Which framework should I use to leverage Microsoft's latest investments in Windows app development?
         answer: |
-          If you're building a new app, we recommend using WinUI. WinUI is the latest native UI framework for Windows app development and is designed to work across a wide range of Windows devices. WinUI provides a modern and flexible UI framework that enables you to create visually appealing and interactive Windows apps. WinUI is part of the Windows App SDK and is designed to work best with the latest versions of Windows.
+          If you're building a new Windows-only app, we recommend using WinUI. WinUI is the latest native UI framework for Windows app development and is designed to work across a wide range of Windows devices. WinUI provides a modern and flexible UI framework that enables you to create visually appealing and interactive Windows apps. WinUI is part of the Windows App SDK and is designed to work best with the latest versions of Windows.
           
       - question: If I have already invested heavily in WPF, should I continue to use WPF or should I consider migrating to WinUI?
         answer: |
           If you have already invested heavily in WPF, you can continue to use WPF for your existing apps. WPF is a mature and stable framework that is widely used by developers to build Windows desktop apps.
 
-          Consider leveraging the [].NET Upgrade Assistant](/dotnet/core/porting/upgrade-assistant-overview) to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
+          Consider leveraging the [.NET Upgrade Assistant](/dotnet/core/porting/upgrade-assistant-overview) to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
 
       - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to WinUI or another framework?
         answer: |
@@ -62,8 +82,20 @@ sections:
 
   - name: Cross-platform native development
     questions:
-      - question: .NET MAUI questions
-        answer: Answers with information about .NET MAUI.
+      - question: What are some reasons for building cross-platform, native apps that target Windows?
+        answer: |
+          If you're targeting users across multiple OS platforms, building cross-platform apps with .NET MAUI or React Native can provide several benefits:
+
+          - **Reach:** Building cross-platform apps allows you to reach a larger audience of users on different platforms.
+          - **Code reuse:** Building cross-platform apps allows you to reuse code across different platforms, reducing development time and costs. It can be prohibitively expensive to build separate apps for Windows, iOS, Android, macOS, etc.
+          - **Consistent user experience:** Building cross-platform apps allows you to provide a consistent user experience across different platforms, ensuring that your app looks and works great on all devices.
+          - **Integration:** Building cross-platform apps allows you to integrate with different platforms and services, enabling you to provide a more comprehensive user experience.
+
+      - question: Can I be confident that .NET MAUI apps will run well on Windows?
+        answer: When you build a .NET MAUI app for Windows, your output is a WinUI app. While developing, .NET MAUI provides a single .NET experience across all platforms, including Windows, but under the hood, it generates platform-specific code. This ensures that your .NET MAUI app runs well on each platform and provides a native user experience.
+
+      - question: How can .NET MAUI provide native device APIs across every platform?
+        answer: .NET MAUI provides a single .NET experience across all platforms, including Windows, iOS, Android, and macOS. .NET MAUI abstracts over 60 platform-specific APIs into a single, cross-platform API that you can use in your .NET MAUI app. These APIs cover access to storage, networking, device-specific sensors, and more. If needed, you can also access additional platform-specific APIs using dependency injection to abstract the code for each platform.
 
       - question: React Native questions
         answer: Answers with information about React Native.
