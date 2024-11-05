@@ -18,7 +18,7 @@ summary: |
   - How to choose an approach while understanding Microsoft's investments.
 
 sections:
-  - name: The Windows app development landscape
+  - name: Windows app development landscape
     questions:
       - question: Why is client app development still crucial for modern digital transformation in the era of cloud services?
         answer: |
