@@ -9,10 +9,29 @@ title: "Client app development framework FAQ"
 summary: |
   An tour of client app development framework choices for Microsoft developers.
   
-  We'll add more overview information here.
+  Today's Windows app development landscape offers a variety of frameworks and technologies to choose from. This FAQ provides guidance on how to decide which framework to use for your Windows app development projects. It covers the following topics:
+
+  - The Windows app development landscape.
+  - Native Windows-only app development with WinUI, WPF, and Windows Forms.
+  - Targeting Windows as part of your cross-platform development strategy.
+  - Hybrid and web app development with .NET MAUI, Blazor, and ASP.NET Core.
+  - How to choose an approach while understanding Microsoft's investments.
 
 sections:
-  - name: Native Windows app development
+  - name: The Windows app development landscape
+    questions:
+      - question: There are so many framework options for building apps that target Windows! How do I decide?
+        answer: |
+          Windows is an open platform that supports many technologies. Here are some criteria that can help you decide which platform to use:
+
+          -	Are you building Windows-first or cross platform?
+          -	Do you have experience with .NET? JavaScript? Other languages?
+          -	Do you need to access Windows-specific APIs?
+          - Which framework's capabilities best match your app's requirements?
+          -	See [this table](/windows/apps/get-started/#app-development-framework-feature-comparison) for other decision factors.
+
+
+  - name: Native Windows-only app development
     questions:
       - question: Which framework should I use to leverage Microsoft's latest investments in Windows app development?
         answer: |
