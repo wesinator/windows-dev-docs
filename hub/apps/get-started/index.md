@@ -53,9 +53,7 @@ Here are some reasons to choose React Native for Windows:
 For more information about React Native for Windows, see the following links:
 
 - [React Native for Windows repo on GitHub](https://github.com/microsoft/react-native-windows)
-- [Native modules in React Native for Windows](https://aka.ms/RNW-NativeModules)
 - [API reference](https://microsoft.github.io/react-native-windows/docs/Native-API-Reference)
-- [Community modules directory](https://reactnative.directory)
 - [More resources](https://microsoft.github.io/react-native-windows/resources)
 
 ## WPF
