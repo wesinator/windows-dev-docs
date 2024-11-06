@@ -54,7 +54,7 @@ For more information about React Native for Windows, see the following links:
 
 - [React Native for Windows repo on GitHub](https://github.com/microsoft/react-native-windows)
 - [API reference](https://microsoft.github.io/react-native-windows/docs/Native-API-Reference)
-- [More resources](https://microsoft.github.io/react-native-windows/resources)
+- [React Native for Desktop resources](https://microsoft.github.io/react-native-windows/resources)
 
 ## WPF
 
