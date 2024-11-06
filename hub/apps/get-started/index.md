@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 This article contains the information you need to get started building apps for Windows.
 
-Windows offers a wide range of languages, frameworks, and tools for building apps, including WinUI, WPF, C++, C#, .NET, and a variety of cross-platform frameworks. Here, we provide information to help you decide which option is best for you.
+Windows offers a wide range of languages, frameworks, and tools for building apps, including WinUI, React Native for Windows, WPF, C++, C#, .NET, and a variety of cross-platform frameworks. Here, we provide information to help you decide which option is best for you.
 
 ## WinUI
 
