@@ -35,24 +35,24 @@ We need to check for redirection as early as possible, before creating any windo
 1. Define the **DISABLE_XAML_GENERATED_MAIN** symbol for each configuration and platform. Add the following XML to the project file:
 
    ```xml
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
-   <propertygroup condition="'$(Configuration)|$(Platform)'=='Release|arm64'">
-     <defineconstants>DISABLE_XAML_GENERATED_MAIN</defineconstants>
-   </propertygroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm64'">
+     <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+   </PropertyGroup>
    ```
 
 Adding the **DISABLE_XAML_GENERATED_MAIN** symbol will disable the auto-generated Program code for your project.
