@@ -2,7 +2,7 @@
 title: Web development on Windows
 description: A guide to Microsoft web development tools available on Windows, including Microsoft Edge, DevTools, WebView, PWAs, Visual Studio Code extensions, virtual machines, terminal, package manager, and more.
 ms.topic: article
-ms.date: 11/28/2023
+ms.date: 11/08/2024
 ---
 
 # Web development on Windows
@@ -235,12 +235,12 @@ Microsoft offers a variety of resources for web developers, including new tools 
         [Get started](../dev-environment/index.md)
     :::column-end:::
     :::column:::
-       [![React Native for Windows icon](../images/reactnative-windows.png)](https://microsoft.github.io/react-native-windows/)<br>
-        **[React Native for Windows + macOS](https://microsoft.github.io/react-native-windows/)**<br>
+       [![React Native for Desktop icon](../images/reactnative-windows.png)](https://microsoft.github.io/react-native-windows/)<br>
+        **[React Native for Desktop](https://microsoft.github.io/react-native-windows/)**<br>
         Bring React Native support to the Windows SDK and macOS 10.13 SDK. Use JavaScript to build native Windows apps for all devices supported by Windows including PCs, tablets, 2-in-1s, Xbox, Mixed reality devices, etc., as well as the macOS desktop and laptop ecosystems.
         <br>
-        [Install React Native for Windows](https://microsoft.github.io/react-native-windows/docs/getting-started)<br>
-        [Install React Native for macOS](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started)
+        [Install React Native for Desktop](https://microsoft.github.io/react-native-windows/docs/getting-started)<br>
+        [Install React Native for Desktop](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started)
     :::column-end:::
     :::column:::
        [![Learn icon](../images/learn-icon.png)](/training/browse/?terms=web)<br>

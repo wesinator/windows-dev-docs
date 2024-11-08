@@ -187,7 +187,7 @@ For more information about building PWAs, see the following links:
 
 There is a wide range of options for developing applications for Windows. The best option for you depends on your application requirements, your existing code, and your familiarity with the technology. The following table lists the most popular app development frameworks available on Windows and the features supported by each framework.
 
-| Feature | .NET MAUI | Blazor Hybrid | React Native (RND) | UWP XAML (Windows.UI.Xaml) | Win32 (MFC or ATL) | Windows Forms | WinUI 3 | WPF |
+| Feature | .NET MAUI | Blazor Hybrid | React Native for Desktop | UWP XAML (Windows.UI.Xaml) | Win32 (MFC or ATL) | Windows Forms | WinUI 3 | WPF |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Language** | C# | C# | JavaScript, TypeScript | C#, C++, Visual Basic | C++, Rust | C#, Visual Basic | C#, C++ | C#, Visual Basic |
 | **UI language** | XAML/Code | Razor | JSX | XAML | Code | Code | XAML | XAML |
@@ -208,7 +208,7 @@ Learn more about each of these options:
 
 - [.NET Multi-platform App UI (.NET MAUI)](/dotnet/maui/)
 - [ASP.NET Core Blazor Hybrid](/aspnet/core/blazor/hybrid)
-- [React Native for Desktop (RND)](/windows/dev-environment/javascript/react-native-for-windows)
+- [React Native for Desktop](/windows/dev-environment/javascript/react-native-for-windows)
 - [Universal Windows Platform (UWP)](/windows/uwp/)
 - [Recommendations for Choosing Between ATL and MFC](/cpp/atl/recommendations-for-choosing-between-atl-and-mfc)
 - [Windows Forms](/dotnet/desktop/winforms/)
