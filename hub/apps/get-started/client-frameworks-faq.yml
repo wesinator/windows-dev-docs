@@ -53,6 +53,10 @@ sections:
 
           Consider leveraging the [.NET Upgrade Assistant](/dotnet/core/porting/upgrade-assistant-overview) to migrate your .NET Framework WPF apps to the latest .NET platform. The .NET Upgrade Assistant is a tool that helps you migrate your .NET Framework apps to the latest supported versions of .NET. The .NET Upgrade Assistant analyzes your existing codebase and provides guidance on how to update your code.
 
+      - question: If I build a new WPF app, will it look dated compared to other new Windows apps?
+        answer: |
+          When developing a WPF application with .NET 9 or later, you can ensure your app matches the sleek, modern look of Windows 11. The new Fluent theme for WPF introduces a contemporary Windows 11 aesthetic to WPF applications, complete with integrated Light/Dark mode and system accent color support. This update not only modernizes the appearance of your app but also enhances user engagement by providing a polished and cohesive user experience.
+
       - question: My team is comfortable building Windows Forms apps, and it suits our needs. Should we consider migrating to WinUI or another framework?
         answer: |
           If your team is comfortable building Windows Forms apps and Windows Forms meets your needs, you can continue to use Windows Forms for your existing apps. Windows Forms is a mature and stable framework that is widely used by developers to build Windows desktop apps.
