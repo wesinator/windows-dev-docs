@@ -206,6 +206,7 @@ There is a wide range of options for developing applications for Windows. The be
 
 Learn more about each of these options:
 
+- [Client app development framework FAQ](client-frameworks-faq.yml)
 - [.NET Multi-platform App UI (.NET MAUI)](/dotnet/maui/)
 - [ASP.NET Core Blazor Hybrid](/aspnet/core/blazor/hybrid)
 - [React Native for Desktop](/windows/dev-environment/javascript/react-native-for-windows)
