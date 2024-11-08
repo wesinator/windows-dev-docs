@@ -24,7 +24,7 @@ To use the app lifecycle API in WinUI 3 apps:
 
 Apps are single-instanced if there can be only one main process running at a time. Attempting to launch a second instance of a single-instanced app typically results in the first instance's main window being activated instead. Note that this only applies to the main process. Single-instanced apps can create multiple background processes and still be considered single instanced.
 
-WinUI apps are multi-instanced by default but have the ability to become single-instanced by deciding at launch-time whether to create an additional instance or activate an existing instance instead.
+WinUI apps are multi-instanced by default but have the ability to become single-instanced by deciding at launch-time whether to create a new instance or activate an existing instance instead.
 
 The [Microsoft Photos](https://www.microsoft.com/store/productId/9WZDNCRFJBH4) app is a good example of a single instanced WinUI app. When you launch Photos for the first time, a new window will be created. If you attempt to launch Photos again, the existing window will be activated instead.
 
