@@ -179,7 +179,7 @@ sections:
 
       - question: Who is building .NET MAUI apps today?
         answer: |
-          Many customers are using .NET MAUI to build their cross-platform apps today, including Microsoft. For example, the [Microsoft Azure mobile app]((https://azure.microsoft.com/get-started/azure-portal/mobile-app/)) was built using .NET MAUI.
+          Many customers are using .NET MAUI to build their cross-platform apps today, including Microsoft. For example, the [Microsoft Azure mobile app](https://azure.microsoft.com/get-started/azure-portal/mobile-app/) was built using .NET MAUI.
 
           Find out who else is building apps with .NET MAUI on the [.NET customers showcase](https://dotnet.microsoft.com/platform/customers/maui) site.
 
