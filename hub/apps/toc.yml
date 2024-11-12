@@ -12,6 +12,8 @@ items:
       items: 
         - name: Overview of framework options
           href: get-started/index.md
+        - name: Client app development frameworks FAQ
+          href: get-started/client-frameworks-faq.yml
         - name: Start developing Windows apps
           href: get-started/start-here.md
         - name: Build your first app
@@ -291,7 +293,7 @@ items:
                   href: develop/smart-app-control/test-your-app-with-smart-app-control.md
             - name: Cross Device Share API
               items:
-                - name: Windows Share Overview
+                - name: Windows Share overview
                   href: develop/windows-integration/integrate-sharesheet-overview.md
                 - name: Packaged apps
                   items:

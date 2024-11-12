@@ -3,7 +3,7 @@ metadata:
   description: The official Windows developer FAQ. Get answers to common questions about Windows application development and Windows App SDK.
   title: Windows developer FAQ
   ms.topic: faq
-  ms.date: 08/19/2024
+  ms.date: 11/08/2024
   ms.localizationpriority: medium
   ms.collection: windows11
   audience: new-desktop-app-developers
@@ -22,7 +22,7 @@ sections:
 
           - **If Windows App SDK / WinUI 3 don't meet your needs**, [WPF](/dotnet/desktop/wpf/overview/) might.
           - **If you're targeting cross-platform:** [React Native](https://aka.ms/reactnative) and [.NET MAUI](/dotnet/maui/what-is-maui) let you build cross-platform apps. .NET MAUI is a great choice for C# developers. React Native will feel familiar to JavaScript/TypeScript developers.
-          - **If you're a web developer:** You can use [WebView2](/microsoft-edge/webview2/) as an application host. This lets you use web technology to build desktop apps that can access the Windows SDK and Windows App SDK APIs. You can also use React Native for Windows.  
+          - **If you're a web developer:** You can use [WebView2](/microsoft-edge/webview2/) as an application host. This lets you use web technology to build desktop apps that can access the Windows SDK and Windows App SDK APIs. You can also use React Native for Desktop.  
           - **If you're a C++ developer:** For desktop apps, Windows App SDK / WinUI 3 are a great choice. If you're building a game, consider using [DirectX](/windows/win32/directx). 
           - **If you're a Rust developer:** Check out [Rust for Windows](https://github.com/microsoft/windows-rs).
 
@@ -139,7 +139,7 @@ sections:
     questions:
       - question: Can I start with WinUI 3 and App SDK, and later integrate .NET MAUI if I eventually want to target cross-platform scenarios?
         answer: |
-          Not at this time. Although .NET MAUI apps use Windows App SDK / WinUI 3 when running on Windows, we recommend starting with .NET MAUI or React Native for Windows if you anticipate the need to target multiple platforms.
+          Not at this time. Although .NET MAUI apps use Windows App SDK / WinUI 3 when running on Windows, we recommend starting with .NET MAUI or React Native for Desktop if you anticipate the need to target multiple platforms.
       - question: What should I use if I want to build apps that work on Windows and Xbox?
         answer: |
           If your app needs to support Xbox, HoloLens, or IoT, we recommend using UWP. Windows App SDK doesn't support these platforms. For game development, we recommend using [Microsoft Game Development Kit](https://github.com/microsoft/GDK).  
