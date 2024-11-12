@@ -1,13 +1,13 @@
 ### YamlMime:FAQ
 metadata:
-  title: Client app development framework FAQ
-  description: An tour of client app development framework choices for Microsoft developers.
+  title: Client app development frameworks FAQ
+  description: An tour of client app development UI framework choices for Microsoft developers.
   ms.topic: faq
   ms.date: 10/16/2024
 
-title: "Client app development framework FAQ"
+title: "Client app development frameworks FAQ"
 summary: |
-  An tour of client app development framework choices for Microsoft developers.
+  An tour of client app development UI framework choices for Microsoft developers.
 
   Today's Windows app development landscape offers a variety of frameworks and technologies to choose from. This FAQ provides guidance on how to decide which framework to use for your Windows app development projects. It covers the following topics:
 
