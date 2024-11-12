@@ -15,7 +15,7 @@ no-loc: [Gerardo Grignoli]
 
 ## Prerequisites
 
-You must be running Windows 11 Insider Preview Build 26052 or higher to use the Sudo for Windows command. ([Check for Windows updates](ms-settings:windowsupdate)). [Join Windows Insider Program](https://www.microsoft.com/windowsinsider/).
+The Sudo for Windows command is available in [Windows 11, version 24H2](https://support.microsoft.com/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5) or higher. ([Check for Windows updates](ms-settings:windowsupdate)).
 
 > [!NOTE]
 > Sudo for Windows is not yet available for Windows 10, but may be in the future.
