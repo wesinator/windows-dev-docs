@@ -125,9 +125,9 @@ You will not have access to the APIs provided by the **Windows App SDK** or .NET
 
 ---
 
-## Cross-platform options
+## Other cross-platform options
 
-If you need your app to be cross-platform, consider [.NET MAUI](/dotnet/maui/what-is-maui) or a [Progressive Web App (PWA)](/microsoft-edge/progressive-web-apps-chromium/). There are many other choices available ([here's a list of popular options](../../dev-environment/index.md)), but these are some good starting points.
+If you need your app to be cross-platform, in addition to React Native for Desktop, you should consider [.NET MAUI](/dotnet/maui/what-is-maui) or a [Progressive Web App (PWA)](/microsoft-edge/progressive-web-apps-chromium/). There are many other choices available ([here's a list of popular options](../../dev-environment/index.md)), but these are some good starting points.
 
 .NET MAUI harnesses the power of WinUI on Windows, while also enabling execution on other operating systems. Another cross-platform option, Progressive Web Apps (PWAs), are websites that function like installed, native apps on Windows and other supported platforms, while functioning like regular websites on browsers.
 
