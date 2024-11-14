@@ -31,7 +31,7 @@ From the Settings menu, the following options can be configured:
 | Clipboard history | Enable to automatically save clipboard history. |
 | Open Advanced Paste shortcut | The customizable keyboard command to open the **Advanced Paste** window. |
 | Automatically close the Advanced Paste window after it loses focus | Determines whether the Advanced Paste window will close after focus is lost from the window. |
-| Custom Actions | When using Paste with AI, save the prompts you frequently use and give them descriptive names so you can easily pick them out from the Advanced Paste window without having to type them out. You can also assign them keyboard commands so you can execute them without opening the Advanced Paste window. |
+| Custom Actions | When using Paste with AI, save the prompts you frequently use and give them descriptive names, so you can easily select them from the Advanced Paste window without having to type them out. You can also assign each action a keyboard command, so you can execute them without opening the Advanced Paste window. |
 | Paste as plain text directly shortcut | The customizable keyboard command to paste as plain text without opening the **Advanced Paste** window. |
 | Paste as Markdown directly shortcut | The customizable keyboard command to paste as Markdown without opening the **Advanced Paste** window. |
 | Paste as JSON directly shortcut | The customizable keyboard command to paste as JSON without opening the **Advanced Paste** window. |
