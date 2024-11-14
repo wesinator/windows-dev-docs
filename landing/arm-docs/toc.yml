@@ -7,8 +7,6 @@ items:
     href: ./overview.md
   - name: Add Arm support to your app
     href: ./add-arm-support.md
-  - name: Create a Windows on Arm VM
-    href: ./create-arm-vm.md
   - name: FAQs
     href: ./faq.yml
   - name: How emulation works on Arm
@@ -39,6 +37,8 @@ items:
     items:
       - name: Windows on Arm ISO files
         href: ./iso.md
+      - name: Windows on Arm VM with Azure
+        href: ./create-arm-vm.md
       - name: Visual Studio for Arm
         href: /visualstudio/install/visual-studio-on-arm-devices
       - name: Visual Studio Code for Arm64
