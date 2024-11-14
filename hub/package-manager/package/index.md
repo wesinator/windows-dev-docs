@@ -11,7 +11,7 @@ This section provides guidance about submission process for contributing package
 
 ## Independent Software Vendor (ISV) or Publisher
 
-If you are an ISV or Publisher, you can use Windows Package Manager as a distribution channel for software packages containing your applications. Windows Package Manager currently supports installers in the following formats: MSIX, MSI, and EXE.
+If you are an ISV or Publisher, you can use Windows Package Manager as a distribution channel for software packages containing your applications. Windows Package Manager currently supports installers in [selected formats](../winget/index.md#supported-installer-formats). 
 
 To submit software packages to Windows Package Manager, follow these steps:
 
