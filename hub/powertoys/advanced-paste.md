@@ -118,7 +118,7 @@ If pasting files is accepted within the application that you are using (e.g. Fil
 
 ### Paste as .html file
 
-**Paste as .html file** enables you to paste html data stored in your clipboard as a .html file with an auto-generated file name. This is especially useful for saving a part of a web-page from a browser - including links, formatted text and images. You can optionally set a quick key shortcut in settings.
+**Paste as .html file** enables you to paste html data stored in your clipboard as a .html file with an auto-generated file name. This is especially useful for saving a part of a webpage from a browser - including links, formatted text and images. You can optionally set a quick key shortcut in settings.
 
 Sample input:
 
