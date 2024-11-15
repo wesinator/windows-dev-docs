@@ -1,5 +1,5 @@
 ---
-title: Debugging and troubleshooting issues with the WinGet tool
+title: Debugging and troubleshooting issues with WinGet
 description: Provides information on logging and WinGet diagnostics.
 ms.date: 11/15/2024
 ms.topic: article
@@ -7,7 +7,15 @@ ms.topic: article
 
 # Debugging and troubleshooting issues with the WinGet tool
 
-When Windows Package Manager is installing, searching or listing applications, sometimes it is necessary to look at the log files to better understand the behavior.
+If WinGet does not appear to be installed correctly, follow these steps from a PowerShell command prompt: 
+
+```PowerShell
+Install-PackageProvider -Name NuGet -Force | Out-Null
+Install-Module -Name Microsoft.WinGet.Client -Force -Repository PSGallery | Out-Null
+Repair-WinGetPackageManager -Force -Latest
+```
+
+When WinGet commands are failing, sometimes it is necessary to look at the log files to better understand the behavior.
 
 ## WinGet Logs
 
