@@ -120,12 +120,6 @@ If pasting files is accepted within the application that you are using (e.g. Fil
 
 **Paste as .html file** enables you to paste html data stored in your clipboard as a .html file with an auto-generated file name. This is especially useful for saving a part of a webpage from a browser - including links, formatted text and images. You can optionally set a quick key shortcut in settings.
 
-Sample input:
-
-<pre>
-PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
-</pre>
-
 If pasting files is accepted within the application that you are using (e.g. File Explorer), then the paste as .html file action will take the input data and paste a .html file.
 
 ### Paste text with AI
