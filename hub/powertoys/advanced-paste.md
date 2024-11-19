@@ -1,9 +1,10 @@
 ---
 title: PowerToys Advanced Paste for Windows
 description: A tool that enables you to paste the text from your clipboard into any format needed. It can be enhanced with an AI-powered option that is 100% opt-in and requires an OpenAI key.
-ms.date: 11/04/2024
-ms.topic: article
+ms.date: 11/19/2024
+ms.topic: concept-article
 no-loc: [PowerToys, Windows, Paste as Plain Text, Advanced Paste, Win]
+# Customer intent: Learn how to use the Advanced Paste feature in PowerToys to paste text from your clipboard into any format needed.
 ---
 
 # Advanced Paste
@@ -116,11 +117,17 @@ Hello World!
 
 If pasting files is accepted within the application that you are using (e.g. File Explorer), then the paste as .txt file action will take the input text and paste a .txt file.
 
+> [!NOTE]
+> Paste as .txt file is a feature that runs locally and doesn't use AI.
+
 ### Paste as .html file
 
 **Paste as .html file** enables you to paste html data stored in your clipboard as a .html file with an auto-generated file name. This is especially useful for saving a part of a webpage from a browser - including links, formatted text and images. You can optionally set a quick key shortcut in settings.
 
 If pasting files is accepted within the application that you are using (e.g. File Explorer), then the paste as .html file action will take the input data and paste a .html file.
+
+> [!NOTE]
+> Paste as .html file is a feature that runs locally and doesn't use AI.
 
 ### Paste text with AI
 
@@ -166,5 +173,8 @@ Advanced Paste includes several image-based paste options. These options are ava
 ### Paste as .png file
 
 **Paste as .png file** enables you to quickly paste an image format, like a bitmap, to a .png file. You can optionally create a quick key shortcut to invoke this paste action.
+
+> [!NOTE]
+> Paste as .png file is a feature that runs locally and doesn't use AI.
 
 [!INCLUDE [install-powertoys.md](../includes/install-powertoys.md)]
