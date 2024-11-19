@@ -67,5 +67,3 @@ If you see this User Account Control prompt, the application is requesting admin
 In the case of an elevated command line, typically the text "Administrator" will be included in the title bar.
 
 ![Windows Powershell and Command Line with elevated permissions screenshot](../images/pt-admin-terminal.png)
-
-[!INCLUDE [install-powertoys.md](../includes/install-powertoys.md)]

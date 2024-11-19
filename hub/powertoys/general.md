@@ -38,5 +38,3 @@ Set a location where you want to save your PowerToys settings. You can also rest
 ## Experimentation
 
 Will activate experimentation with new features on Windows Insider builds, if available.
-
-[!INCLUDE [install-powertoys.md](../includes/install-powertoys.md)]

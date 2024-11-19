@@ -345,5 +345,3 @@ PowerToys is a rapid-incubation, open source team aimed at providing power users
 
 - [New specs for possible PowerToys](https://github.com/microsoft/PowerToys/wiki/Specs)
 - [Backlog priority list](https://github.com/microsoft/PowerToys/wiki/Roadmap#backlog-priority-list-in-order)
-
-[!INCLUDE [install-powertoys.md](../includes/install-powertoys.md)]
