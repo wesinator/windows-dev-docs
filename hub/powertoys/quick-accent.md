@@ -1,16 +1,17 @@
 ---
 title: PowerToys Quick Accent utility for Windows
 description: Quick Accent is an alternative way to type accented characters, useful for when a keyboard doesn't support that specific accent with a quick key combo.
-ms.date: 08/03/2023
-ms.topic: article
+ms.date: 11/19/2024
+ms.topic: concept-article
 no-loc: [PowerToys, Windows, Quick Accent, Win]
+# Customer intent: As a Windows power user, I want to learn about the Quick Accent utility in PowerToys for Windows.
 ---
 
 # Quick Accent utility
 
 ![Quick Accent utility](../images/pt-quick-accent.gif)
 
-Quick Accent is an alternative way to type accented characters, useful when a keyboard doesn't support that specific accent with a quick key combo. This tool is based on [Damien Leroy's PowerAccent](https://github.com/damienleroy/PowerAccent).
+Quick Accent is an alternative way to type accented characters. It's useful when a keyboard doesn't support that specific accent with a quick key combo. This tool is based on [Damien Leroy's PowerAccent](https://github.com/damienleroy/PowerAccent).
 
 In order to use the Quick Accent utility, open PowerToys Settings, select the **Quick Accent** page, and turn on the **Enable** toggle.
 
