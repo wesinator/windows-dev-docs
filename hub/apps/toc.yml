@@ -218,8 +218,6 @@ items:
               href: develop/security/tools-libraries.md
             - name: Reference for passkeys
               href: develop/security/reference.md
-            - name: Third-Party Passkey Manager Support
-              href: develop/security/third-party.md
         - name: Speech
           href: develop/speech.md
         - name: User interface
