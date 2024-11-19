@@ -31,6 +31,33 @@ The stable channel provides releases of the Windows App SDK that are supported f
 > [!NOTE]
 > The Windows App SDK Visual Studio Extensions (VSIX) are no longer distributed as a separate download. They are available in the Visual Studio Marketplace inside Visual Studio.
 
+### Version 1.6.3 (1.6.241114003)
+
+This is a servicing release of the Windows App SDK that includes critical bug fixes for the 1.6 release.
+- Fixed an issue where reading the `AppWindow.ExtendsContentIntoTitleBar` property turns on custom titlebar rendering. For more info, see GitHub issue [#9988](https://github.com/microsoft/microsoft-ui-xaml/issues/9988). 
+- Fixed a potential crash during destruction of a `TextBox`/`RichEditBox`. For more info, see GitHub issue [#9070](https://github.com/microsoft/microsoft-ui-xaml/issues/9070). 
+- Fixed an issue where `PackageDeploymentManager.IsPackageReadyOrNewerAvailable()` failed. For more info, see GitHub issue [#4817](https://github.com/microsoft/WindowsAppSDK/issues/4817). 
+- Fixed an issue where `ScrollViewer` would leak. 
+- Added detection for a rare scenario where the app stops rendering and never recovers. 
+- Fixed an issue where `PackageDeploymentManager.RegisterPackageSetAsync()` requires URI when it should be optional to register by PackageFamilyName. 
+- Fixed an issue that prevented apps from being installed or uninstalled. For more info, see GitHub issue [#4881](https://github.com/microsoft/WindowsAppSDK/issues/4881).
+
+This release includes the following new APIs which allow for providers of Widgets to incorporate web content in their Widgets: 
+
+```C# 
+Microsoft.Windows.Widgets.Providers 
+  IWidgetManager2 
+  IWidgetProviderMessage 
+  IWidgetResourceProvider 
+  WidgetManager 
+     SendMessageToContent 
+
+  WidgetMessageReceivedArgs 
+  WidgetResourceRequest 
+  WidgetResourceRequestedArgs 
+  WidgetResourceResponse 
+``` 
+
 ### Version 1.6.1 (1.6.240923002)
 
 This is a servicing release of the Windows App SDK that includes critical bug fixes for the 1.6 release.
