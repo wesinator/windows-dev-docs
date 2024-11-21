@@ -8562,7 +8562,17 @@
     },
     {
       "source_path": "hub/dev-home/project-ironsides.md",
-      "redirect_url": "/windows/dev-home/dev-diagnostics",
+      "redirect_url": "/windows/dev-home/#experimental-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/dev-home/dev-diagnostics.md",
+      "redirect_url": "/windows/dev-home/#experimental-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/dev-home/quickstart-playground.md",
+      "redirect_url": "/windows/dev-home/#experimental-features",
       "redirect_document_id": false
     }
   ]
