@@ -17,10 +17,6 @@ items:
         href: ../dev-home/environments.md
       - name: Windows customization
         href: ../dev-home/windows-customization.md
-      - name: Quickstart Playground
-        href: ../dev-home/quickstart-playground.md
-      - name: Dev Diagnostics
-        href: ../dev-home/dev-diagnostics.md
   - name: Dev Drive
     items:
       - name: Overview
