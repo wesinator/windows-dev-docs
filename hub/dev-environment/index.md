@@ -3,7 +3,7 @@ title: Setup a development environment on Windows
 description: A guide to help you setup your development environment on Windows and install your preferred tools and code languages. 
 ms.topic: article
 ms.subservice: windows-nodejs
-ms.date: 09/28/2023
+ms.date: 11/21/2024
 ---
 
 # Set up your development environment on Windows
@@ -89,15 +89,34 @@ Windows invites you to code as you are. Use whatever coding language or framewor
 
 > [!VIDEO 54e6c532-a86c-4a39-81ab-40e28ce2ba96]
 
-## Windows Copilot
+## AI for Windows apps
 
-The first PC platform to provide centralized AI assistance and designed to help people easily take action and get things done is coming soon! See the [Blog announcement](https://blogs.windows.com/windowsdeveloper/2023/05/23/bringing-the-power-of-ai-to-windows-11-unlocking-a-new-era-of-productivity-for-customers-and-developers-with-windows-copilot-and-dev-home/).
-
-[Sign up to receive updates](https://aka.ms/PluginsForWindows)
-
-<br>
-
-> [!VIDEO 72ad293b-b7aa-4a78-9111-46eb0e072d7b]
+:::row:::
+    :::column:::
+       [![Copilot in Windows icon](../images/copilot.png)](/windows/ai/)<br>
+        **[Windows AI Hub](/windows/ai)**<br>
+        A new era of AI has arrived at Microsoft. See how AI is being integrated in Windows 11.<br>
+        [Visit Windows AI Hub](/windows/ai)
+    :::column-end:::
+    :::column:::
+       [![Copilot+ PC image](../images/copilot-pc.png)](/windows/ai/npu-devices)<br>
+        **[Copilot+ PCs Developer Guide](/windows/ai/npu-devices/)**<br>
+        Copilot+ PCs are a new class of Windows 11 hardware powered by a high-performance Neural Processing Unit (NPU).<br>
+        [Develop for Copilot+ PCs](/windows/ai/npu-devices)
+    :::column-end:::
+    :::column:::
+       [![Direct ML icon](../images/directml.png)](/windows/ai/directml/dml)<br>
+        **[DirectML](/windows/ai/directml/dml)**<br>
+        Pairing DirectML with the ONNX Runtime is often the most straightforward way for many developers to bring hardware-accelerated AI to their users at scale.<br>
+        [Get Started with DirectML](/windows/ai/directml/dml-get-started)
+    :::column-end:::
+    :::column:::
+       [![RAI icon](../images/rai.png)](/windows/ai/rai)<br>
+        **[Responsible AI guidance for Windows](/windows/ai/rai)**<br>
+         Recommended responsible development practices to use as you create apps that utilize AI features on Windows.<br>
+        [Develop Responsibly](/windows/ai/rai)
+    :::column-end:::
+:::row-end:::
 
 ## Development paths
 

@@ -8574,6 +8574,11 @@
       "source_path": "hub/dev-home/quickstart-playground.md",
       "redirect_url": "/windows/dev-home/#experimental-features",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/android/defender-settings.md",
+      "redirect_url": "/defender-endpoint/microsoft-defender-security-center-antivirus",
+      "redirect_document_id": false
     }
   ]
 }
