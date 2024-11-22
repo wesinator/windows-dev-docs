@@ -28,7 +28,7 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
 1. In the Create a new project dialog, select **API** in the **Select a project type** dropdown list to filter the available project templates.
 1. Select the **ASP.NET Core Web API** template and select **Next**.
 1. Name the application "FirstContosoBank" and select **Next**.
-1. Choose **.NET 8.0** as the **Framework**, set the **Authentication type** to **None**, ensure **Configure for HTTPS** is checked, uncheck **Enable OpenAPI support**, check **Do not use top-level statements** and **Use controllers**, and select **Create**.
+1. Choose **.NET 8.0** or later as the **Framework**, set the **Authentication type** to **None**, ensure **Configure for HTTPS** is checked, uncheck **Enable OpenAPI support**, check **Do not use top-level statements** and **Use controllers**, and select **Create**.
 
    :::image type="content" source="images/share-certificates-create-web-project-details.png" alt-text="A screenshot of the Visual Studio create new project details for the ASP.NET Core web API project":::
 
@@ -41,13 +41,100 @@ Apps can authenticate to a web service using a certificate, and multiple apps ca
    [Route("login")]
    public string Login()
    {
-       // Verify certificate with CA
-       var cert = new System.Security.Cryptography.X509Certificates.X509Certificate2(
-           this.Request.HttpContext.Connection.ClientCertificate);
-       bool test = cert.Verify();
-       return test.ToString();
+       // Return any value you like here.
+       // The client is just looking for a 200 OK response.
+       return "true";
    }
    ```
+
+1. Open the NuGet Package Manager and search for and install latest stable version of the **Microsoft.AspNetCore.Authentication.Certificate** package. This package provides middleware for certificate authentication in ASP.NET Core.
+1. Add a new class to the project named **SecureCertificateValidationService**. Add the following code to the class to configure the certificate authentication middleware.
+
+   ```cs
+   using System.Security.Cryptography.X509Certificates;
+
+   public class SecureCertificateValidationService
+   {
+       public bool ValidateCertificate(X509Certificate2 clientCertificate)
+       {
+           // Values are hard-coded for this example.
+           // You should load your valid thumbprints from a secure location.
+           string[] allowedThumbprints = { "YOUR_CERTIFICATE_THUMBPRINT_1", "YOUR_CERTIFICATE_THUMBPRINT_2" };
+           if (allowedThumbprints.Contains(clientCertificate.Thumbprint))
+           {
+               return true;
+           }
+       }
+   }
+   ```
+
+1. Open **Program.cs** and replace the code in the **Main** method with the following code:
+
+   ```csharp
+   public static void Main(string[] args)
+   {
+       var builder = WebApplication.CreateBuilder(args);
+
+       // Add our certificate validation service to the DI container.
+       builder.Services.AddTransient<SecureCertificateValidationService>();
+
+       builder.Services.Configure<KestrelServerOptions>(options =>
+       {
+           // Configure Kestrel to require a client certificate.
+           options.ConfigureHttpsDefaults(options =>
+           {
+               options.ClientCertificateMode = ClientCertificateMode.RequireCertificate;
+               options.AllowAnyClientCertificate();
+           });
+       });
+
+       builder.Services.AddControllers();
+
+       // Add certificate authentication middleware.
+       builder.Services.AddAuthentication(
+       CertificateAuthenticationDefaults.AuthenticationScheme)
+          .AddCertificate(options =>
+       {
+           options.AllowedCertificateTypes = CertificateTypes.SelfSigned;
+           options.Events = new CertificateAuthenticationEvents
+           {
+               // Validate the certificate with the validation service.
+               OnCertificateValidated = context =>
+               {
+                   var validationService = context.HttpContext.RequestServices.GetService<SecureCertificateValidationService>();
+    
+                   if (validationService.ValidateCertificate(context.ClientCertificate))
+                   {
+                       context.Success();
+                   }
+                   else
+                   {
+                       context.Fail("Invalid certificate");
+                   }
+    
+                   return Task.CompletedTask;
+               },
+               OnAuthenticationFailed = context =>
+               {
+                   context.Fail("Invalid certificate");
+                   return Task.CompletedTask;
+               }
+           };
+        });
+
+        var app = builder.Build();
+
+        // Add authentication/authorization middleware.
+        app.UseHttpsRedirection();
+        app.UseAuthentication();
+        app.UseAuthorization();
+
+        app.MapControllers();
+        app.Run();
+    }
+    ```
+
+   The code above configures the Kestrel server to require a client certificate and adds the certificate authentication middleware to the app. The middleware validates the client certificate using the `SecureCertificateValidationService` class. The `OnCertificateValidated` event is called when a certificate is validated. If the certificate is valid, the event calls the `Success` method. If the certificate is invalid, the event calls the `Fail` method with an error message, which will be returned to the client.
 
 1. Start debugging the project to launch the web service. You may receive messages about trusting and installing an SSL certificate. Click **Yes** for each of these messages to trust the certificate and continue debugging the project.
 
@@ -64,7 +151,7 @@ For more information on working with ASP.NET Core controller-based web APIs, see
 Now that you have one or more secured web services, your apps can use certificates to authenticate to those web services. When you make a request to an authenticated web service using the [HttpClient](/uwp/api/Windows.Web.Http.HttpClient) object from the WinRT APIs, the initial request will not contain a client certificate. The authenticated web service will respond with a request for client authentication. When this occurs, the Windows client will automatically query the certificate store for available client certificates. Your user can select from these certificates to authenticate to the web service. Some certificates are password protected, so you will need to provide the user with a way to input the password for a certificate.
 
 > [!NOTE]
-> There are no Windows App SDK APIs for managing certificates. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file. Many WinRT APIs can be used by any Windows app with package identity, including WinUI apps.
+> There are no Windows App SDK APIs for managing certificates yet. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file. Many WinRT APIs can be used by any Windows app with package identity, including WinUI apps.
 
 If there are no client certificates available, then the user will need to add a certificate to the certificate store. You can include code in your app that enables a user to select a PFX file that contains a client certificate and then import that certificate into the client certificate store.
 
@@ -72,7 +159,7 @@ If there are no client certificates available, then the user will need to add a 
 > You can use the PowerShell cmdlets **New-SelfSignedCertificate** and **Export-PfxCertificate** to create a self-signed certificate and export it to a PFX file to use with this quickstart. For information, see [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate) and [Export-PfxCertificate](/powershell/module/pki/export-pfxcertificate).
 
 1. Open Visual Studio and create a new WinUI project from the start page. Name the new project "FirstContosoBankApp". Click **Create** to create the new project.
-1. In the MainWindow.xaml file, add the following XAML to a **Grid** element, replacing the existing **StackPanel** element and its contents. This XAML includes a button to browse for a PFX file to import, a text box to enter a password for a password-protected PFX file, a button to import a selected PFX file, a button to log in to the secured web service, and a text block to display the status of the current action.
+1. In the **MainWindow.xaml** file, add the following XAML to a **Grid** element, replacing the existing **StackPanel** element and its contents. This XAML includes a button to browse for a PFX file to import, a text box to enter a password for a password-protected PFX file, a button to import a selected PFX file, a button to log in to the secured web service, and a text block to display the status of the current action.
 
    ```xml
    <Button x:Name="Import" Content="Import Certificate (PFX file)" HorizontalAlignment="Left" Margin="352,305,0,0" VerticalAlignment="Top" Height="77" Width="260" Click="Import_Click" FontSize="16"/>
@@ -84,26 +171,31 @@ If there are no client certificates available, then the user will need to add a 
    <TextBlock HorizontalAlignment="Left" Margin="717,271,0,0" TextWrapping="Wrap" Text="(Optional)" VerticalAlignment="Top" Height="32" Width="83" FontSize="16"/>
    ```
 
-1. Save the MainWindow.xaml file.
-1. In the MainWindow.xaml.cs file, add the following using statements.
+1. Save the **MainWindow** changes.
+1. Open the **MainWindow.xaml.cs** file, and add the following `using` statements.
 
    ```cs
-   using Windows.Web.Http;
+   using System;
+   using System.Security.Cryptography.X509Certificates;
+   using System.Diagnostics;
+   using System.Net.Http;
+   using System.Net;
    using System.Text;
+   using Microsoft.UI.Xaml;
    using Windows.Security.Cryptography.Certificates;
    using Windows.Storage.Pickers;
    using Windows.Storage;
    using Windows.Storage.Streams;
    ```
 
-1. In the MainWindow.xaml.cs file, add the following variables to the **MainWindow** class. They specify the address for the secured "Login" method of your "FirstContosoBank" web service, and a global variable that holds a PFX certificate to import into the certificate store. Update the `<server-name>` to `localhost:7072` or whichever port is specified in the "https" configuration in your API project's launchSettings.json file.
+1. In the MainWindow.xaml.cs file, add the following variables to the **MainWindow** class. They specify the address for the secured **login** service endpoint of your "FirstContosoBank" web service, and a global variable that holds a PFX certificate to import into the certificate store. Update the `<server-name>` to `localhost:7072` or whichever port is specified in the "https" configuration in your API project's launchSettings.json file.
 
    ```cs
    private Uri requestUri = new Uri("https://<server-name>/bank/login");
    private string pfxCert = null;
    ```
 
-1. In the MainWindow.xaml.cs file, add the following click handler for the login button and method to access the secured web service.
+1. In the **MainWindow.xaml.cs** file, add the following click handler for the login button and method to access the secured web service.
 
    ```cs
    private void Login_Click(object sender, RoutedEventArgs e)
@@ -113,14 +205,26 @@ If there are no client certificates available, then the user will need to add a 
 
    private async void MakeHttpsCall()
    {
+       var result = new StringBuilder("Login ");
 
-       StringBuilder result = new StringBuilder("Login ");
-       HttpResponseMessage response;
+       // Load the certificate
+       var certificate = new X509Certificate2(Convert.FromBase64String(pfxCert),
+                                              PfxPassword.Password);
+
+       // Create HttpClientHandler and add the certificate
+       var handler = new HttpClientHandler();
+       handler.ClientCertificates.Add(certificate);
+       handler.ClientCertificateOptions = ClientCertificateOption.Automatic;
+
+       // Create HttpClient with the handler
+       var client = new HttpClient(handler);
+
        try
        {
-           Windows.Web.Http.HttpClient httpClient = new Windows.Web.Http.HttpClient();
-           response = await httpClient.GetAsync(requestUri);
-           if (response.StatusCode == HttpStatusCode.Ok)
+           // Make a request
+           var response = await client.GetAsync(requestUri);
+
+           if (response.StatusCode == HttpStatusCode.OK)
            {
                result.Append("successful");
            }
@@ -140,7 +244,7 @@ If there are no client certificates available, then the user will need to add a 
    }
    ```
 
-1. In the MainPage.xaml.cs file, add the following click handlers for the button to browse for a PFX file and the button to import a selected PFX file into the certificate store.
+1. Next, add the following click handlers for the button to browse for a PFX file and the button to import a selected PFX file into the certificate store.
 
    ```cs
    private async void Import_Click(object sender, RoutedEventArgs e)
@@ -202,7 +306,7 @@ If there are no client certificates available, then the user will need to add a 
    }
    ```
 
-1. Open the Package.appxmanifest file and add the following capabilities to the **Capabilities** tab.
+1. Open the **Package.appxmanifest** file and add the following capabilities to the **Capabilities** tab.
 
    - **EnterpriseAuthentication**
    - **SharedUserCertificates**
