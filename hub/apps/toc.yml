@@ -267,6 +267,8 @@ items:
                   href: develop/feeds/implement-feed-provider-win32.md
                 - name: Feed provider package manifest XML format
                   href: develop/feeds/feed-provider-manifest.md
+            - name: Microsoft Copilot hardware key providers
+              href: develop/windows-integration/microsoft-copliot-key-provider.md
             - name: Search providers
               items: 
                 - name: Overview
