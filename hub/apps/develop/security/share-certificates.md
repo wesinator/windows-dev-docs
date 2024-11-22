@@ -153,7 +153,7 @@ Now that you have one or more secured web services, your apps can use certificat
 > [!NOTE]
 > There are no Windows App SDK APIs for managing certificates yet. You must use the WinRT APIs to manage certificates in your app. We will also be using WinRT storage APIs to import a certificate from a PFX file. Many WinRT APIs can be used by any Windows app with package identity, including WinUI apps.
 >
-> The HTTP client code we'll use uses .NET's [HttpClient](/dotnet/api/system.net.http.httpclient). The [HttpClient](/uwp/api/windows.web.http.httpclient) included in the WinRT APIs doesn't support client certificates.
+> The HTTP client code we'll implement uses .NET's [HttpClient](/dotnet/api/system.net.http.httpclient). The [HttpClient](/uwp/api/windows.web.http.httpclient) included in the WinRT APIs doesn't support client certificates.
 
 If there are no client certificates available, then the user will need to add a certificate to the certificate store. You can include code in your app that enables a user to select a PFX file that contains a client certificate and then import that certificate into the client certificate store.
 
