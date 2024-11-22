@@ -16,7 +16,7 @@ Design and UI-related downloads for Fluent Design/Windows apps. For additional t
     :::column:::
         ![Figma Toolkit icon](images/figma.png)
         **Figma Toolkit**<br/>
-        WinUI 3 in WinAppSDK 1.1, October 2022<br/>
+        Windows Design Kit, November 2024<br/>
         [Download](https://aka.ms/WinUI/3.0-figma-toolkit)
     :::column-end:::
     :::column:::
