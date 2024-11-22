@@ -1,15 +1,15 @@
 ---
 title: Share certificates between Windows apps
-description: Windows apps that require secure authentication beyond a user Id and password combination can use certificates for authentication.
+description: Learn how to authenticate multiple Windows apps using the same certificate, and how to provide a method for users to import a certificate that was provided for access to secured web services.
 ms.date: 09/05/2024
 ms.topic: how-to
 keywords: windows, winui, winrt, dotnet, security
-#customer intent: To learn how to share certificates between Windows apps.
+#customer intent: As a Windows native app developer, I want to learn how to authenticate multiple Windows apps using shared certificates, and how to import a certificate provided for access to secured services.
 ---
 
 # Share certificates between Windows apps
 
-Windows apps that require secure authentication beyond a user Id and password combination can use certificates for authentication. Certificate authentication provides a high level of trust when authenticating a user. In some cases, a group of services will want to authenticate a user for multiple apps. This article shows how you can authenticate multiple apps using the same certificate, and how you can provide convenient code for a user to import a certificate that was provided to access secured web services.
+Windows apps that require secure authentication beyond a user Id and password combination can use certificates for authentication. Certificate authentication provides a high level of trust when authenticating a user. In some cases, a group of services will want to authenticate a user for multiple apps. This article shows how you can authenticate multiple Windows apps using the same certificate, and how you can provide a method for users to import a certificate that was provided for access to secured web services.
 
 Apps can authenticate to a web service using a certificate, and multiple apps can use a single certificate from the certificate store to authenticate the same user. If a certificate does not exist in the store, you can add code to your app to import a certificate from a PFX file. The client app in this quickstart is a WinUI app, and the web service is an ASP.NET Core web API.
 
