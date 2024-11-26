@@ -112,6 +112,10 @@ private void AddImageMessageToConversation(Uri imageUrl)
         ImageUrl = imageUrl.ToString()
     };
     ConversationList.Items.Add(imageMessage);
+
+    // handle scrolling
+    ConversationScrollViewer.UpdateLayout();
+    ConversationScrollViewer.ChangeView(null, ConversationScrollViewer.ScrollableHeight, null);
 }
 
 ```
@@ -318,6 +322,10 @@ namespace ChatGPT_WinUI3
                 ImageUrl = imageUrl.ToString()
             };
             ConversationList.Items.Add(imageMessage);
+
+            // handle scrolling
+            ConversationScrollViewer.UpdateLayout();
+            ConversationScrollViewer.ChangeView(null, ConversationScrollViewer.ScrollableHeight, null);
         }
 
         private void AddMessageToConversation(string message)
