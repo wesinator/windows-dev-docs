@@ -5,9 +5,8 @@ ms.topic: how-to
 ms.date: 11/26/2024
 keywords: windows app sdk, winappsdk, winui3, copilot, github copilot
 ms.localizationpriority: medium
-ms.custom: template-quickstart
 audience: new-desktop-app-developers
-content-type: how-to
+#Customer intent: As a Windows developer, I want to learn how to use GitHub Copilot in Visual Studio to create WinUI 3 apps so that I can leverage the code completion capabilities to build my apps more efficiently.
 ---
 
 # Use GitHub Copilot to create WinUI 3 / Windows App SDK apps in Visual Studio
