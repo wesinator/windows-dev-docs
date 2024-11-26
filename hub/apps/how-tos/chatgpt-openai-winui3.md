@@ -8,6 +8,7 @@ ms.localizationpriority: medium
 ms.custom: template-quickstart
 audience: new-desktop-app-developers
 content-type: how-to
+#Customer intent: As a Windows developer, I want to learn how to integrate OpenAI's chat completions API into my WinUI 3 / Windows App SDK desktop app so that I can build a chat-like interface that generates responses to messages.
 ---
 
 # Add OpenAI chat completions to your WinUI 3 / Windows App SDK desktop app
