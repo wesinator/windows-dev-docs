@@ -130,7 +130,7 @@ This highlights an important consideration: If you provide Copilot with **precis
 
 At the time of this writing, the above input generated the below output:
 
-```MainWindow.xaml.cs
+```csharp MainWindow.xaml.cs
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using System;
@@ -179,7 +179,7 @@ namespace ImageGenerator
 }
 ```
 
-```MainWindow.xaml
+```xml MainWindow.xaml
 <Window
     x:Class="ImageGenerator.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
