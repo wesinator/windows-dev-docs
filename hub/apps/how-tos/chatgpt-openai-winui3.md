@@ -1,5 +1,5 @@
 ---
-title: How to add OpenAI chat completions to your WinUI 3 / Windows App SDK desktop app
+title: How to add OpenAI chat completions to a WinUI desktop app
 description: Get started with WinUI 3 / Windows App SDK desktop apps by integrating OpenAI's chat completions API into the app. 
 ms.topic: how-to
 ms.date: 11/26/2024
@@ -15,7 +15,7 @@ content-type: how-to
 
 In this how-to, you'll learn how to integrate OpenAI's API into your WinUI 3 / Windows App SDK desktop app. We'll build a chat-like interface that lets you generate responses to messages using OpenAI's [chat completions API](https://platform.openai.com/docs/guides/text-generation/chat-completions-api):
 
-:::image type="content" source="images/chatgpt-openai/long-story.png" alt-text="A less minimal chat app.":::
+:::image type="content" source="images/chatgpt-openai/long-story.png" alt-text="A screenshot of a less minimal WinUI chat app.":::
 
 <!--todo: The source code for the app we're building in this how-to is available todo -->
 
@@ -34,7 +34,7 @@ In this how-to, you'll learn how to integrate OpenAI's API into your WinUI 3 / W
 
 After creating your project, you should see the following default file structure in your Solution Explorer:
 
-:::image type="content" source="images/chatgpt-openai/collapsed-file-structure-chatgpt.png" alt-text="The default directory structure.":::
+:::image type="content" source="images/chatgpt-openai/collapsed-file-structure-chatgpt.png" alt-text="A screenshot of the default directory structure in Solution Explorer.":::
 
 ## Set your environment variable
 
@@ -167,7 +167,7 @@ public sealed partial class MainWindow : Window
 
 Run the app and try chatting! You should see something like this:
 
-:::image type="content" source="images/chatgpt-openai/hello-gpt.png" alt-text="A minimal chat app.":::
+:::image type="content" source="images/chatgpt-openai/hello-gpt.png" alt-text="A screenshot of a minimal WinUI chat app.":::
 
 ## Improve the chat interface
 
@@ -385,7 +385,7 @@ Then, add the `InputTextBox_KeyDown` event handler to handle the `Enter` key:
 
 Your new-and-improved chat interface should look something like this:
 
-:::image type="content" source="images/chatgpt-openai/long-story.png" alt-text="A less minimal chat app.":::
+:::image type="content" source="images/chatgpt-openai/long-story.png" alt-text="A screenshot of a less minimal WinUI 3 chat app.":::
 
 ## Recap
 
@@ -403,7 +403,7 @@ Here's what you accomplished in this how-to:
 
 ## Full code files
 
-<!--todo: embed from github -->
+The following code is a full example of the chat app with OpenAI chat completions integrated:
 
 ```xml MainWindow.xaml
 <?xml version="1.0" encoding="utf-8"?>

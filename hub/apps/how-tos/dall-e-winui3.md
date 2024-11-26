@@ -1,6 +1,6 @@
 ---
-title: How to add DALL-E image generation to your WinUI 3 / Windows App SDK app
-description: Get started with WinUI 3 / Windows App SDK by integrating DALL-E image capabilities into your app. 
+title: How to add DALL-E image generation to your WinUI app
+description: Get started with WinUI 3 / Windows App SDK by integrating DALL-E image capabilities into your desktop app. 
 ms.topic: how-to
 ms.date: 11/26/2024
 keywords: windows app sdk, winappsdk, winui3
@@ -140,7 +140,7 @@ public class MessageItem
 
 Run your app, enter a prompt, and click the "Send" button. You should see something like this:
 
-:::image type="content" source="images/dall-e-winui3/cat-laser-eyes.png" alt-text="Image generation demo":::
+:::image type="content" source="images/dall-e-winui3/cat-laser-eyes.png" alt-text="A screenshot of the WinUI image generation demo app.":::
 
 ## Customize the UI on your own
 
