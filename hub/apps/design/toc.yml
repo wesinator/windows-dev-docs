@@ -258,6 +258,8 @@
           href: controls/annotated-scrollbar.md
         - name: Semantic zoom
           href: controls/semantic-zoom.md
+        - name: Split view
+          href: controls/split-view.md
         - name: Two-pane view
           href: controls/two-pane-view.md
     - name: Status and information
@@ -294,21 +296,6 @@
           href: controls/content-links.md
         - name: Handwriting view
           href: controls/text-handwriting-view.md
-- name: Style
-  items:
-    - name: Reveal focus
-      href: style/reveal-focus.md
-    - name: XAML brushes
-      href: style/brushes.md
-    - name: XAML styles
-      href: style/xaml-styles.md
-      items:
-        - name: XAML Control templates
-          href: style/xaml-control-templates.md
-        - name: ResourceDictionary and XAML resource references
-          href: style/xaml-resource-dictionary.md
-        - name: XAML theme resources
-          href: style/xaml-theme-resources.md
 - name: Shell
   items:
     - name: Overview
@@ -398,34 +385,6 @@
               href: shell/tiles-and-notifications/channel-types.md
             - name: Periodic notifications
               href: shell/tiles-and-notifications/periodic-notification-overview.md
-- name: Views
-  items:
-    - name: Show multiple views
-      items:
-        - name: Show multiple views
-          href: layout/show-multiple-views.md
-        - name: Use AppWindow
-          href: layout/app-window.md
-        - name: Use ApplicationView
-          href: layout/application-view.md
-    - name: Panels
-      items:
-        - name: "Tutorial: Use layout panels"
-          href: layout/grid-tutorial.md
-        - name: Split view
-          href: controls/split-view.md
-        - name: Custom panels
-          href: layout/custom-panels-overview.md
-        - name: "Custom panel example: BoxPanel"
-          href: layout/boxpanel-example-custom-panel.md
-    - name: Attached Layout
-      href: layout/attached-layouts.md
-    - name: Transforms
-      items:
-        - name: Overview
-          href: layout/transforms.md
-        - name: 3-D perspective effects
-          href: layout/3-d-perspective-effects.md
 - name: Input and interactions
   items:
     - name: Overview

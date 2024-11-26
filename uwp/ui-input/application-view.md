@@ -67,7 +67,7 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 
     You use the [**CoreDispatcher.RunAsync**](/uwp/api/windows.ui.core.coredispatcher.runasync) method to schedule work on the UI thread for the new view. You use a [lambda expression](/dotnet/csharp/language-reference/operators/lambda-expressions) to pass a function as an argument to the **RunAsync** method. The work you do in the lambda function happens on the new view's thread.
 
-    In XAML, you typically add a [**Frame**](/uwp/api/Windows.UI.Xaml.Controls.Frame) to the [**Window**](/uwp/api/Windows.UI.Xaml.Window)'s [**Content**](/uwp/api/windows.ui.xaml.window.content) property, then navigate the **Frame** to a XAML [**Page**](/uwp/api/Windows.UI.Xaml.Controls.Page) where you've defined your app content. For more info about frames and pages, see [Peer-to-peer navigation between two pages](../basics/navigate-between-two-pages.md).
+    In XAML, you typically add a [**Frame**](/uwp/api/Windows.UI.Xaml.Controls.Frame) to the [**Window**](/uwp/api/Windows.UI.Xaml.Window)'s [**Content**](/uwp/api/windows.ui.xaml.window.content) property, then navigate the **Frame** to a XAML [**Page**](/uwp/api/Windows.UI.Xaml.Controls.Page) where you've defined your app content. For more info about frames and pages, see [Peer-to-peer navigation between two pages](/windows/apps/design/basics/navigate-between-two-pages).
 
     After the new [**Window**](/uwp/api/Windows.UI.Xaml.Window) is populated, you must call the **Window**'s [**Activate**](/uwp/api/windows.ui.xaml.window.activate) method in order to show the **Window** later. This work happens on the new view's thread, so the new **Window** is activated.
 

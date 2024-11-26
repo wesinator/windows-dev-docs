@@ -86,6 +86,6 @@ This next image shows the changes made to control sizes for the Windows 10 Octob
 ## Related articles
 
 - [Guidelines for touch targets](../input/guidelines-for-targeting.md)
-- [ResourceDictionary and XAML resource references](../style/xaml-resource-dictionary.md)
+- [ResourceDictionary and XAML resource references](../../develop/platform/xaml/xaml-resource-dictionary.md)
 - [Resource Dictionary](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.resourcedictionary)
-- [XAML Styles](../style/xaml-styles.md)
+- [XAML Styles](../../develop/platform/xaml/xaml-styles.md)

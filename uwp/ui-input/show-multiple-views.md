@@ -24,7 +24,7 @@ There are a variety of scenarios that can benefit from multiple views. Here are 
 - A note-taking app that lets users copy information from one page of notes to another
 - A reading app that lets users open several articles for reading later, after an opportunity to peruse all high-level headlines
 
-While each app layout is unique, we recommend including a "new window" button in a predictable location, such as the top right corner of the content that can be opened in a new window. Also consider including a [context menu](../controls/menus.md) option to "Open in a new window".
+While each app layout is unique, we recommend including a "new window" button in a predictable location, such as the top right corner of the content that can be opened in a new window. Also consider including a [context menu](/windows/apps/design/controls/menus-and-context-menus) option to "Open in a new window".
 
 To create separate instances of your app (rather than separate windows for the same instance), see [Create a multi-instance Windows app](/windows/uwp/launch-resume/multi-instance-uwp).
 
@@ -48,12 +48,12 @@ There are different ways that Windows content can be hosted inside an app.
     To learn how to use AppWindow to show secondary windows in your app, see [Use AppWindow](app-window.md).
 
     > [!NOTE]
-    > AppWindow is currently in preview. This means you can submit apps that use AppWindow to the Store, but some platform and framework components are known to not work with AppWindow (see [Limitations](/uwp/api/windows.ui.windowmanagement.appwindow#limitations)).
+    > Some platform and framework components are known to not work with AppWindow (see [Limitations](/uwp/api/windows.ui.windowmanagement.appwindow#limitations)).
 - [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) (XAML Islands)
 
      UWP XAML content in a Win32 app (using HWND), also known as XAML Islands, is hosted in a DesktopWindowXamlSource.
 
-    For more info about XAML Islands, see [Using the UWP XAML hosting API in a desktop application](../../desktop/modernize/xaml-islands/using-the-xaml-hosting-api.md)
+    For more info about XAML Islands, see [Using the UWP XAML hosting API in a desktop application](/windows/apps/desktop/modernize/xaml-islands/using-the-xaml-hosting-api)
 
 ### Make code portable across windowing hosts
 

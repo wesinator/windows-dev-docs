@@ -232,6 +232,18 @@ items:
               href: windows-app-sdk/system-backdrop-controller.md
             - name: Manage app windows
               href: windows-app-sdk/windowing/windowing-overview.md
+            - name: Layout
+              items:
+              - name: Custom panels
+                href: design/layout/custom-panels-overview.md
+              - name: "Custom panel example: BoxPanel"
+                href: design/layout/boxpanel-example-custom-panel.md
+              - name: Attached Layout
+                href: design/layout/attached-layouts.md
+              - name: Transforms
+                href: develop/platform/xaml/transforms.md
+              - name: 3-D perspective effects
+                href: develop/platform/xaml/3-d-perspective-effects.md
             - name: Retrieve a window handle (HWND)
               href: develop/ui-input/retrieve-hwnd.md
             - name: Display WinRT UI objects that depend on CoreWindow
@@ -1128,6 +1140,19 @@ items:
                       href: develop/platform/csharp-winrt/create-winrt-component-winui-cswinrt.md
                     - name: Diagnose component errors
                       href: develop/platform/csharp-winrt/authoring-diagnostics.md
+            - name: XAML
+              items:
+              - name: XAML brushes
+                href: develop/platform/xaml/brushes.md
+              - name: XAML styles
+                href: develop/platform/xaml/xaml-styles.md
+                items:
+                - name: XAML Control templates
+                  href: develop/platform/xaml/xaml-control-templates.md
+                - name: ResourceDictionary and XAML resource references
+                  href: develop/platform/xaml/xaml-resource-dictionary.md
+                - name: XAML theme resources
+                  href: develop/platform/xaml/xaml-theme-resources.md
     - name: API reference
       href: api-reference/index.md
       items: 
