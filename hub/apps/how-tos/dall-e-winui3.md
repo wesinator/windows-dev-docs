@@ -359,4 +359,4 @@ namespace ChatGPT_WinUI3
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Windows App SDK Samples](../get-started/samples.md)
-- [Betalgo/OpenAI SDK](https://github.com/betalgo/openai)
+- [OpenAI .NET library on GitHub](https://github.com/openai/openai-dotnet)
