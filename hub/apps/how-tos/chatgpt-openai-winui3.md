@@ -129,6 +129,8 @@ public sealed partial class MainWindow : Window
                 {
                     MaxOutputTokenCount = 300
                 };
+
+                // Assemble the chat prompt with a system message and the user's input
                 var completionResult = await chatClient.CompleteChatAsync(
                     [
                         ChatMessage.CreateSystemMessage("You are a helpful assistant."),
@@ -250,6 +252,8 @@ Then, update the `SendButton_Click` event handler to show the `ProgressBar` whil
                 {
                     MaxOutputTokenCount = 300
                 };
+
+                // Assemble the chat prompt with a system message and the user's input
                 var completionResult = await chatClient.CompleteChatAsync(
                     [
                         ChatMessage.CreateSystemMessage("You are a helpful assistant."),
@@ -467,7 +471,7 @@ namespace ChatGPT_WinUI3
 
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
-            ResponseProgressBar.Visibility = Visibility.Visible; // new!
+            ResponseProgressBar.Visibility = Visibility.Visible;
             string userInput = InputTextBox.Text;
     
             try
@@ -481,6 +485,8 @@ namespace ChatGPT_WinUI3
                     {
                         MaxOutputTokenCount = 300
                     };
+
+                    // Assemble the chat prompt with a system message and the user's input
                     var completionResult = await chatClient.CompleteChatAsync(
                         [
                             ChatMessage.CreateSystemMessage("You are a helpful assistant."),
@@ -502,9 +508,9 @@ namespace ChatGPT_WinUI3
             {
                 AddMessageToConversation($"GPT: Sorry, something bad happened: {ex.Message}");
             }
-            finally // new!
+            finally
             {
-                ResponseProgressBar.Visibility = Visibility.Collapsed; // new!
+                ResponseProgressBar.Visibility = Visibility.Collapsed;
             }
         }
 
