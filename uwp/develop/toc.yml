@@ -1513,3 +1513,13 @@
       href: ../ui-input/title-bar.md
     - name: Use Mica in UWP apps
       href: ../ui-input/mica-uwp.md
+    - name: Reveal focus
+      href: ../ui-input/reveal-focus.md
+    - name: Show multiple views
+      items:
+        - name: Show multiple views
+          href: ../ui-input/show-multiple-views.md
+        - name: Use AppWindow
+          href: ../ui-input/app-window.md
+        - name: Use ApplicationView
+          href: ../ui-input/application-view.md

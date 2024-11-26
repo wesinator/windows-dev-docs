@@ -51,7 +51,7 @@ Follow these guidelines when you define and consume your own custom theme resour
 
 The combined set of colors for "Light", "Dark", and "HighContrast" themes make up the *Windows color ramp* in XAML. Whether you want to modify the system themes, or apply a theme to your own XAML elements, it's important to understand how the color resources are structured.
 
-For additional information about how to apply color in your Windows app, please see [Color in Windows apps](../style/color.md).
+For additional information about how to apply color in your Windows app, please see [Color in Windows apps](../../../design/signature-experiences/color.md).
 
 ### Light and Dark theme colors
 
@@ -67,7 +67,7 @@ The XAML framework provides a set of named [Color](/uwp/api/Windows.UI.Color) re
 
 In addition to the set of resources provided by the XAML framework, there's a set of color values derived from the Windows system palette. These colors are not specific to the Windows Runtime or Windows apps. However, many of the XAML [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush) resources consume these colors when the system is operating (and the app is running) using the "HighContrast" theme. The XAML framework provides these system-wide colors as keyed resources. The keys follow the naming format: `SystemColor[name]Color`.
 
-For more information about supporting contrast themes, see [Contrast themes](../accessibility/high-contrast-themes.md).
+For more information about supporting contrast themes, see [Contrast themes](../../../design/accessibility/high-contrast-themes.md).
 
 ### System accent color
 
@@ -98,13 +98,13 @@ When this brush is applied to a XAML element, its color is determined at run-tim
 
 ## The XAML type ramp
 
-The themeresources.xaml file defines several resources that define a [Style](/uwp/api/Windows.UI.Xaml.Style) that you can apply to text containers in your UI, specifically for either [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) or [RichTextBlock](/uwp/api/Windows.UI.Xaml.Controls.RichTextBlock). These are not the default implicit styles. They are provided to make it easier for you to create XAML UI definitions that match the *Windows type ramp* documented in [Guidelines for fonts](../style/typography.md).
+The themeresources.xaml file defines several resources that define a [Style](/uwp/api/Windows.UI.Xaml.Style) that you can apply to text containers in your UI, specifically for either [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) or [RichTextBlock](/uwp/api/Windows.UI.Xaml.Controls.RichTextBlock). These are not the default implicit styles. They are provided to make it easier for you to create XAML UI definitions that match the *Windows type ramp* documented in [Guidelines for fonts](../../../design/signature-experiences/typography.md).
 
 These styles are for text attributes that you want applied to the whole text container. If you want styles applied just to sections of the text, set attributes on the text elements within the container, such as on a [Run](/uwp/api/Windows.UI.Xaml.Documents.Run) in [TextBlock.Inlines](/uwp/api/windows.ui.xaml.controls.textblock.inlines) or on a [Paragraph](/uwp/api/Windows.UI.Xaml.Documents.Paragraph) in [RichTextBlock.Blocks](/uwp/api/windows.ui.xaml.controls.richtextblock.blocks).
 
 The styles look like this when applied to a [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock):
 
-![text block styles](../style/images/type/text-block-type-ramp.svg)
+![text block styles](images/text-block-type-ramp.svg)
 
 | Style      | Weight  | Size |
 |------------|---------|------|
@@ -128,7 +128,7 @@ The styles look like this when applied to a [TextBlock](/uwp/api/Windows.UI.Xaml
 <TextBlock Text="Display" Style="{StaticResource DisplayTextBlockStyle}"/>
 ```
 
-For guidance on how to use the Windows type ramp in your app, see [Typography in Windows apps](../style/typography.md).
+For guidance on how to use the Windows type ramp in your app, see [Typography in Windows apps](../../../design/signature-experiences/typography.md).
 
 For details of the XAML styles, see WinUI on GitHub:
  - [Caption TextBlockStyle](https://github.com/microsoft/microsoft-ui-xaml/blob/cb181acede22577c59c5dc250361d3340252f4e9/dev/CommonStyles/TextBlock_themeresources.xaml#L21)

@@ -80,7 +80,7 @@ Let's take a look at the steps to show content in a new AppWindow.
 
 1. Create the window content.
 
-    Typically, you create a XAML [Frame](/uwp/api/Windows.UI.Xaml.Controls.Frame), then navigate the Frame to a XAML [Page](/uwp/api/Windows.UI.Xaml.Controls.Page) where you've defined your app content. For more info about frames and pages, see [Peer-to-peer navigation between two pages](../basics/navigate-between-two-pages.md).
+    Typically, you create a XAML [Frame](/uwp/api/Windows.UI.Xaml.Controls.Frame), then navigate the Frame to a XAML [Page](/uwp/api/Windows.UI.Xaml.Controls.Page) where you've defined your app content. For more info about frames and pages, see [Peer-to-peer navigation between two pages](/windows/apps/design/basics/navigate-between-two-pages).
 
     ```csharp
     Frame appWindowContentFrame = new Frame();

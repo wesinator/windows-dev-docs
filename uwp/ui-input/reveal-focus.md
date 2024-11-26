@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 ![hero image](images/header-reveal-focus.svg)
 
-Reveal Focus is a lighting effect for [10-foot experiences](../devices/designing-for-tv.md), such as game consoles on television screens. It animates the border of focusable elements, such as buttons, when the user moves gamepad or keyboard focus to them. It's turned off by default, but it's simple to enable.
+Reveal Focus is a lighting effect for 10-foot experiences, such as game consoles on television screens. It animates the border of focusable elements, such as buttons, when the user moves gamepad or keyboard focus to them. It's turned off by default, but it's simple to enable.
 
 > **Important APIs**: [Application.FocusVisualKind property](/uwp/api/windows.ui.xaml.application.FocusVisualKind), [FocusVisualKind enum](/uwp/api/windows.ui.xaml.focusvisualkind), [Control.UseSystemFocusVisuals property](/uwp/api/Windows.UI.Xaml.Controls.Control.UseSystemFocusVisuals)
 
@@ -27,19 +27,11 @@ This is especially helpful in 10-foot scenarios where the user might not be payi
 
 ## Examples
 
-<table>
-<th align="left">WinUI 2 Gallery<th>
-<tr>
-<td><img src="images/xaml-controls-gallery-sm.png" alt="WinUI Gallery"></img></td>
-<td>
-    <p>If you have the <strong>WinUI 2 Gallery</strong> app installed, click here to <a href="winui2gallery:/item/RevealFocus">open the app and see Reveal Focus in action</a>.</p>
-    <ul>
-    <li><a href="https://www.microsoft.com/store/productId/9MSVH128X2ZT">Get the WinUI 2 Gallery app (Microsoft Store)</a></li>
-    <li><a href="https://github.com/Microsoft/WinUI-Gallery">Get the source code (GitHub)</a></li>
-    </ul>
-</td>
-</tr>
-</table>
+> [!div class="checklist"]
+>
+> - [Open the WinUI 2 Gallery app and see RevealFocus in action](winui2gallery:/item/RevealFocus).
+
+The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 ## How to use it
 
@@ -61,7 +53,7 @@ As you can see, it's fairly easy to turn on Reveal Focus when the app detects it
 
 ## Customizing Reveal Focus
 
-You can customize the Reveal Focus effect by modifying the focus visual properties for each control: [FocusVisualPrimaryThickness](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualPrimaryThickness), [FocusVisualSecondaryThickness](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualSecondaryThickness), [FocusVisualPrimaryBrush](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualPrimaryBrush), and [FocusVisualSecondaryBrush](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualSecondaryBrush). These properties let you customize the color and thickness of the focus rectangle. (They're the same properties you use for creating [High Visibility focus visuals](../input/guidelines-for-visualfeedback.md#high-visibility-focus-visuals).) 
+You can customize the Reveal Focus effect by modifying the focus visual properties for each control: [FocusVisualPrimaryThickness](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualPrimaryThickness), [FocusVisualSecondaryThickness](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualSecondaryThickness), [FocusVisualPrimaryBrush](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualPrimaryBrush), and [FocusVisualSecondaryBrush](/uwp/api/windows.ui.xaml.frameworkelement.FocusVisualSecondaryBrush). These properties let you customize the color and thickness of the focus rectangle. (They're the same properties you use for creating [High Visibility focus visuals](/windows/apps/design/input/guidelines-for-visualfeedback#high-visibility-focus-visuals).) 
 
 But before you start customizing it, it's helpful to know a little more about the components that make up Reveal Focus.
 
@@ -136,7 +128,7 @@ To change the color of all focus visuals in your entire app, override the **Syst
 </Application.Resources>
 ```
 
-For more information on modifying the focus visual's color, see [Color Branding & Customizing](../input/guidelines-for-visualfeedback.md#color-branding--customizing).
+For more information on modifying the focus visual's color, see [Color Branding & Customizing](/windows/apps/design/input/guidelines-for-visualfeedback#color-branding--customizing).
 
 
 ## Show just the glow
@@ -156,15 +148,9 @@ If you'd like to use only the glow without the primary or secondary focus visual
 
 Another way to customize Reveal Focus is to opt out of the system-provided focus visuals by drawing your own using visual states. To learn more, see the [Focus visuals sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlFocusVisuals).
 
-
-## Reveal Focus and the Fluent Design System
-
-Reveal Focus is a Fluent Design System component that adds light to your app. To learn more about the Fluent Design system and its other components, see the [Fluent Design overview](../index.md).
-
 ## Related articles
 
-- [Designing for Xbox and TV](../devices/designing-for-tv.md)
-- [Gamepad and remote control interactions](../input/gamepad-and-remote-interactions.md)
+- [Gamepad and remote control interactions](/windows/apps/design/input/gamepad-and-remote-interactions)
 - [Focus visuals sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlFocusVisuals)
 - [Composition Effects](/windows/uwp/composition/composition-effects)
 - [Science in the System: Fluent Design and Depth](https://medium.com/microsoft-design/science-in-the-system-fluent-design-and-depth-fb6d0f23a53f)

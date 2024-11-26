@@ -182,7 +182,7 @@ When you create a new template for a control, in addition to possibly changing t
 
 To separate the basic control logic and also to satisfy some of the architectural requirements of UI Automation, control classes include their accessibility support in a separate class, an automation peer. The automation peers sometimes have interactions with the control templates because the peers expect certain named parts to exist in the templates, so that functionality such as enabling assistive technologies to invoke actions of buttons is possible.
 
-When you create a completely new custom control, you sometimes also will want to create a new automation peer to go along with it. For more info, see [Custom automation peers](../accessibility/custom-automation-peers.md).
+When you create a completely new custom control, you sometimes also will want to create a new automation peer to go along with it. For more info, see [Custom automation peers](../../../design/accessibility/custom-automation-peers.md).
 
 ## Learn more about a control's default template
 

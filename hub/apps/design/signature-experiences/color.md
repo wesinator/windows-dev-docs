@@ -113,7 +113,7 @@ If you don't request a theme for your app, make sure to test your app in both li
 
 ## Theme brushes
 
-Common controls automatically use [theme brushes](../style/xaml-theme-resources.md#the-xaml-color-ramp-and-theme-dependent-brushes) to adjust contrast for light and dark themes.
+Common controls automatically use [theme brushes](../../develop/platform/xaml/xaml-theme-resources.md#the-xaml-color-ramp-and-theme-dependent-brushes) to adjust contrast for light and dark themes.
 
 For example, here's an illustration of how the [AutoSuggestBox](../controls/auto-suggest-box.md) uses theme brushes:
 
@@ -152,7 +152,7 @@ For example, these [item templates for ListView](../controls/item-templates-list
 </ListView>
 ```
 
-For more information about how to use theme brushes in your app, see [Theme Resources](../style/xaml-theme-resources.md).
+For more information about how to use theme brushes in your app, see [Theme Resources](../../develop/platform/xaml/xaml-theme-resources.md).
 
 ## Accent colors
 
@@ -195,7 +195,7 @@ An accent color algorithm in the Windows shell generates light and dark shades o
 
 ![accent color palette](../style/images/color/accent-color-palette.svg)
 
-These shades can be accessed as [theme resources](../style/xaml-theme-resources.md):
+These shades can be accessed as [theme resources](../../develop/platform/xaml/xaml-theme-resources.md):
 
 - `SystemAccentColorLight3`
 - `SystemAccentColorLight2`
@@ -233,7 +233,7 @@ The chart below illustrates an example of the various light/dark shades of accen
 
 ![Screenshot of the Color on Color chart that shows a color gradient from light blue on the top changing to a dark blue on the bottom.](../style/images/color/color-on-color.png)
 
-For more information about styling controls, see [XAML styles](../style/xaml-styles.md).
+For more information about styling controls, see [XAML styles](../../develop/platform/xaml/xaml-styles.md).
 
 ## Color API
 
@@ -272,7 +272,7 @@ The most common use for a **Color** is as an argument for a [**SolidColorBrush**
 </ResourceDictionary>
 ```
 
-For more information on how to use brushes, see [XAML brushes](../style/brushes.md).
+For more information on how to use brushes, see [XAML brushes](../../develop/platform/xaml/brushes.md).
 
 ## Usability
 
@@ -313,6 +313,6 @@ Be aware of how colorblindness could affect the usability of your application. F
 
 ## Related
 
-- [XAML Styles](../style/xaml-styles.md)
-- [XAML Theme Resources](../style/xaml-theme-resources.md)
+- [XAML Styles](../../develop/platform/xaml/xaml-styles.md)
+- [XAML Theme Resources](../../develop/platform/xaml/xaml-theme-resources.md)
 - [WinUI 3 Gallery - Colors](winui3gallery://item/Colors)
