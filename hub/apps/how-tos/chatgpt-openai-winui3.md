@@ -200,9 +200,11 @@ Modify the `AddMessageToConversation` method to style the user's input and the G
     // ...
     private void AddMessageToConversation(string message)
     {
-        var messageBlock = new TextBlock();
-        messageBlock.Text = message;
-        messageBlock.Margin = new Thickness(5);
+        var messageBlock = new TextBlock
+        {
+            Text = message,
+            Margin = new Thickness(5)
+        };
         if (message.StartsWith("User:"))
         {
             messageBlock.Foreground = new SolidColorBrush(Colors.LightBlue);
@@ -330,9 +332,12 @@ Finally, update the `AddMessageToConversation` method to use the new `MessageIte
     // ...
     private void AddMessageToConversation(string message)
     {
-        var messageItem = new MessageItem();
-        messageItem.Text = message;
-        messageItem.Color = message.StartsWith("User:") ? new SolidColorBrush(Colors.LightBlue) : new SolidColorBrush(Colors.LightGreen);
+        var messageItem = new MessageItem
+        {
+            Text = message,
+            Color = message.StartsWith("User:") ? new SolidColorBrush(Colors.LightBlue)
+                                                : new SolidColorBrush(Colors.LightGreen)
+        };
         ConversationList.Items.Add(messageItem);
 
         // handle scrolling
@@ -457,9 +462,7 @@ namespace ChatGPT_WinUI3
 
             var openAiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
 
-            openAiService = new OpenAIService(new OpenAiOptions(){
-                ApiKey = openAiKey
-            });
+            openAiService = new(openAiKey);
         }
 
         private async void SendButton_Click(object sender, RoutedEventArgs e)
@@ -507,9 +510,12 @@ namespace ChatGPT_WinUI3
 
         private void AddMessageToConversation(string message)
         {
-            var messageItem = new MessageItem();
-            messageItem.Text = message;
-            messageItem.Color = message.StartsWith("User:") ? new SolidColorBrush(Colors.LightBlue) : new SolidColorBrush(Colors.LightGreen);
+            var messageItem = new MessageItem
+            {
+                Text = message,
+                Color = message.StartsWith("User:") ? new SolidColorBrush(Colors.LightBlue)
+                                                    : new SolidColorBrush(Colors.LightGreen)
+            };
             ConversationList.Items.Add(messageItem);
 
             // handle scrolling
