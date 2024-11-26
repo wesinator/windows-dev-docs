@@ -1,7 +1,7 @@
 ---
 description: This article explains how to launch the Windows Settings app directly to the camera settings page.
 title: Launch the camera settings page
-ms.date: 06/21/2022
+ms.date: 11/26/2024
 ms.topic: article
 keywords: windows 10, uwp
 dev_langs:
