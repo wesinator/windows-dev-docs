@@ -2,7 +2,7 @@
 title: Spacing and Sizes
 description: The new Fluent Standard and Compact control styles ensure a comfortable user experience regardless of device and input method.
 keywords: UWP, Windows 10, controls, size, density, standard, compact
-ms.date: 09/20/2024
+ms.date: 11/27/2024
 ms.topic: article
 ms.localizationpriority: medium
 ms.custom: 19H1
@@ -19,7 +19,9 @@ While functionality and behavior has not changed and remains consistent across t
 ## Examples
 
 > [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see Compact Sizing in action](winui3gallery://item/CompactSizing).
+> [Open the WinUI 3 Gallery app and see Spacing examples](winui3gallery://item/Spacing)
+>
+> [Open the WinUI 3 Gallery app and see Compact Sizing in action](winui3gallery://item/CompactSizing)
 
 [!INCLUDE [winui-3-gallery](../../../includes/winui-3-gallery.md)]
 
