@@ -70,6 +70,13 @@ You can also use the static resource `SymbolThemeFontFamily` to access `Segoe Fl
 * On Windows 10: `Segoe Fluent Icons` is not included by default on Windows 10. You can download it [here](../downloads/index.md#fonts).
 * On a Mac or other device: You can download `Segoe Fluent Icons` and other fonts [here](../downloads/index.md#fonts). You can download the font for use in design and development, but you may not ship it to another platform.
 
+## Examples
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 3 Gallery app and see Iconography principles in action](winui3gallery:/item/Iconography)
+
+[!INCLUDE [winui-3-gallery](../../../includes/winui-3-gallery.md)]
+
 ## Icon list
 
 Please keep in mind that the `Segoe Fluent Icons` font includes many more icons than we can show here. Many of the icons are intended for specialized purposes and are not typically used anywhere else.
@@ -5787,11 +5794,3 @@ The following table of glyphs displays unicode points prefixed from F6- to F8-.
     <td>ClickedOutLoudSolidBold</td>
   </tr>
  </table>
-
-## Examples
-
-> [!TIP]
-> [!div class="nextstepaction"]
-> [Open the WinUI 3 Gallery app and see Iconography principles in action](winui3gallery:/item/Icons).
-
-> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
