@@ -74,7 +74,7 @@ To launch apps as admin, select the "Launch as Admin" box in the respective app'
 
 ## Opening new windows vs. repositioning existing windows
 
-Different apps may behave differently on launch if there is already an existing instance of the application open on the desktop - some apps will reposition the existing instance, whereas others may launch a new instance by default. If the "Move existing windows" option has been enabled, any existing apps are moved to the workspace and the remaining apps are launched as usual. For tailoring to user preference, the recommendation is to handle launch behavior via available CLI arguments.
+Different apps may behave differently on launch if there is already an existing instance of the application open on the desktop - some apps will reposition the existing instance, whereas others may launch a new instance by default. If the "Move existing windows" option is enabled for the workspace, any existing apps are moved to the workspace and the remaining apps are launched as usual. For tailoring to user preference, the recommendation is to handle launch behavior via available CLI arguments.
 
 For example, VS Code will launch a new window by default, but should a user prefer to move the existing window, the `--reuse-window` CLI argument can be added to VS Code's CLI arguments.
 
