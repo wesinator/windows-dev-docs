@@ -31,7 +31,7 @@ This topic describes the following URI schemes built into Windows:
 | [ms-chat:](#messaging-app-uri-scheme) | Messaging app |
 | [ms-people:](#people-app-uri-scheme) | People app |
 | [ms-photos:](#photos-app-uri-scheme) | Photos app |
-| [ms-recall:](/windows/ai/apis/recall#launch-click-to-do) >>> | Click to do (part of [Recall](/windows/ai/apis/recall)) |
+| [ms-recall:](/windows/ai/apis/recall#launch-click-to-do) | Click to do (part of [Recall](/windows/ai/apis/recall)) |
 | [ms-settings:](#settings-app-uri-scheme) | Settings app |
 | [ms-store:](#store-app-uri-scheme)  | Store app |
 | [ms-tonepicker:](#tone-picker-uri-scheme) | Tone picker |
