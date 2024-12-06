@@ -26,17 +26,17 @@ This topic describes the following URI schemes built into Windows:
 | [bingmaps:, ms-drive-to:, and ms-walk-to:](#maps-app-uri-schemes) | Maps app |
 | [http: and https:](#http-uri-scheme) | Default web browser |
 | [mailto:](#email-uri-scheme) | Default email app |
+| [microsoft-edge:](#microsoft-edge-uri-scheme) | Microsoft Edge browser |
 | [ms-call:](#call-app-uri-scheme) |  Call app |
 | [ms-chat:](#messaging-app-uri-scheme) | Messaging app |
 | [ms-people:](#people-app-uri-scheme) | People app |
 | [ms-photos:](#photos-app-uri-scheme) | Photos app |
+| [ms-recall:](/windows/ai/apis/recall#launch-click-to-do) | Click to do (part of [Recall](/windows/ai/apis/recall)) |
 | [ms-settings:](#settings-app-uri-scheme) | Settings app |
 | [ms-store:](#store-app-uri-scheme)  | Store app |
 | [ms-tonepicker:](#tone-picker-uri-scheme) | Tone picker |
 | [ms-yellowpage:](#nearby-numbers-app-uri-scheme) | Nearby Numbers app |
 | [msnweather:](#weather-app-uri-scheme) | Weather app |
-| [microsoft-edge:](#microsoft-edge-uri-scheme) | Microsoft Edge browser |
-| [ms-recall:](/windows/ai/apis/recall#launch-click-to-do) >>> | Click to do (part of [Recall](/windows/ai/apis/recall)). |
 
 For example, the following URI opens the default browser and displays the Microsoft Bing web site: `https://bing.com/`.
 
