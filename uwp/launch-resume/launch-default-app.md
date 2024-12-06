@@ -141,7 +141,7 @@ Use the **mailto:** URI scheme to launch the default mail app.
 | URI Scheme |Results |
 |------------|--------|
 | `mailto:` | Launches the default email app. |
-| mailto:\[email address\] | Launches the email app and creates a new message with the specified email address on the To line. Note that the email is not sent until the user taps send. |
+| `mailto:\[email address\]` | Launches the email app and creates a new message with the specified email address on the To line. Note that the email is not sent until the user taps send. |
 
 ### HTTP URI scheme
 
