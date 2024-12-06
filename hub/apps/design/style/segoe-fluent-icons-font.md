@@ -2,9 +2,9 @@
 description: This article lists and provides usage guidance for the glyphs that come with the Segoe Fluent Icons font.
 title: Segoe Fluent Icons font
 label: Segoe Fluent Icons font
-ms.date: 07/18/2024
+ms.date: 12/6/2024
 ms.topic: article
-keywords: windows 10, uwp
+keywords: windows 10, windows 11
 ms.localizationpriority: medium
 ---
 
@@ -106,6 +106,17 @@ The following table of glyphs displays unicode points prefixed from E7- to E9-.
     <td>Unicode point</td>
     <td>Description</td>
    </tr>
+
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e72f.png"	width="32"	height="32"	alt="BlockedSite"	/></td><td>e72f</td><td>BlockedSite</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e733.png"	width="32"	height="32"	alt="Blocked"	/></td><td>e733</td><td>Blocked</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e794.png"	width="32"	height="32"	alt="Effects"	/></td><td>e794</td><td>Effects</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e7a1.png"	width="32"	height="32"	alt="Contrast"	/></td><td>e7a1</td><td>Contrast</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e7aa.png"	width="32"	height="32"	alt="PhotoCollection"	/></td><td>e7aa</td><td>PhotoCollection</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e8ac.png"	width="32"	height="32"	alt="Rename"	/></td><td>e8ac</td><td>Rename</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e8c8.png"	width="32"	height="32"	alt="Copy"	/></td><td>e8c8</td><td>Copy</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e8fc.png"	width="32"	height="32"	alt="GoToStart"	/></td><td>e8fc</td><td>GoToStart</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/e9a4.png"	width="32"	height="32"	alt="TextBulletListSquare"	/></td><td>e9a4</td><td>TextBulletListSquare</td></tr>
+
   <tr><td><img src="images/glyphs/segoe-fluent-icons/e700.png" width="32" height="32" alt="GlobalNavButton" /></td>
     <td>e700</td>
     <td>GlobalNavButton</td>
@@ -3645,6 +3656,45 @@ The following table of glyphs displays unicode points prefixed from EA- to EC-.
     <td>ecf3</td>
     <td>USBSafeConnect</td>
   </tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ea85.png"	width="32"	height="32"	alt="VolumeDisabled"	/></td><td>ea85</td><td>VolumeDisabled</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ea93.png"	width="32"	height="32"	alt="BatteryCharging10"	/></td><td>ea93</td><td>BatteryCharging10</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eac7.png"	width="32"	height="32"	alt="DesktopLeafTwo"	/></td><td>eac7</td><td>DesktopLeafTwo</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ead4.png"	width="32"	height="32"	alt="Emojiplay"	/></td><td>ead4</td><td>Emojiplay</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ead5.png"	width="32"	height="32"	alt="EmojiBrush"	/></td><td>ead5</td><td>EmojiBrush</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ead6.png"	width="32"	height="32"	alt="EyeTracking"	/></td><td>ead6</td><td>EyeTracking</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ead7.png"	width="32"	height="32"	alt="EyeTrackingText"	/></td><td>ead7</td><td>EyeTrackingText</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eadf.png"	width="32"	height="32"	alt="Trackers"	/></td><td>eadf</td><td>Trackers</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eb19.png"	width="32"	height="32"	alt="ClicktoDoOff"	/></td><td>eb19</td><td>ClicktoDoOff</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eb1d.png"	width="32"	height="32"	alt="ClicktoDo"	/></td><td>eb1d</td><td>ClicktoDo</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eb3b.png"	width="32"	height="32"	alt="GenericApp"	/></td><td>eb3b</td><td>GenericApp</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebab.png"	width="32"	height="32"	alt="MobBatteryCharging0"	/></td><td>ebab</td><td>MobBatteryCharging0</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebac.png"	width="32"	height="32"	alt="MobBatteryCharging1"	/></td><td>ebac</td><td>MobBatteryCharging1</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebad.png"	width="32"	height="32"	alt="MobBatteryCharging2"	/></td><td>ebad</td><td>MobBatteryCharging2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebae.png"	width="32"	height="32"	alt="MobBatteryCharging3"	/></td><td>ebae</td><td>MobBatteryCharging3</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebaf.png"	width="32"	height="32"	alt="MobBatteryCharging4"	/></td><td>ebaf</td><td>MobBatteryCharging4</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb0.png"	width="32"	height="32"	alt="MobBatteryCharging5"	/></td><td>ebb0</td><td>MobBatteryCharging5</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb1.png"	width="32"	height="32"	alt="MobBatteryCharging6"	/></td><td>ebb1</td><td>MobBatteryCharging6</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb2.png"	width="32"	height="32"	alt="MobBatteryCharging7"	/></td><td>ebb2</td><td>MobBatteryCharging7</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb3.png"	width="32"	height="32"	alt="MobBatteryCharging8"	/></td><td>ebb3</td><td>MobBatteryCharging8</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb4.png"	width="32"	height="32"	alt="MobBatteryCharging9"	/></td><td>ebb4</td><td>MobBatteryCharging9</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb5.png"	width="32"	height="32"	alt="MobBatteryCharging10"	/></td><td>ebb5</td><td>MobBatteryCharging10</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb6.png"	width="32"	height="32"	alt="MobBatterySaver0"	/></td><td>ebb6</td><td>MobBatterySaver0</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb7.png"	width="32"	height="32"	alt="MobBatterySaver1"	/></td><td>ebb7</td><td>MobBatterySaver1</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb8.png"	width="32"	height="32"	alt="MobBatterySaver2"	/></td><td>ebb8</td><td>MobBatterySaver2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebb9.png"	width="32"	height="32"	alt="MobBatterySaver3"	/></td><td>ebb9</td><td>MobBatterySaver3</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebba.png"	width="32"	height="32"	alt="MobBatterySaver4"	/></td><td>ebba</td><td>MobBatterySaver4</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebbb.png"	width="32"	height="32"	alt="MobBatterySaver5"	/></td><td>ebbb</td><td>MobBatterySaver5</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebbc.png"	width="32"	height="32"	alt="MobBatterySaver6"	/></td><td>ebbc</td><td>MobBatterySaver6</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebbd.png"	width="32"	height="32"	alt="MobBatterySaver7"	/></td><td>ebbd</td><td>MobBatterySaver7</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebbe.png"	width="32"	height="32"	alt="MobBatterySaver8"	/></td><td>ebbe</td><td>MobBatterySaver8</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebbf.png"	width="32"	height="32"	alt="MobBatterySaver9"	/></td><td>ebbf</td><td>MobBatterySaver9</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ebc0.png"	width="32"	height="32"	alt="MobBatterySaver10"	/></td><td>ebc0</td><td>MobBatterySaver10</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ec02.png"	width="32"	height="32"	alt="MobBatteryUnknown"	/></td><td>ec02</td><td>MobBatteryUnknown</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ec34.png"	width="32"	height="32"	alt="FormatText"	/></td><td>ec34</td><td>FormatText</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ec83.png"	width="32"	height="32"	alt="UpdateStatusDot2"	/></td><td>ec83</td><td>UpdateStatusDot2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ec91.png"	width="32"	height="32"	alt="Uninstall"	/></td><td>ec91</td><td>Uninstall</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ec9c.png"	width="32"	height="32"	alt="CloudNotSynced"	/></td><td>ec9c</td><td>CloudNotSynced</td></tr>
+
  </table>
 
 ### PUA ED00-EF00
@@ -4200,6 +4250,23 @@ The following table of glyphs displays unicode points prefixed from ED- to EF-.
     <td>efa9</td>
     <td>Speech</td>
   </tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ed21.png"	width="32"	height="32"	alt="RestartUpdate2"	/></td><td>ed21</td><td>RestartUpdate2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ed5b.png"	width="32"	height="32"	alt="EmojiSwatch"	/></td><td>ed5b</td><td>EmojiSwatch</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee41.png"	width="32"	height="32"	alt="FullHiraganaPrivateMode"	/></td><td>ee41</td><td>FullHiraganaPrivateMode</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee42.png"	width="32"	height="32"	alt="FullKatakanaPrivateMode"	/></td><td>ee42</td><td>FullKatakanaPrivateMode</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee43.png"	width="32"	height="32"	alt="HalfAlphaPrivateMode"	/></td><td>ee43</td><td>HalfAlphaPrivateMode</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee44.png"	width="32"	height="32"	alt="HalfKatakanaPrivateMode"	/></td><td>ee44</td><td>HalfKatakanaPrivateMode</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee45.png"	width="32"	height="32"	alt="FullAlphaPrivateMode"	/></td><td>ee45</td><td>FullAlphaPrivateMode</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee7e.png"	width="32"	height="32"	alt="FIDOPasskey"	/></td><td>ee7e</td><td>FIDOPasskey</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee92.png"	width="32"	height="32"	alt="TrackersMirrored"	/></td><td>ee92</td><td>TrackersMirrored</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ee95.png"	width="32"	height="32"	alt="StopSolid"	/></td><td>ee95</td><td>StopSolid</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eea0.png"	width="32"	height="32"	alt="RAM"	/></td><td>eea0</td><td>RAM</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/eea1.png"	width="32"	height="32"	alt="CPU"	/></td><td>eea1</td><td>CPU</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ef31.png"	width="32"	height="32"	alt="TrafficLight"	/></td><td>ef31</td><td>TrafficLight</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/ef60.png"	width="32"	height="32"	alt="TextEdit"	/></td><td>ef60</td><td>TextEdit</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/efda.png"	width="32"	height="32"	alt="AppIconDefaultAdd"	/></td><td>efda</td><td>AppIconDefaultAdd</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/efff.png"	width="32"	height="32"	alt="CRMScheduleReports"	/></td><td>efff</td><td>CRMScheduleReports</td></tr>
+
  </table>
 
 ### PUA F000-F200
@@ -5382,6 +5449,33 @@ The following table of glyphs displays unicode points prefixed from F3- to F5-.
     <td>f5ff</td>
     <td>VerticalBatteryCharging2</td>
   </tr>
+
+
+
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f432.png"	width="32"	height="32"	alt="BatterySaver"	/></td><td>f432</td><td>BatterySaver</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f4bd.png"	width="32"	height="32"	alt="Snooze"	/></td><td>f4bd</td><td>Snooze</td></tr>
+
+
+
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f112.png"	width="32"	height="32"	alt="ReadOutLoud"	/></td><td>f112</td><td>ReadOutLoud</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f117.png"	width="32"	height="32"	alt="ProjectToDevice"	/></td><td>f117</td><td>ProjectToDevice</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f120.png"	width="32"	height="32"	alt="TaskManagerApp"	/></td><td>f120</td><td>TaskManagerApp</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f191.png"	width="32"	height="32"	alt="HeadlessDevice"	/></td><td>f191</td><td>HeadlessDevice</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f196.png"	width="32"	height="32"	alt="Beaker"	/></td><td>f196</td><td>Beaker</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f1ad.png"	width="32"	height="32"	alt="WindowsInsider"	/></td><td>f1ad</td><td>WindowsInsider</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f1b1.png"	width="32"	height="32"	alt="PowerButtonUpdate2"	/></td><td>f1b1</td><td>PowerButtonUpdate2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f1e8.png"	width="32"	height="32"	alt="LeafTwo"	/></td><td>f1e8</td><td>LeafTwo</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f232.png"	width="32"	height="32"	alt="GridViewSmall"	/></td><td>f232</td><td>GridViewSmall</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f27c.png"	width="32"	height="32"	alt="Earbudsingle"	/></td><td>f27c</td><td>Earbudsingle</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f27f.png"	width="32"	height="32"	alt="HearingAid"	/></td><td>f27f</td><td>HearingAid</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f285.png"	width="32"	height="32"	alt="MobSnooze"	/></td><td>f285</td><td>MobSnooze</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2a3.png"	width="32"	height="32"	alt="MobNotificationBell"	/></td><td>f2a3</td><td>MobNotificationBell</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2a5.png"	width="32"	height="32"	alt="MobNotificationBellFilled"	/></td><td>f2a5</td><td>MobNotificationBellFilled</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2a8.png"	width="32"	height="32"	alt="MobSnoozeFilled"	/></td><td>f2a8</td><td>MobSnoozeFilled</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2c7.png"	width="32"	height="32"	alt="BulletedList2"	/></td><td>f2c7</td><td>BulletedList2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2c8.png"	width="32"	height="32"	alt="BulletedList2Mirrored"	/></td><td>f2c8</td><td>BulletedList2Mirrored</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f2d9.png"	width="32"	height="32"	alt="CirclePause"	/></td><td>f2d9</td><td>CirclePause</td></tr>
+
  </table>
 
 ### PUA F600-F800
@@ -5397,400 +5491,129 @@ The following table of glyphs displays unicode points prefixed from F6- to F8-.
     <td>Unicode point</td>
     <td>Description</td>
    </tr>
-  <tr><td><img src="images/glyphs/segoe-fluent-icons/f600.png" width="32" height="32" alt="VerticalBatteryCharging3" /></td>
-    <td>f600</td>
-    <td>VerticalBatteryCharging3</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f601.png" width="32" height="32" alt="VerticalBatteryCharging4" /></td>
-    <td>f601</td>
-    <td>VerticalBatteryCharging4</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f602.png" width="32" height="32" alt="VerticalBatteryCharging5" /></td>
-    <td>f602</td>
-    <td>VerticalBatteryCharging5</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f603.png" width="32" height="32" alt="VerticalBatteryCharging6" /></td>
-    <td>f603</td>
-    <td>VerticalBatteryCharging6</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f604.png" width="32" height="32" alt="VerticalBatteryCharging7" /></td>
-    <td>f604</td>
-    <td>VerticalBatteryCharging7</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f605.png" width="32" height="32" alt="VerticalBatteryCharging8" /></td>
-    <td>f605</td>
-    <td>VerticalBatteryCharging8</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f606.png" width="32" height="32" alt="VerticalBatteryCharging9" /></td>
-    <td>f606</td>
-    <td>VerticalBatteryCharging9</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f607.png" width="32" height="32" alt="VerticalBatteryCharging10" /></td>
-    <td>f607</td>
-    <td>VerticalBatteryCharging10</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f608.png" width="32" height="32" alt="VerticalBatteryUnknown" /></td>
-    <td>f608</td>
-    <td>VerticalBatteryUnknown</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f618.png" width="32" height="32" alt="SIMError" /></td>
-    <td>f618</td>
-    <td>SIMError</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f619.png" width="32" height="32" alt="SIMMissing" /></td>
-    <td>f619</td>
-    <td>SIMMissing</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61a.png" width="32" height="32" alt="SIMLock" /></td>
-    <td>f61a</td>
-    <td>SIMLock</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61b.png" width="32" height="32" alt="eSIM" /></td>
-    <td>f61b</td>
-    <td>eSIM</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61c.png" width="32" height="32" alt="eSIMNoProfile" /></td>
-    <td>f61c</td>
-    <td>eSIMNoProfile</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61d.png" width="32" height="32" alt="eSIMLocked" /></td>
-    <td>f61d</td>
-    <td>eSIMLocked</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61e.png" width="32" height="32" alt="eSIMBusy" /></td>
-    <td>f61e</td>
-    <td>eSIMBusy</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f61f.png" width="32" height="32" alt="NoiseCancelation" /></td>
-    <td>f61f</td>
-    <td>NoiseCancelation</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f620.png" width="32" height="32" alt="NoiseCancelationOff" /></td>
-    <td>f620</td>
-    <td>NoiseCancelationOff</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f623.png" width="32" height="32" alt="MusicSharing" /></td>
-    <td>f623</td>
-    <td>MusicSharing</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f624.png" width="32" height="32" alt="MusicSharingOff" /></td>
-    <td>f624</td>
-    <td>MusicSharingOff</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f63c.png" width="32" height="32" alt="CircleShapeSolid" /></td>
-    <td>f63c</td>
-    <td>CircleShapeSolid</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f657.png" width="32" height="32" alt="WifiCallBars" /></td>
-    <td>f657</td>
-    <td>WifiCallBars</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f658.png" width="32" height="32" alt="WifiCall0" /></td>
-    <td>f658</td>
-    <td>WifiCall0</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f659.png" width="32" height="32" alt="WifiCall1" /></td>
-    <td>f659</td>
-    <td>WifiCall1</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f65a.png" width="32" height="32" alt="WifiCall2" /></td>
-    <td>f65a</td>
-    <td>WifiCall2</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f65b.png" width="32" height="32" alt="WifiCall3" /></td>
-    <td>f65b</td>
-    <td>WifiCall3</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f65c.png" width="32" height="32" alt="WifiCall4" /></td>
-    <td>f65c</td>
-    <td>WifiCall4</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f69e.png" width="32" height="32" alt="CHTLanguageBar" /></td>
-    <td>f69e</td>
-    <td>CHTLanguageBar</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f6a9.png" width="32" height="32" alt="ComposeMode" /></td>
-    <td>f6a9</td>
-    <td>ComposeMode</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f6b8.png" width="32" height="32" alt="ExpressiveInputEntry" /></td>
-    <td>f6b8</td>
-    <td>ExpressiveInputEntry</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f6ba.png" width="32" height="32" alt="EmojiTabMoreSymbols" /></td>
-    <td>f6ba</td>
-    <td>EmojiTabMoreSymbols</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f6fa.png" width="32" height="32" alt="WebSearch" /></td>
-    <td>f6fa</td>
-    <td>WebSearch</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f712.png" width="32" height="32" alt="Kiosk" /></td>
-    <td>f712</td>
-    <td>Kiosk</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f714.png" width="32" height="32" alt="RTTLogo" /></td>
-    <td>f714</td>
-    <td>RTTLogo</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f715.png" width="32" height="32" alt="VoiceCall" /></td>
-    <td>f715</td>
-    <td>VoiceCall</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f716.png" width="32" height="32" alt="GoToMessage" /></td>
-    <td>f716</td>
-    <td>GoToMessage</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f71a.png" width="32" height="32" alt="ReturnToCall" /></td>
-    <td>f71a</td>
-    <td>ReturnToCall</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f71c.png" width="32" height="32" alt="StartPresenting" /></td>
-    <td>f71c</td>
-    <td>StartPresenting</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f71d.png" width="32" height="32" alt="StopPresenting" /></td>
-    <td>f71d</td>
-    <td>StopPresenting</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f71e.png" width="32" height="32" alt="ProductivityMode" /></td>
-    <td>f71e</td>
-    <td>ProductivityMode</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f738.png" width="32" height="32" alt="SetHistoryStatus" /></td>
-    <td>f738</td>
-    <td>SetHistoryStatus</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f739.png" width="32" height="32" alt="SetHistoryStatus2" /></td>
-    <td>f739</td>
-    <td>SetHistoryStatus2</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f73d.png" width="32" height="32" alt="Keyboardsettings20" /></td>
-    <td>f73d</td>
-    <td>Keyboardsettings20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f73e.png" width="32" height="32" alt="OneHandedRight20" /></td>
-    <td>f73e</td>
-    <td>OneHandedRight20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f73f.png" width="32" height="32" alt="OneHandedLeft20" /></td>
-    <td>f73f</td>
-    <td>OneHandedLeft20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f740.png" width="32" height="32" alt="Split20" /></td>
-    <td>f740</td>
-    <td>Split20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f741.png" width="32" height="32" alt="Full20" /></td>
-    <td>f741</td>
-    <td>Full20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f742.png" width="32" height="32" alt="Handwriting20" /></td>
-    <td>f742</td>
-    <td>Handwriting20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f743.png" width="32" height="32" alt="ChevronLeft20" /></td>
-    <td>f743</td>
-    <td>ChevronLeft20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f744.png" width="32" height="32" alt="ChevronLeft32" /></td>
-    <td>f744</td>
-    <td>ChevronLeft32</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f745.png" width="32" height="32" alt="ChevronRight20" /></td>
-    <td>f745</td>
-    <td>ChevronRight20</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f746.png" width="32" height="32" alt="ChevronRight32" /></td>
-    <td>f746</td>
-    <td>ChevronRight32</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f763.png" width="32" height="32" alt="Event12" /></td>
-    <td>f763</td>
-    <td>Event12</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f781.png" width="32" height="32" alt="MicOff2" /></td>
-    <td>f781</td>
-    <td>MicOff2</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f785.png" width="32" height="32" alt="DeliveryOptimization" /></td>
-    <td>f785</td>
-    <td>DeliveryOptimization</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f78a.png" width="32" height="32" alt="CancelMedium" /></td>
-    <td>f78a</td>
-    <td>CancelMedium</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f78b.png" width="32" height="32" alt="SearchMedium" /></td>
-    <td>f78b</td>
-    <td>SearchMedium</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f78c.png" width="32" height="32" alt="AcceptMedium" /></td>
-    <td>f78c</td>
-    <td>AcceptMedium</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f78d.png" width="32" height="32" alt="RevealPasswordMedium" /></td>
-    <td>f78d</td>
-    <td>RevealPasswordMedium</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7ad.png" width="32" height="32" alt="DeleteWord" /></td>
-    <td>f7ad</td>
-    <td>DeleteWord</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7ae.png" width="32" height="32" alt="DeleteWordFill" /></td>
-    <td>f7ae</td>
-    <td>DeleteWordFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7af.png" width="32" height="32" alt="DeleteLines" /></td>
-    <td>f7af</td>
-    <td>DeleteLines</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b0.png" width="32" height="32" alt="DeleteLinesFill" /></td>
-    <td>f7b0</td>
-    <td>DeleteLinesFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b1.png" width="32" height="32" alt="InstertWords" /></td>
-    <td>f7b1</td>
-    <td>InstertWords</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b2.png" width="32" height="32" alt="InstertWordsFill" /></td>
-    <td>f7b2</td>
-    <td>InstertWordsFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b3.png" width="32" height="32" alt="JoinWords" /></td>
-    <td>f7b3</td>
-    <td>JoinWords</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b4.png" width="32" height="32" alt="JoinWordsFill" /></td>
-    <td>f7b4</td>
-    <td>JoinWordsFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b5.png" width="32" height="32" alt="OverwriteWords" /></td>
-    <td>f7b5</td>
-    <td>OverwriteWords</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b6.png" width="32" height="32" alt="OverwriteWordsFill" /></td>
-    <td>f7b6</td>
-    <td>OverwriteWordsFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b7.png" width="32" height="32" alt="AddNewLine" /></td>
-    <td>f7b7</td>
-    <td>AddNewLine</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b8.png" width="32" height="32" alt="AddNewLineFill" /></td>
-    <td>f7b8</td>
-    <td>AddNewLineFill</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7b9.png" width="32" height="32" alt="OverwriteWordsKorean" /></td>
-    <td>f7b9</td>
-    <td>OverwriteWordsKorean</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7ba.png" width="32" height="32" alt="OverwriteWordsFillKorean" /></td>
-    <td>f7ba</td>
-    <td>OverwriteWordsFillKorean</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7bb.png" width="32" height="32" alt="EducationIcon" /></td>
-    <td>f7bb</td>
-    <td>EducationIcon</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7ed.png" width="32" height="32" alt="WindowSnipping" /></td>
-    <td>f7ed</td>
-    <td>WindowSnipping</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f7ee.png" width="32" height="32" alt="VideoCapture" /></td>
-    <td>f7ee</td>
-    <td>VideoCapture</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f809.png" width="32" height="32" alt="StatusSecured" /></td>
-    <td>f809</td>
-    <td>StatusSecured</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f83b.png" width="32" height="32" alt="NarratorApp" /></td>
-    <td>f83b</td>
-    <td>NarratorApp</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f83d.png" width="32" height="32" alt="PowerButtonUpdate" /></td>
-    <td>f83d</td>
-    <td>PowerButtonUpdate</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f83e.png" width="32" height="32" alt="RestartUpdate" /></td>
-    <td>f83e</td>
-    <td>RestartUpdate</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f83f.png" width="32" height="32" alt="UpdateStatusDot" /></td>
-    <td>f83f</td>
-    <td>UpdateStatusDot</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f847.png" width="32" height="32" alt="Eject" /></td>
-    <td>f847</td>
-    <td>Eject</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f87b.png" width="32" height="32" alt="Spelling" /></td>
-    <td>f87b</td>
-    <td>Spelling</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f87c.png" width="32" height="32" alt="SpellingKorean" /></td>
-    <td>f87c</td>
-    <td>SpellingKorean</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f87d.png" width="32" height="32" alt="SpellingSerbian" /></td>
-    <td>f87d</td>
-    <td>SpellingSerbian</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f87e.png" width="32" height="32" alt="SpellingChinese" /></td>
-    <td>f87e</td>
-    <td>SpellingChinese</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f89a.png" width="32" height="32" alt="FolderSelect" /></td>
-    <td>f89a</td>
-    <td>FolderSelect</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8a5.png" width="32" height="32" alt="SmartScreen" /></td>
-    <td>f8a5</td>
-    <td>SmartScreen</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8a6.png" width="32" height="32" alt="ExploitProtection" /></td>
-    <td>f8a6</td>
-    <td>ExploitProtection</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8aa.png" width="32" height="32" alt="AddBold" /></td>
-    <td>f8aa</td>
-    <td>AddBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8ab.png" width="32" height="32" alt="SubtractBold" /></td>
-    <td>f8ab</td>
-    <td>SubtractBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8ac.png" width="32" height="32" alt="BackSolidBold" /></td>
-    <td>f8ac</td>
-    <td>BackSolidBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8ad.png" width="32" height="32" alt="ForwardSolidBold" /></td>
-    <td>f8ad</td>
-    <td>ForwardSolidBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8ae.png" width="32" height="32" alt="PauseBold" /></td>
-    <td>f8ae</td>
-    <td>PauseBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8af.png" width="32" height="32" alt="ClickSolid" /></td>
-    <td>f8af</td>
-    <td>ClickSolid</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8b0.png" width="32" height="32" alt="SettingsSolid" /></td>
-    <td>f8b0</td>
-    <td>SettingsSolid</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8b1.png" width="32" height="32" alt="MicrophoneSolidBold" /></td>
-    <td>f8b1</td>
-    <td>MicrophoneSolidBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8b2.png" width="32" height="32" alt="SpeechSolidBold" /></td>
-    <td>f8b2</td>
-    <td>SpeechSolidBold</td>
-  </tr>
-   <tr><td><img src="images/glyphs/segoe-fluent-icons/f8b3.png" width="32" height="32" alt="ClickedOutLoudSolidBold" /></td>
-    <td>f8b3</td>
-    <td>ClickedOutLoudSolidBold</td>
-  </tr>
+
+
+
+
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f600.png"	width="32"	height="32"	alt="VerticalBatteryCharging3"	/></td><td>f600</td><td>VerticalBatteryCharging3</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f601.png"	width="32"	height="32"	alt="VerticalBatteryCharging4"	/></td><td>f601</td><td>VerticalBatteryCharging4</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f602.png"	width="32"	height="32"	alt="VerticalBatteryCharging5"	/></td><td>f602</td><td>VerticalBatteryCharging5</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f603.png"	width="32"	height="32"	alt="VerticalBatteryCharging6"	/></td><td>f603</td><td>VerticalBatteryCharging6</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f604.png"	width="32"	height="32"	alt="VerticalBatteryCharging7"	/></td><td>f604</td><td>VerticalBatteryCharging7</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f605.png"	width="32"	height="32"	alt="VerticalBatteryCharging8"	/></td><td>f605</td><td>VerticalBatteryCharging8</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f606.png"	width="32"	height="32"	alt="VerticalBatteryCharging9"	/></td><td>f606</td><td>VerticalBatteryCharging9</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f607.png"	width="32"	height="32"	alt="VerticalBatteryCharging10"	/></td><td>f607</td><td>VerticalBatteryCharging10</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f608.png"	width="32"	height="32"	alt="VerticalBatteryUnknown"	/></td><td>f608</td><td>VerticalBatteryUnknown</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f618.png"	width="32"	height="32"	alt="SIMError"	/></td><td>f618</td><td>SIMError</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f619.png"	width="32"	height="32"	alt="SIMMissing"	/></td><td>f619</td><td>SIMMissing</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61a.png"	width="32"	height="32"	alt="SIMLock"	/></td><td>f61a</td><td>SIMLock</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61b.png"	width="32"	height="32"	alt="eSIM"	/></td><td>f61b</td><td>eSIM</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61c.png"	width="32"	height="32"	alt="eSIMNoProfile"	/></td><td>f61c</td><td>eSIMNoProfile</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61d.png"	width="32"	height="32"	alt="eSIMLocked"	/></td><td>f61d</td><td>eSIMLocked</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61e.png"	width="32"	height="32"	alt="eSIMBusy"	/></td><td>f61e</td><td>eSIMBusy</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f61f.png"	width="32"	height="32"	alt="NoiseCancelation"	/></td><td>f61f</td><td>NoiseCancelation</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f620.png"	width="32"	height="32"	alt="NoiseCancelationOff"	/></td><td>f620</td><td>NoiseCancelationOff</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f623.png"	width="32"	height="32"	alt="MusicSharing"	/></td><td>f623</td><td>MusicSharing</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f624.png"	width="32"	height="32"	alt="MusicSharingOff"	/></td><td>f624</td><td>MusicSharingOff</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f63c.png"	width="32"	height="32"	alt="CircleShapeSolid"	/></td><td>f63c</td><td>CircleShapeSolid</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f657.png"	width="32"	height="32"	alt="WifiCallBars"	/></td><td>f657</td><td>WifiCallBars</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f658.png"	width="32"	height="32"	alt="WifiCall0"	/></td><td>f658</td><td>WifiCall0</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f659.png"	width="32"	height="32"	alt="WifiCall1"	/></td><td>f659</td><td>WifiCall1</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f65a.png"	width="32"	height="32"	alt="WifiCall2"	/></td><td>f65a</td><td>WifiCall2</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f65b.png"	width="32"	height="32"	alt="WifiCall3"	/></td><td>f65b</td><td>WifiCall3</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f65c.png"	width="32"	height="32"	alt="WifiCall4"	/></td><td>f65c</td><td>WifiCall4</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f67b.png"	width="32"	height="32"	alt="Pen"	/></td><td>f67b</td><td>Pen</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f683.png"	width="32"	height="32"	alt="TextSelect"	/></td><td>f683</td><td>TextSelect</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f684.png"	width="32"	height="32"	alt="TextNavigate"	/></td><td>f684</td><td>TextNavigate</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f698.png"	width="32"	height="32"	alt="PinyinIMELogo2"	/></td><td>f698</td><td>PinyinIMELogo2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f69b.png"	width="32"	height="32"	alt="UserRemove"	/></td><td>f69b</td><td>UserRemove</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f69e.png"	width="32"	height="32"	alt="CHTLanguageBar"	/></td><td>f69e</td><td>CHTLanguageBar</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6a9.png"	width="32"	height="32"	alt="ComposeMode"	/></td><td>f6a9</td><td>ComposeMode</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6b8.png"	width="32"	height="32"	alt="ExpressiveInputEntry"	/></td><td>f6b8</td><td>ExpressiveInputEntry</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6ba.png"	width="32"	height="32"	alt="EmojiTabMoreSymbols"	/></td><td>f6ba</td><td>EmojiTabMoreSymbols</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6c4.png"	width="32"	height="32"	alt="PhoneScreen"	/></td><td>f6c4</td><td>PhoneScreen</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6c5.png"	width="32"	height="32"	alt="AlertUrgent"	/></td><td>f6c5</td><td>AlertUrgent</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6c6.png"	width="32"	height="32"	alt="PhoneDesktop"	/></td><td>f6c6</td><td>PhoneDesktop</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f6fa.png"	width="32"	height="32"	alt="WebSearch"	/></td><td>f6fa</td><td>WebSearch</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f712.png"	width="32"	height="32"	alt="Kiosk"	/></td><td>f712</td><td>Kiosk</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f714.png"	width="32"	height="32"	alt="RTTLogo"	/></td><td>f714</td><td>RTTLogo</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f715.png"	width="32"	height="32"	alt="VoiceCall"	/></td><td>f715</td><td>VoiceCall</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f716.png"	width="32"	height="32"	alt="GoToMessage"	/></td><td>f716</td><td>GoToMessage</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f71a.png"	width="32"	height="32"	alt="ReturnToCall"	/></td><td>f71a</td><td>ReturnToCall</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f71c.png"	width="32"	height="32"	alt="StartPresenting"	/></td><td>f71c</td><td>StartPresenting</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f71d.png"	width="32"	height="32"	alt="StopPresenting"	/></td><td>f71d</td><td>StopPresenting</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f71e.png"	width="32"	height="32"	alt="ProductivityMode"	/></td><td>f71e</td><td>ProductivityMode</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f738.png"	width="32"	height="32"	alt="SetHistoryStatus"	/></td><td>f738</td><td>SetHistoryStatus</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f739.png"	width="32"	height="32"	alt="SetHistoryStatus2"	/></td><td>f739</td><td>SetHistoryStatus2</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f73d.png"	width="32"	height="32"	alt="Keyboardsettings20"	/></td><td>f73d</td><td>Keyboardsettings20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f73e.png"	width="32"	height="32"	alt="OneHandedRight20"	/></td><td>f73e</td><td>OneHandedRight20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f73f.png"	width="32"	height="32"	alt="OneHandedLeft20"	/></td><td>f73f</td><td>OneHandedLeft20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f740.png"	width="32"	height="32"	alt="Split20"	/></td><td>f740</td><td>Split20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f741.png"	width="32"	height="32"	alt="Full20"	/></td><td>f741</td><td>Full20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f742.png"	width="32"	height="32"	alt="Handwriting20"	/></td><td>f742</td><td>Handwriting20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f743.png"	width="32"	height="32"	alt="ChevronLeft20"	/></td><td>f743</td><td>ChevronLeft20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f744.png"	width="32"	height="32"	alt="ChevronLeft32"	/></td><td>f744</td><td>ChevronLeft32</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f745.png"	width="32"	height="32"	alt="ChevronRight20"	/></td><td>f745</td><td>ChevronRight20</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f746.png"	width="32"	height="32"	alt="ChevronRight32"	/></td><td>f746</td><td>ChevronRight32</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f763.png"	width="32"	height="32"	alt="Event12"	/></td><td>f763</td><td>Event12</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f781.png"	width="32"	height="32"	alt="MicOff2"	/></td><td>f781</td><td>MicOff2</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f785.png"	width="32"	height="32"	alt="DeliveryOptimization"	/></td><td>f785</td><td>DeliveryOptimization</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f78a.png"	width="32"	height="32"	alt="CancelMedium"	/></td><td>f78a</td><td>CancelMedium</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f78b.png"	width="32"	height="32"	alt="SearchMedium"	/></td><td>f78b</td><td>SearchMedium</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f78c.png"	width="32"	height="32"	alt="AcceptMedium"	/></td><td>f78c</td><td>AcceptMedium</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f78d.png"	width="32"	height="32"	alt="RevealPasswordMedium"	/></td><td>f78d</td><td>RevealPasswordMedium</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7ad.png"	width="32"	height="32"	alt="DeleteWord"	/></td><td>f7ad</td><td>DeleteWord</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7ae.png"	width="32"	height="32"	alt="DeleteWordFill"	/></td><td>f7ae</td><td>DeleteWordFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7af.png"	width="32"	height="32"	alt="DeleteLines"	/></td><td>f7af</td><td>DeleteLines</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b0.png"	width="32"	height="32"	alt="DeleteLinesFill"	/></td><td>f7b0</td><td>DeleteLinesFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b1.png"	width="32"	height="32"	alt="InstertWords"	/></td><td>f7b1</td><td>InstertWords</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b2.png"	width="32"	height="32"	alt="InstertWordsFill"	/></td><td>f7b2</td><td>InstertWordsFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b3.png"	width="32"	height="32"	alt="JoinWords"	/></td><td>f7b3</td><td>JoinWords</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b4.png"	width="32"	height="32"	alt="JoinWordsFill"	/></td><td>f7b4</td><td>JoinWordsFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b5.png"	width="32"	height="32"	alt="OverwriteWords"	/></td><td>f7b5</td><td>OverwriteWords</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b6.png"	width="32"	height="32"	alt="OverwriteWordsFill"	/></td><td>f7b6</td><td>OverwriteWordsFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b7.png"	width="32"	height="32"	alt="AddNewLine"	/></td><td>f7b7</td><td>AddNewLine</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b8.png"	width="32"	height="32"	alt="AddNewLineFill"	/></td><td>f7b8</td><td>AddNewLineFill</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7b9.png"	width="32"	height="32"	alt="OverwriteWordsKorean"	/></td><td>f7b9</td><td>OverwriteWordsKorean</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7ba.png"	width="32"	height="32"	alt="OverwriteWordsFillKorean"	/></td><td>f7ba</td><td>OverwriteWordsFillKorean</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7bb.png"	width="32"	height="32"	alt="EducationIcon"	/></td><td>f7bb</td><td>EducationIcon</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7ed.png"	width="32"	height="32"	alt="WindowSnipping"	/></td><td>f7ed</td><td>WindowSnipping</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f7ee.png"	width="32"	height="32"	alt="VideoCapture"	/></td><td>f7ee</td><td>VideoCapture</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f809.png"	width="32"	height="32"	alt="StatusSecured"	/></td><td>f809</td><td>StatusSecured</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f83b.png"	width="32"	height="32"	alt="NarratorApp"	/></td><td>f83b</td><td>NarratorApp</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f83d.png"	width="32"	height="32"	alt="PowerButtonUpdate"	/></td><td>f83d</td><td>PowerButtonUpdate</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f83e.png"	width="32"	height="32"	alt="RestartUpdate"	/></td><td>f83e</td><td>RestartUpdate</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f83f.png"	width="32"	height="32"	alt="UpdateStatusDot"	/></td><td>f83f</td><td>UpdateStatusDot</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f847.png"	width="32"	height="32"	alt="Eject"	/></td><td>f847</td><td>Eject</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f87b.png"	width="32"	height="32"	alt="Spelling"	/></td><td>f87b</td><td>Spelling</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f87c.png"	width="32"	height="32"	alt="SpellingKorean"	/></td><td>f87c</td><td>SpellingKorean</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f87d.png"	width="32"	height="32"	alt="SpellingSerbian"	/></td><td>f87d</td><td>SpellingSerbian</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f87e.png"	width="32"	height="32"	alt="SpellingChinese"	/></td><td>f87e</td><td>SpellingChinese</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f89a.png"	width="32"	height="32"	alt="FolderSelect"	/></td><td>f89a</td><td>FolderSelect</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8a5.png"	width="32"	height="32"	alt="SmartScreen"	/></td><td>f8a5</td><td>SmartScreen</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8a6.png"	width="32"	height="32"	alt="ExploitProtection"	/></td><td>f8a6</td><td>ExploitProtection</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8aa.png"	width="32"	height="32"	alt="AddBold"	/></td><td>f8aa</td><td>AddBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8ab.png"	width="32"	height="32"	alt="SubtractBold"	/></td><td>f8ab</td><td>SubtractBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8ac.png"	width="32"	height="32"	alt="BackSolidBold"	/></td><td>f8ac</td><td>BackSolidBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8ad.png"	width="32"	height="32"	alt="ForwardSolidBold"	/></td><td>f8ad</td><td>ForwardSolidBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8ae.png"	width="32"	height="32"	alt="PauseBold"	/></td><td>f8ae</td><td>PauseBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8af.png"	width="32"	height="32"	alt="ClickSolid"	/></td><td>f8af</td><td>ClickSolid</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8b0.png"	width="32"	height="32"	alt="SettingsSolid"	/></td><td>f8b0</td><td>SettingsSolid</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8b1.png"	width="32"	height="32"	alt="MicrophoneSolidBold"	/></td><td>f8b1</td><td>MicrophoneSolidBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8b2.png"	width="32"	height="32"	alt="SpeechSolidBold"	/></td><td>f8b2</td><td>SpeechSolidBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8b3.png"	width="32"	height="32"	alt="ClickedOutLoudSolidBold"	/></td><td>f8b3</td><td>ClickedOutLoudSolidBold</tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c0.png"	width="32"	height="32"	alt="VPNOverlay"	/></td><td>f8c0</td><td>VPNOverlay</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c1.png"	width="32"	height="32"	alt="VPNRoamingOverly"	/></td><td>f8c1</td><td>VPNRoamingOverly</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c2.png"	width="32"	height="32"	alt="WifiVPN3"	/></td><td>f8c2</td><td>WifiVPN3</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c3.png"	width="32"	height="32"	alt="WifiVPN4"	/></td><td>f8c3</td><td>WifiVPN4</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c4.png"	width="32"	height="32"	alt="WifiVPN5"	/></td><td>f8c4</td><td>WifiVPN5</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c5.png"	width="32"	height="32"	alt="SignalBarsVPN2"	/></td><td>f8c5</td><td>SignalBarsVPN2</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c6.png"	width="32"	height="32"	alt="SignalBarsVPN3"	/></td><td>f8c6</td><td>SignalBarsVPN3</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c7.png"	width="32"	height="32"	alt="SignalBarsVPN4"	/></td><td>f8c7</td><td>SignalBarsVPN4</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c8.png"	width="32"	height="32"	alt="SignalBarsVPN5"	/></td><td>f8c8</td><td>SignalBarsVPN5</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8c9.png"	width="32"	height="32"	alt="SignalBarsVPNRoaming3"	/></td><td>f8c9</td><td>SignalBarsVPNRoaming3</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8ca.png"	width="32"	height="32"	alt="SignalBarsVPNRoaming4"	/></td><td>f8ca</td><td>SignalBarsVPNRoaming4</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8cb.png"	width="32"	height="32"	alt="SignalBarsVPNRoaming5"	/></td><td>f8cb</td><td>SignalBarsVPNRoaming5</td></tr>
+<tr><td><img	src="images/glyphs/segoe-fluent-icons/f8cc.png"	width="32"	height="32"	alt="EthernetVPN"	/></td><td>f8cc</td><td>EthernetVPN</td></tr>
+
  </table>
