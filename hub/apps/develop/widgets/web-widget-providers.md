@@ -62,7 +62,7 @@ async void IWidgetResourceProvider.OnResourceRequested(WidgetResourceRequestedAr
 }
 ```
 
-If the provider does not set a response on the **WidgetResourceRequestedArgs** object passed into the method, the system will retrieve the resource from the web. In this case, the provider can choose to modify the [Headers](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetresourcerequestedargs.headers) property of the [WidgetResourceRequestedArgs.Request](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetresourcerequestedargs.request) object, and the system will use the updated headers when retrieving the resource from the web.
+If the provider does not set a response on the **WidgetResourceRequestedArgs** object passed into the method, the system will retrieve the resource from the web. In this case, the provider can choose to modify the [Headers](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetresourcerequestedargs.headers) property of the [WidgetResourceRequestedArgs.Request](/windows/windows-app-sdk/api/winrt/microsoft.windows.widgets.providers.widgetresourcerequestedargs.request) object, such as to provide user context or tokens, and the system will use the updated headers when retrieving the resource from the web.
 
 ## Handle messages to and from web content
 
