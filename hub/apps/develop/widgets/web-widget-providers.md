@@ -44,17 +44,21 @@ In the implementation of the **OnResourceRequested** method, widget providers ca
 ```csharp
 async void IWidgetResourceProvider.OnResourceRequested(WidgetResourceRequestedArgs args)
 {
-    var deferral = args.GetDeferral();
-
-    Func<Task> asyncLambda = async () =>
+    if (args.Request.Uri == "Https://contoso.com/logo-image")
     {
-        string fullPath = Windows.ApplicationModel.Package.Current.InstalledPath + "/Assets/image.png";
-        var file = await StorageFile.GetFileFromPathAsync(fullPath);
-        var response = new WidgetResourceResponse(RandomAccessStreamReference.CreateFromFile(file), "OK", 200);
-    };
-    await asyncLambda();
+        var deferral = args.GetDeferral();
 
-    deferral.Complete();
+        Func<Task> asyncLambda = async () =>
+        {
+            string fullPath = Windows.ApplicationModel.Package.Current.InstalledPath + "/Assets/image.png";
+            var file = await StorageFile.GetFileFromPathAsync(fullPath);
+            var response = new WidgetResourceResponse(RandomAccessStreamReference.CreateFromFile(file), "", 200);
+            args.Response = response;
+        };
+        await asyncLambda();
+
+        deferral.Complete();
+    }
 }
 ```
 

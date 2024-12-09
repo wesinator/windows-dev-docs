@@ -83,7 +83,7 @@ This example will declare some static strings to define the JSON templates for e
 Starting with Windows build [TBD - Build number], apps that implement Windows widgets can customize the header that is displayed for their widget in the Widgets Board, overriding the default presentation. For more information, see [Customize the widget header area](widget-header-customization.md).
 
 > [!NOTE]
-> Starting with Windows Build [TBD - Build number], apps that implement Windows widgets can choose to populate the widget content with HTML served from a remote URL instead of supplying content in the Adaptive Card schema format in the JSON payload passed from the provider to the Widgets Board. Widget providers must still provide an Adaptive Card JSON payload, so the implementation steps in this walkthrough are applicable to web widgets. For more information, see [Web widget providers](web-widget-providers.md).
+> Starting with Windows Build [TBD - Build number], apps that implement Windows widgets can choose to populate the widget content with HTML served from a specified URL instead of supplying content in the Adaptive Card schema format in the JSON payload passed from the provider to the Widgets Board. Widget providers must still provide an Adaptive Card JSON payload, so the implementation steps in this walkthrough are applicable to web widgets. For more information, see [Web widget providers](web-widget-providers.md).
 
 ```csharp
 // WidgetProvider.cs
