@@ -2,7 +2,7 @@
 description: This article lists and provides usage guidance for the glyphs that come with the Segoe Fluent Icons font.
 title: Segoe Fluent Icons font
 label: Segoe Fluent Icons font
-ms.date: 12/7/2024
+ms.date: 12/8/2024
 ms.topic: article
 keywords: windows 10, windows 11
 ms.localizationpriority: medium
@@ -454,7 +454,6 @@ The following table of glyphs displays unicode points prefixed from E7- to E9-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8aa.png" width="32" height="32" alt="VideoChat" /></td><td>e8aa</td><td>VideoChat</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8ab.png" width="32" height="32" alt="Switch" /></td><td>e8ab</td><td>Switch</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8ac.png" width="32" height="32" alt="Rename" /></td><td>e8ac</td><td>Rename</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/e8ac.png" width="32" height="32" alt="Rename" /></td><td>e8ac</td><td>Rename</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8ad.png" width="32" height="32" alt="Go" /></td><td>e8ad</td><td>Go</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8ae.png" width="32" height="32" alt="SurfaceHub" /></td><td>e8ae</td><td>SurfaceHub</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8af.png" width="32" height="32" alt="Remote" /></td><td>e8af</td><td>Remote</td></tr>
@@ -482,7 +481,6 @@ The following table of glyphs displays unicode points prefixed from E7- to E9-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8c5.png" width="32" height="32" alt="HideBcc" /></td><td>e8c5</td><td>HideBcc</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8c6.png" width="32" height="32" alt="Cut" /></td><td>e8c6</td><td>Cut</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8c7.png" width="32" height="32" alt="PaymentCard" /></td><td>e8c7</td><td>PaymentCard</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/e8c8.png" width="32" height="32" alt="Copy" /></td><td>e8c8</td><td>Copy</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8c8.png" width="32" height="32" alt="Copy" /></td><td>e8c8</td><td>Copy</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8c9.png" width="32" height="32" alt="Important" /></td><td>e8c9</td><td>Important</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8ca.png" width="32" height="32" alt="MailReply" /></td><td>e8ca</td><td>MailReply</td></tr>
@@ -535,7 +533,6 @@ The following table of glyphs displays unicode points prefixed from E7- to E9-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8f9.png" width="32" height="32" alt="SwitchApps" /></td><td>e8f9</td><td>SwitchApps</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8fa.png" width="32" height="32" alt="AddFriend" /></td><td>e8fa</td><td>AddFriend</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8fb.png" width="32" height="32" alt="Accept" /></td><td>e8fb</td><td>Accept</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/e8fc.png" width="32" height="32" alt="GoToStart" /></td><td>e8fc</td><td>GoToStart</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8fc.png" width="32" height="32" alt="GoToStart" /></td><td>e8fc</td><td>GoToStart</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8fd.png" width="32" height="32" alt="BulletedList" /></td><td>e8fd</td><td>BulletedList</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/e8fe.png" width="32" height="32" alt="Scan" /></td><td>e8fe</td><td>Scan</td></tr>
@@ -801,7 +798,6 @@ The following table of glyphs displays unicode points prefixed from EA- to EC-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ead6.png" width="32" height="32" alt="EyeTracking" /></td><td>ead6</td><td>EyeTracking</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ead7.png" width="32" height="32" alt="EyeTrackingText" /></td><td>ead7</td><td>EyeTrackingText</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/eadf.png" width="32" height="32" alt="Trackers" /></td><td>eadf</td><td>Trackers</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/eadf.png" width="32" height="32" alt="Trackers" /></td><td>eadf</td><td>Trackers</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/eafc.png" width="32" height="32" alt="Market" /></td><td>eafc</td><td>Market</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/eb05.png" width="32" height="32" alt="PieSingle" /></td><td>eb05</td><td>PieSingle</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/eb0f.png" width="32" height="32" alt="StockUp" /></td><td>eb0f</td><td>StockUp</td></tr>
@@ -877,48 +873,26 @@ The following table of glyphs displays unicode points prefixed from EA- to EC-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/eba9.png" width="32" height="32" alt="MobBattery9" /></td><td>eba9</td><td>MobBattery9</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebaa.png" width="32" height="32" alt="MobBattery10" /></td><td>ebaa</td><td>MobBattery10</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebab.png" width="32" height="32" alt="MobBatteryCharging0" /></td><td>ebab</td><td>MobBatteryCharging0</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebab.png" width="32" height="32" alt="MobBatteryCharging0" /></td><td>ebab</td><td>MobBatteryCharging0</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebac.png" width="32" height="32" alt="MobBatteryCharging1" /></td><td>ebac</td><td>MobBatteryCharging1</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebac.png" width="32" height="32" alt="MobBatteryCharging1" /></td><td>ebac</td><td>MobBatteryCharging1</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebad.png" width="32" height="32" alt="MobBatteryCharging2" /></td><td>ebad</td><td>MobBatteryCharging2</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebad.png" width="32" height="32" alt="MobBatteryCharging2" /></td><td>ebad</td><td>MobBatteryCharging2</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebae.png" width="32" height="32" alt="MobBatteryCharging3" /></td><td>ebae</td><td>MobBatteryCharging3</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebae.png" width="32" height="32" alt="MobBatteryCharging3" /></td><td>ebae</td><td>MobBatteryCharging3</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebaf.png" width="32" height="32" alt="MobBatteryCharging4" /></td><td>ebaf</td><td>MobBatteryCharging4</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebaf.png" width="32" height="32" alt="MobBatteryCharging4" /></td><td>ebaf</td><td>MobBatteryCharging4</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb0.png" width="32" height="32" alt="MobBatteryCharging5" /></td><td>ebb0</td><td>MobBatteryCharging5</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb0.png" width="32" height="32" alt="MobBatteryCharging5" /></td><td>ebb0</td><td>MobBatteryCharging5</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb1.png" width="32" height="32" alt="MobBatteryCharging6" /></td><td>ebb1</td><td>MobBatteryCharging6</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb1.png" width="32" height="32" alt="MobBatteryCharging6" /></td><td>ebb1</td><td>MobBatteryCharging6</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb2.png" width="32" height="32" alt="MobBatteryCharging7" /></td><td>ebb2</td><td>MobBatteryCharging7</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb2.png" width="32" height="32" alt="MobBatteryCharging7" /></td><td>ebb2</td><td>MobBatteryCharging7</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb3.png" width="32" height="32" alt="MobBatteryCharging8" /></td><td>ebb3</td><td>MobBatteryCharging8</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb3.png" width="32" height="32" alt="MobBatteryCharging8" /></td><td>ebb3</td><td>MobBatteryCharging8</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb4.png" width="32" height="32" alt="MobBatteryCharging9" /></td><td>ebb4</td><td>MobBatteryCharging9</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb4.png" width="32" height="32" alt="MobBatteryCharging9" /></td><td>ebb4</td><td>MobBatteryCharging9</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb5.png" width="32" height="32" alt="MobBatteryCharging10" /></td><td>ebb5</td><td>MobBatteryCharging10</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb5.png" width="32" height="32" alt="MobBatteryCharging10" /></td><td>ebb5</td><td>MobBatteryCharging10</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb6.png" width="32" height="32" alt="MobBatterySaver0" /></td><td>ebb6</td><td>MobBatterySaver0</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb6.png" width="32" height="32" alt="MobBatterySaver0" /></td><td>ebb6</td><td>MobBatterySaver0</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb7.png" width="32" height="32" alt="MobBatterySaver1" /></td><td>ebb7</td><td>MobBatterySaver1</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb7.png" width="32" height="32" alt="MobBatterySaver1" /></td><td>ebb7</td><td>MobBatterySaver1</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb8.png" width="32" height="32" alt="MobBatterySaver2" /></td><td>ebb8</td><td>MobBatterySaver2</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb8.png" width="32" height="32" alt="MobBatterySaver2" /></td><td>ebb8</td><td>MobBatterySaver2</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebb9.png" width="32" height="32" alt="MobBatterySaver3" /></td><td>ebb9</td><td>MobBatterySaver3</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebb9.png" width="32" height="32" alt="MobBatterySaver3" /></td><td>ebb9</td><td>MobBatterySaver3</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebba.png" width="32" height="32" alt="MobBatterySaver4" /></td><td>ebba</td><td>MobBatterySaver4</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebba.png" width="32" height="32" alt="MobBatterySaver4" /></td><td>ebba</td><td>MobBatterySaver4</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebbb.png" width="32" height="32" alt="MobBatterySaver5" /></td><td>ebbb</td><td>MobBatterySaver5</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebbb.png" width="32" height="32" alt="MobBatterySaver5" /></td><td>ebbb</td><td>MobBatterySaver5</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebbc.png" width="32" height="32" alt="MobBatterySaver6" /></td><td>ebbc</td><td>MobBatterySaver6</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebbc.png" width="32" height="32" alt="MobBatterySaver6" /></td><td>ebbc</td><td>MobBatterySaver6</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebbd.png" width="32" height="32" alt="MobBatterySaver7" /></td><td>ebbd</td><td>MobBatterySaver7</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebbd.png" width="32" height="32" alt="MobBatterySaver7" /></td><td>ebbd</td><td>MobBatterySaver7</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebbe.png" width="32" height="32" alt="MobBatterySaver8" /></td><td>ebbe</td><td>MobBatterySaver8</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebbe.png" width="32" height="32" alt="MobBatterySaver8" /></td><td>ebbe</td><td>MobBatterySaver8</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebbf.png" width="32" height="32" alt="MobBatterySaver9" /></td><td>ebbf</td><td>MobBatterySaver9</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebbf.png" width="32" height="32" alt="MobBatterySaver9" /></td><td>ebbf</td><td>MobBatterySaver9</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ebc0.png" width="32" height="32" alt="MobBatterySaver10" /></td><td>ebc0</td><td>MobBatterySaver10</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebc0.png" width="32" height="32" alt="MobBatterySaver10" /></td><td>ebc0</td><td>MobBatterySaver10</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebc3.png" width="32" height="32" alt="DictionaryCloud" /></td><td>ebc3</td><td>DictionaryCloud</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebc4.png" width="32" height="32" alt="ResetDrive" /></td><td>ebc4</td><td>ResetDrive</td></tr>
@@ -943,7 +917,6 @@ The following table of glyphs displays unicode points prefixed from EA- to EC-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebfe.png" width="32" height="32" alt="StatusTriangleLeft" /></td><td>ebfe</td><td>StatusTriangleLeft</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ebff.png" width="32" height="32" alt="StatusErrorLeft" /></td><td>ebff</td><td>StatusErrorLeft</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ec00.png" width="32" height="32" alt="StatusWarningLeft" /></td><td>ec00</td><td>StatusWarningLeft</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ec02.png" width="32" height="32" alt="MobBatteryUnknown" /></td><td>ec02</td><td>MobBatteryUnknown</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ec02.png" width="32" height="32" alt="MobBatteryUnknown" /></td><td>ec02</td><td>MobBatteryUnknown</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ec05.png" width="32" height="32" alt="NetworkTower" /></td><td>ec05</td><td>NetworkTower</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ec06.png" width="32" height="32" alt="CityNext" /></td><td>ec06</td><td>CityNext</td></tr>
@@ -1116,7 +1089,6 @@ The following table of glyphs displays unicode points prefixed from ED- to EF-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed59.png" width="32" height="32" alt="EmojiTabTextSmiles" /></td><td>ed59</td><td>EmojiTabTextSmiles</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed5a.png" width="32" height="32" alt="EmojiTabFavorites" /></td><td>ed5a</td><td>EmojiTabFavorites</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed5b.png" width="32" height="32" alt="EmojiSwatch" /></td><td>ed5b</td><td>EmojiSwatch</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ed5b.png" width="32" height="32" alt="EmojiSwatch" /></td><td>ed5b</td><td>EmojiSwatch</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed5c.png" width="32" height="32" alt="ConnectApp" /></td><td>ed5c</td><td>ConnectApp</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed5d.png" width="32" height="32" alt="CompanionDeviceFramework" /></td><td>ed5d</td><td>CompanionDeviceFramework</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ed5e.png" width="32" height="32" alt="Ruler" /></td><td>ed5e</td><td>Ruler</td></tr>
@@ -1187,7 +1159,6 @@ The following table of glyphs displays unicode points prefixed from ED- to EF-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee7a.png" width="32" height="32" alt="ActionCenterQuietNotification" /></td><td>ee7a</td><td>ActionCenterQuietNotification</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee7e.png" width="32" height="32" alt="FIDOPasskey" /></td><td>ee7e</td><td>FIDOPasskey</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee92.png" width="32" height="32" alt="TrackersMirrored" /></td><td>ee92</td><td>TrackersMirrored</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ee92.png" width="32" height="32" alt="TrackersMirrored" /></td><td>ee92</td><td>TrackersMirrored</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee93.png" width="32" height="32" alt="DateTimeMirrored" /></td><td>ee93</td><td>DateTimeMirrored</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee94.png" width="32" height="32" alt="Wheel" /></td><td>ee94</td><td>Wheel</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ee95.png" width="32" height="32" alt="StopSolid" /></td><td>ee95</td><td>StopSolid</td></tr>
@@ -1206,7 +1177,6 @@ The following table of glyphs displays unicode points prefixed from ED- to EF-.
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef2d.png" width="32" height="32" alt="ChromeMinimizeContrast" /></td><td>ef2d</td><td>ChromeMinimizeContrast</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef2e.png" width="32" height="32" alt="ChromeMaximizeContrast" /></td><td>ef2e</td><td>ChromeMaximizeContrast</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef2f.png" width="32" height="32" alt="ChromeRestoreContrast" /></td><td>ef2f</td><td>ChromeRestoreContrast</td></tr>
-<tr><td><img src="images/glyphs/segoe-fluent-icons/ef31.png" width="32" height="32" alt="TrafficLight" /></td><td>ef31</td><td>TrafficLight</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef31.png" width="32" height="32" alt="TrafficLight" /></td><td>ef31</td><td>TrafficLight</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef3b.png" width="32" height="32" alt="Replay" /></td><td>ef3b</td><td>Replay</td></tr>
 <tr><td><img src="images/glyphs/segoe-fluent-icons/ef3c.png" width="32" height="32" alt="Eyedropper" /></td><td>ef3c</td><td>Eyedropper</td></tr>
