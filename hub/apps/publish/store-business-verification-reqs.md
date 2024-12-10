@@ -1,7 +1,7 @@
 ---
 title: Company account verification requirements
 description: Company account verification requirements related to the European Union Digital Services Act
-ms.date: 10/28/2024
+ms.date: 12/9/2024
 ms.topic: article
 keywords: store policies agreement archive DSA
 ms.localizationpriority: high
@@ -17,9 +17,10 @@ Any new company accounts are already required to enter in their Dun & Bradstreet
 
 ## Business verification
 
-- Beginning in October, Microsoft will enable all existing company accounts in Partner Center to provide business verification information. Microsoft recommends that the fastest and easiest way to do this is to provide your business’s D-U-N-S® Number. In lieu of a D-U-N-S Number, you may upload another form of a business verification document (approval of your business verification document may take significantly longer as this document will need to go through a review process). If you do not already have a D-U-N-S® Number, you can learn more on acquiring one [here](https://www.dnb.com/duns/get-a-duns.html).
+- Microsoft requires that all company accounts in Partner Center must provide business verification information. Microsoft recommends that the fastest and easiest way to do this is to provide your business’s D-U-N-S® Number. In lieu of a D-U-N-S Number, you may upload another form of a business verification document (approval of your business verification document may take significantly longer as this document will need to go through a review process). If you do not already have a D-U-N-S® Number, you can learn more on acquiring one [here](https://www.dnb.com/duns/get-a-duns.html).
 - You can check if you have a company or individual account by visiting your Partner Center dashboard.
 - The deadline for updating your account information in Partner Center is February 17, 2025, but we strongly encourage partners to take action as soon as possible to avoid impacting their ability to publish.
+- All documents submitted must be issued within the previous 12 months or where the expiration date is a future date that is at least two months away.
 
 ## Why D-U-N-S Number?
 
