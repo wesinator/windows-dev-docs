@@ -1,7 +1,7 @@
 ---
 title: Company account verification requirements
 description: Company account verification requirements related to the European Union Digital Services Act
-ms.date: 12/9/2024
+ms.date: 12/11/2024
 ms.topic: article
 keywords: store policies agreement archive DSA
 ms.localizationpriority: high
@@ -13,9 +13,13 @@ Due to new regulatory requirements, including the European Union Digital Service
 
 ## When does this go into effect?
 
-Any new company accounts are already required to enter in their Dun & Bradstreet D-U-N-S® Number or supporting documents during account creation. **Existing partners will have until early 2025** to upload their D-U-N-S® Number or business verification information or their products will be restricted from distribution in the European markets.
+Any new company accounts are already required to enter in their Dun & Bradstreet D-U-N-S® Number or supporting documents during account creation. 
+**Existing partners will have until February 17th, 2025** to upload their D-U-N-S® Number or business verification information or their products will be restricted from distribution in European markets.
 
 ## Business verification
+
+> [!NOTE]
+> All submitted documents must have been issued within the past 12 months, or if they have an expiration date, it must be at least two months from now.
 
 - Microsoft requires that all company accounts in Partner Center must provide business verification information. Microsoft recommends that the fastest and easiest way to do this is to provide your business’s D-U-N-S® Number. In lieu of a D-U-N-S Number, you may upload another form of a business verification document (approval of your business verification document may take significantly longer as this document will need to go through a review process). If you do not already have a D-U-N-S® Number, you can learn more on acquiring one [here](https://www.dnb.com/duns/get-a-duns.html).
 - You can check if you have a company or individual account by visiting your Partner Center dashboard.
@@ -30,17 +34,30 @@ D-U-N-S is an established business identification system, widely used by app sto
 
 For the fastest and easiest verification, we recommend obtaining and providing a D-U-N-S Number. If, however, it is not possible to obtain one, Microsoft will accept several forms of business verification documentation:
 
-- Formation documents, such as articles of incorporation, partnership deed
-- Letter or statement from a financial institution or a utility company
-- Record on a Government registry website (site/link must be displayed)
-- Lease or tenancy documents
-- Government issued letter, license, registration, or certificate
-- Stock exchange filings or tax filing records
-- Franchise or agency appointment letters
+- Formation documents, such as articles of incorporation, partnership deed.
+- Letter or statement from a financial institution or a utility company.
+- Record on a Government registry website (site/link must be displayed).
+- Lease or tenancy documents.
+- Government issued letter, license, registration, or certificate.
+- Stock exchange filings or tax filing records.
+- Franchise or agency appointment letters.
 
 ## Customer contact information
 
-If you have a company account, Microsoft requires that your customer support contact information is displayed in Microsoft Storefronts. We will be updating a new section in the Account Settings page where you will be able to enter your customer contact information once and it will display across all your product detail pages. Please stay tuned for a November update and we will provide further instructions.
+If you have a company account, Microsoft requires that your customer contact information is displayed in Microsoft Storefronts. This information will show up on each PDP.
+
+## Submitting documentation
+
+Here is how to submit your D-U-N-S Number or business verification documentation, as well as your customer contact information.
+
+- Sign in to your [Partner Center account](https://partner.microsoft.com/dashboard/home).
+- In Account settings, go to the Legal info page.
+- Under the Developer tab, expand and edit the Contact info section.
+- Select the Update option. Then, expand the Additional information for verification and Contact information for customers sections in the side panel.
+- Enter your D-U-N-S Number, or, alternatively, upload a business verification document in the Additional information for verification section.
+- Provide your contact information for customers, including contact address, email, phone number, and website, in the Contact information for customers section.
+- To use your company's legal address, select the checkbox Use legal company address and the address fields will populate. If you provide a new address, select Validate address to enable Save.
+- Provide all required fields, and then select Save.
 
 ## What if impacted developers do not update their information by the deadline?
 
