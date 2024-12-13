@@ -2,7 +2,7 @@
 title: Set up Node.js on native Windows
 description: A guide to help you get your Node.js development environment set up directly on Windows.
 ms.topic: article
-ms.date: 11/26/2024
+ms.date: 12/12/2024
 ---
 
 # Install Node.js on Windows
@@ -29,14 +29,14 @@ Besides choosing whether to install on Windows or WSL, there are additional choi
 > [!WARNING]
 > NVM is designed to be installed per-user, and invoked per-shell. It is not designed for shared developer boxes or build servers with multiple build agents. NVM works by using a symbolic link. Using nvm in shared scenarios creates a problem because that link points to a user's app data folder -- so if user x runs `nvm use lts`, the link will point node for the entire box to their app data folder. If user y runs node or npm, they will be directed to run files under x's user account and in the case of `npm -g`, they will be modifying x's files, which by default is not allowed. So nvm is only prescribed for one developer box. This goes for build servers too. If two build agents are on the same vm/box, they can compete and cause odd behavior in the builds.
 
-1. Follow the install instructions on the [windows-nvm repository](https://github.com/coreybutler/nvm-windows#installation--upgrades). We recommend using the installer, but if you have a more advanced understanding of your needs, you may want to consider the manual installation. The installer will point you to the [releases page](https://github.com/coreybutler/nvm-windows/releases) for the most recent version.
+1. Follow the install instructions on the [nvm-windows repository](https://github.com/coreybutler/nvm-windows#installation--upgrades). We recommend using the installer, but if you have a more advanced understanding of your needs, you may want to consider the manual installation. The installer will point you to the [releases page](https://github.com/coreybutler/nvm-windows/releases) for the most recent version.
 2. Download the **nvm-setup.zip** file for the most recent release.
 3. Once downloaded, open the zip file, then open the **nvm-setup.exe** file.
 4. The Setup-NVM-for-Windows installation wizard will walk you through the setup steps, including choosing the directory where both nvm-windows and Node.js will be installed.
 
     ![NVM for Windows installation wizard](../../images/install-nvm-for-windows-wizard.png)
 
-5. Once the installation is complete. Open PowerShell (recommend opening with elevated Admin permissions) and try using windows-nvm to list which versions of Node are currently installed (should be none at this point): `nvm ls`
+5. Once the installation is complete. Open PowerShell (recommend opening with elevated Admin permissions) and try using nvm-windows to list which versions of Node are currently installed (should be none at this point): `nvm ls`
 
     ![NVM list showing no Node versions](../../images/windows-nvm-powershell-no-node.png)
 
@@ -58,13 +58,13 @@ Besides choosing whether to install on Windows or WSL, there are additional choi
 
 ### Alternative version managers
 
-While windows-nvm is currently the most popular version manager for node, there are alternatives to consider:
+While NVM for Windows (nvm-windows) is currently the most popular version manager for node, there are alternatives to consider:
 
 - [nvs](https://github.com/jasongin/nvs) (Node Version Switcher) is a cross-platform `nvm` alternative with the ability to [integrate with VS Code](https://github.com/jasongin/nvs/blob/master/doc/VSCODE.md).
 
 - [Volta](https://github.com/volta-cli/volta#installing-volta) is a new version manager from the LinkedIn team that claims improved speed and cross-platform support.
 
-To install Volta as your version manager (rather than windows-nvm), go to the **Windows Installation** section of their [Getting Started guide](https://docs.volta.sh/guide/getting-started), then download and run their Windows installer, following the setup instructions.
+To install Volta as your version manager, go to the **Windows Installation** section of their [Getting Started guide](https://docs.volta.sh/guide/getting-started), then download and run their Windows installer, following the setup instructions.
 
 > [!IMPORTANT]
 > You must ensure that [Developer Mode](/windows/uwp/get-started/enable-your-device-for-development#accessing-settings-for-developers) is enabled on your Windows machine before installing Volta.
