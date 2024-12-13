@@ -66,7 +66,7 @@ Mouse jump allows moving the mouse pointer long distances on a single screen or 
 | Setting | Description |
 | :--- | :--- |
 | Activation shortcut | The customizable keyboard command to activate the mouse jump. |
-| Thumbnail Size | Constrains the thumbnail image to a maximum size. |
+| Thumbnail Size | Constrains the thumbnail image to a maximum size. The default size is 1600x1200 pixels. |
 | Appearance | Expand this section to adjust the popup appearance by customizing the colors, borders, spacing, and more. |
 
 ## Mouse pointer Crosshairs
