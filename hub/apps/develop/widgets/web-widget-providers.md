@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 
 # Web widget providers
 
-Starting with Windows Build [TBD - Build number], apps that implement Windows widgets can choose to populate the widget content with HTML served from a remote URL. Previously, the widget content could only be supplied in the Adaptive Card schema format in the JSON payload passed from the provider to the Widgets Board. Because web widget providers must still provide an Adaptive Card JSON payload, you should follow the steps for implementing a widget provider in [Implement a widget provider in a C# Windows App](implement-widget-provider-cs.md) or [Implement a widget provider in a win32 app (C++/WinRT)](implement-widget-provider-win32.md).
+In the latest release, apps that implement Windows widgets can choose to populate the widget content with HTML served from a remote URL. Previously, the widget content could only be supplied in the Adaptive Card schema format in the JSON payload passed from the provider to the Widgets Board. Because web widget providers must still provide an Adaptive Card JSON payload, you should follow the steps for implementing a widget provider in [Implement a widget provider in a C# Windows App](implement-widget-provider-cs.md) or [Implement a widget provider in a win32 app (C++/WinRT)](implement-widget-provider-win32.md).
 
 ## Specify the content URL
 
@@ -44,21 +44,21 @@ In the implementation of the **OnResourceRequested** method, widget providers ca
 ```csharp
 async void IWidgetResourceProvider.OnResourceRequested(WidgetResourceRequestedArgs args)
 {
-    if (args.Request.Uri == "Https://contoso.com/logo-image")
-    {
-        var deferral = args.GetDeferral();
+    var deferral = args.GetDeferral();
 
-        Func<Task> asyncLambda = async () =>
+    if (args.Request.Uri.Length > 0)
+    {
+        if (args.Request.Uri == "https://contoso.com/logo-image")
         {
             string fullPath = Windows.ApplicationModel.Package.Current.InstalledPath + "/Assets/image.png";
             var file = await StorageFile.GetFileFromPathAsync(fullPath);
-            var response = new WidgetResourceResponse(RandomAccessStreamReference.CreateFromFile(file), "", 200);
+            var response = new WidgetResourceResponse(RandomAccessStreamReference.CreateFromFile(file), "OK", 200);
+            response.Headers.Add("Content-Type", "image/png");
             args.Response = response;
-        };
-        await asyncLambda();
-
-        deferral.Complete();
+        }
     }
+
+    deferral.Complete();
 }
 ```
 
@@ -84,6 +84,9 @@ var message = $"{{ \"current_location\": \"{ location }\" }}";
 WidgetManager.GetDefault().SendMessageToContent("Weather_Widget", message);
 ```
 
+## Limitations and requirements
+
+* This feature is available only to users in the European Economic Area (EEA). In the EEA, installed apps that implement a feed provider can provide content feed in the Widgets Board.
 
 
 

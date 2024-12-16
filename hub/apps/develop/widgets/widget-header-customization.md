@@ -8,7 +8,7 @@ ms.localizationpriority: medium
 
 # Customize the widget header area
 
-Starting with Windows build [TBD - Build number], apps that implement Windows widgets can customize the header that is displayed for their widget in the Widgets Board, overriding the default presentation. Header customization is implemented in the Adaptive Card payload you pass to the OS from your widget provider, so the steps are the same regardless of the language your widget provider is implemented in. For a walkthrough of creating a widget provider, see [Implement a widget provider in a C# Windows App](implement-widget-provider-cs.md) or [Implement a widget provider in a win32 app (C++/WinRT)](implement-widget-provider-win32.md).
+In the latest release, apps that implement Windows widgets can customize the header that is displayed for their widget in the Widgets Board, overriding the default presentation. Header customization is implemented in the Adaptive Card payload you pass to the OS from your widget provider, so the steps are the same regardless of the language your widget provider is implemented in. For a walkthrough of creating a widget provider, see [Implement a widget provider in a C# Windows App](implement-widget-provider-cs.md) or [Implement a widget provider in a win32 app (C++/WinRT)](implement-widget-provider-win32.md).
 
 ## The default header
 
@@ -84,37 +84,3 @@ The following example demonstrates setting an empty header.
 } 
 ```
 
-## Override the header with Adaptive Card content
-
-You can overwrite the header with UI components defined using the Adaptive Card schema. The specified content will be rendered within the 48px high header area.
-
-The following example uses Adaptive Card components to render a combo box selector in the widget header.
-
-```json
-{ 
-    "type": "AdaptiveCard", 
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json", 
-    "version": "1.6", 
-    "body": [
-        ...
-    ] ,
-    "header": [
-        { 
-            "type": "Input.ChoiceSet", 
-            "id": "WeatherSwitcher", 
-            "choices": [ 
-              { 
-                "title": "Redmond", 
-                "value": "Redmond" 
-              }, 
-              { 
-                "title": "Bellevue", 
-                "value": "Bellevue" 
-              } 
-            ], 
-            "placeholder": "Pick location", 
-            "value": "Bellevue" 
-        } 
-    ]
-} 
-```
