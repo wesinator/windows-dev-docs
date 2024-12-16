@@ -8639,9 +8639,11 @@
       "source_path": "hub/android/defender-settings.md",
       "redirect_url": "/defender-endpoint/microsoft-defender-security-center-antivirus",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/get-started/client-frameworks-faq.yml",
+      "redirect_url": "/windows/apps/get-started/windows-developer-faq",
+      "redirect_document_id": false
     }
   ]
 }
-
-
-
