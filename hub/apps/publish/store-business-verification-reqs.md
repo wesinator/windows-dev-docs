@@ -1,7 +1,7 @@
 ---
 title: Company account verification requirements
 description: Company account verification requirements related to the European Union Digital Services Act
-ms.date: 12/11/2024
+ms.date: 12/17/2024
 ms.topic: article
 keywords: store policies agreement archive DSA
 ms.localizationpriority: high
@@ -41,6 +41,23 @@ For the fastest and easiest verification, we recommend obtaining and providing a
 - Government issued letter, license, registration, or certificate.
 - Stock exchange filings or tax filing records.
 - Franchise or agency appointment letters.
+
+**Primary documentation**: the document can only be one of the following types:
+
+1. Formation documents, such as articles of incorporation, partnership deed.
+2. Certificate of incorporation or registration.
+
+**Secondary documentation:** If the primary document was not published in the past 12 months, the following can be accepted as proof of active entity status/ active in the past 12 months.
+
+**These must be submitted in conjunction with any of the primary documentation** if the document cannot be confirmed as 'active'.
+
+1. Lease or tenancy documents valid in the current period 
+2. Letter or statement from a financial institution or a utility company valid in the current period.
+3. Record on a Government registry website (site/link must be displayed) – this can be state registry.
+4. Most recent stock exchange filings or tax filing records.
+5. Extract from commercial register (site/link must be displayed).
+6. Most recent tax certificate.
+7. DUNS certification.
 
 ## Customer contact information
 
