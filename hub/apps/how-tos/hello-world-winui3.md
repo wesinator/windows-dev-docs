@@ -258,15 +258,16 @@ namespace Hello_World
 
 **Q: What does "packaged" mean?**
 
-Windows apps can be delivered to end-users using a variety of application packaging formats. When working with WinUI 3 / Windows App SDK, **packaged apps** use MSIX to bundle your app in a way that offers convenient installation and updates to end-users. Visit [Deployment architecture and overview for framework-dependent apps](../windows-app-sdk/deployment-architecture.md) to learn more.
+Windows apps can be delivered to end-users using a variety of application packaging formats. When working with WinUI and Windows App SDK, **packaged apps** use MSIX to bundle your app in a way that offers convenient installation and updates to end-users. Visit [Deployment architecture and overview for framework-dependent apps](../windows-app-sdk/deployment-architecture.md) to learn more.
 
-**Q: Can I use VS Code to build WinUI 3 apps?**
+**Q: Can I use VS Code to build WinUI apps?**
 
-Although technically possible, we strongly recommend using Visual Studio 2019 / 2022 to build desktop apps with WinUI 3 / Windows App SDK. See [the Windows developer FAQ](../get-started/windows-developer-faq.yml#do-i-need-to-use-visual-studio-to-build-winui-3-apps) for more information.
+Although technically possible, we strongly recommend using Visual Studio 2022 to build desktop apps with WinUI and Windows App SDK. See [the Windows developer FAQ](../get-started/windows-developer-faq.yml#do-i-need-to-use-visual-studio-to-build-winui-apps) for more information.
 
-**Q: Can I use C++ to build WinUI 3 apps?**
+**Q: Can I use C++ to build WinUI apps?**
 
 Yes! For more information, see [Introduction to C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt).
+
 ## Related
 
 - [Sample applications for Windows development](../get-started/samples.md)
