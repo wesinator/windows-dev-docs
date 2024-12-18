@@ -57,7 +57,7 @@ Windows 11 supports a third-party plugin model for passkeys. Contoso Passkey Man
 
 ## Next steps
 
-To integrate with the third-party plugin capability, go to [webuathn](https://github.com/microsoft/webauthn) to find the header files.
+To integrate with the third-party plugin capability, go to [webauthn](https://github.com/microsoft/webauthn) to find the header files.
 
 ## See also
 
