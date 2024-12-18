@@ -8644,6 +8644,11 @@
       "source_path": "hub/apps/get-started/client-frameworks-faq.yml",
       "redirect_url": "/windows/apps/get-started/windows-developer-faq",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "hub/apps/publish/in-app-ads.md",
+      "redirect_url": "/windows/apps/publish/attract-customers-and-promote-your-apps",
+      "redirect_document_id": false
     }
   ]
 }

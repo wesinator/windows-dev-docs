@@ -653,8 +653,6 @@ items:
               items: 
                   - name: Product page experiments
                     href: publish/product-page-experiments.md
-                  - name: In-app ads
-                    href: publish/in-app-ads.md
                   - name: Use Microsoft Store Web Installer to distribute apps
                     href: distribute-through-store/how-to-use-store-web-installer-for-distribution.md  
                   - name: App management and services
